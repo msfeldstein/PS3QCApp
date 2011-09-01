@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme CV</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme CV</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>*** DO NOT USE THIS PATCH.  DO NOT USE THIS PATCH. ***
+This patch malfunctions on PPC machines, and has horrible performance when it does work.  It's currently disabled, so if you do try and use it, 
+nothing will happen.  Use Video Input and QC Image to OpenCV Image to get live video input into OpenCV.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>OpenCV Camera Capture</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputDeviceID</key>
+		<dict>
+			<key>description</key>
+			<string>Device ID.  0 = autodetect</string>
+			<key>name</key>
+			<string>Device ID</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputCVImage</key>
+		<dict>
+			<key>description</key>
+			<string>OpenCV Image captured by camera</string>
+			<key>name</key>
+			<string>CV Image</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

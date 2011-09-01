@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme 3D</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme 3D</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch generates a 3D plane suitable for rendering with a Kineme 3D Object Renderer.
+http://kineme.net/</string>
+		<key>name</key>
+		<string>3D Height Field</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputHeightMap</key>
+		<dict>
+			<key>description</key>
+			<string>Height field image</string>
+			<key>name</key>
+			<string>Height Field</string>
+		</dict>	
+		<key>inputX</key>
+		<dict>
+			<key>description</key>
+			<string>Number of polygons wide the height field is</string>
+			<key>name</key>
+			<string>X Steps</string>
+		</dict>
+		<key>inputY</key>
+		<dict>
+			<key>description</key>
+			<string>Number of polygons high the height field is</string>
+			<key>name</key>
+			<string>Y Steps</string>
+		</dict>
+		<key>inputWidth</key>
+		<dict>
+			<key>description</key>
+			<string>Height field width</string>
+			<key>name</key>
+			<string>Width</string>
+		</dict>
+		<key>inputHeight</key>
+		<dict>
+			<key>description</key>
+			<string>Height field height</string>
+			<key>name</key>
+			<string>Height</string>
+		</dict>
+		<key>inputDepth</key>
+		<dict>
+			<key>description</key>
+			<string>Height field depth (0 is flat)</string>
+			<key>name</key>
+			<string>Depth</string>
+		</dict>
+		<key>inputMethod</key>
+		<dict>
+			<key>description</key>
+			<string>Image Height calculation</string>
+			<key>name</key>
+			<string>Method</string>
+			<key>menu</key>
+			<array>
+				<string>Luminance</string>
+				<string>Red</string>
+				<string>Green</string>
+				<string>Blue</string>
+				<string>Alpha</string>
+			</array>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputObject</key>
+		<dict>
+			<key>description</key>
+			<string>Generated height field object</string>
+			<key>name</key>
+			<string>Object</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

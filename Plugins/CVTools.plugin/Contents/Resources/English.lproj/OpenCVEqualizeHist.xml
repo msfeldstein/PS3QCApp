@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme CV</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme CV</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch equalizes the input OpenCV Image's histogram.  This is helpful for some kinds of processing (primarily facial detection at the moment).
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>Equalize Image Histogram</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Input Image to equalize</string>
+			<key>name</key>
+			<string>CV Image</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Image with equalized histogram</string>
+			<key>name</key>
+			<string>CV Image</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

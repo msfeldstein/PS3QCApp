@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme 3D</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme 3D</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch Rotates a 3D Object about each axis
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>3D Object Rotate</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputObject</key>
+		<dict>
+			<key>description</key>
+			<string>Object to Rotate</string>
+			<key>name</key>
+			<string>Input Object</string>
+		</dict>
+		<key>inputX</key>
+		<dict>
+			<key>description</key>
+			<string>X Rotation Angle</string>
+			<key>name</key>
+			<string>X Angle</string>
+		</dict>
+		<key>inputY</key>
+		<dict>
+			<key>description</key>
+			<string>Y Rotation Angle</string>
+			<key>name</key>
+			<string>Y Angle</string>
+		</dict>
+		<key>inputZ</key>
+		<dict>
+			<key>description</key>
+			<string>Z Rotation Angle</string>
+			<key>name</key>
+			<string>Z Angle</string>
+		</dict>
+
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputObject</key>
+		<dict>
+			<key>description</key>
+			<string>Rotated Object</string>
+			<key>name</key>
+			<string>Output Object</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

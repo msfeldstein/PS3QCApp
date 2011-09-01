@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme 3D</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme 3D</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch applies gravity-like deformation, pulling points towards a center of gravity, or pushing them away.
+		
+The gravity force can follow the inverse square law, or it can follow a simpler inverse linear equation.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>3D Object Gravity Warp</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputObject</key>
+		<dict>
+			<key>description</key>
+			<string>Object to Warp</string>
+			<key>name</key>
+			<string>Input Object</string>
+		</dict>
+		<key>inputX</key>
+		<dict>
+			<key>description</key>
+			<string>X Position</string>
+			<key>name</key>
+			<string>Gravity X position</string>
+		</dict>
+		<key>inputY</key>
+		<dict>
+			<key>description</key>
+			<string>Y Position</string>
+			<key>name</key>
+			<string>Gravity Y position</string>
+		</dict>
+		<key>inputZ</key>
+		<dict>
+			<key>description</key>
+			<string>Z Position</string>
+			<key>name</key>
+			<string>Gravity Z position</string>
+		</dict>
+		<key>inputStrength</key>
+		<dict>
+			<key>description</key>
+			<string>Strength</string>
+			<key>name</key>
+			<string>Gravity Strength</string>
+		</dict>
+
+		<key>inputAttenuation</key>
+		<dict>
+			<key>description</key>
+			<string>How to attenuate by distance</string>
+			<key>name</key>
+			<string>Attenuation</string>
+			<key>menu</key>
+			<array>
+				<string>Inverse Square (strength/dist^2)</string>
+				<string>Inverse Linear (strength/dist)</string>
+			</array>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputObject</key>
+		<dict>
+			<key>description</key>
+			<string>Warped Object</string>
+			<key>name</key>
+			<string>Output Object</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

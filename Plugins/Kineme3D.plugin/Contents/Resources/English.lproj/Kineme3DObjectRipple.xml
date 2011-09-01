@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme 3D</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme 3D</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch applies a ripple distortion to an object.  Each X coordinate is displaced by its Y, Z location, each Y coordinate by its X, Z location, and each Z coordinate by its X, Y location.
+Strength indicates how strongly that axis affects its coordinate.
+Scale is the Frequency for the specified axis.
+Phase indicates a simple offset into the ripple.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>3D Object Ripple</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputObject</key>
+		<dict>
+			<key>description</key>
+			<string>Object to Scale</string>
+			<key>name</key>
+			<string>Input Object</string>
+		</dict>
+		<key>inputXCenter</key>
+		<dict>
+			<key>description</key>
+			<string>X Center location (in Radius mode)</string>
+			<key>name</key>
+			<string>X Center</string>
+		</dict>
+		<key>inputYCenter</key>
+		<dict>
+			<key>description</key>
+			<string>Y Center location (in Radius mode)</string>
+			<key>name</key>
+			<string>Y Center</string>
+		</dict>
+		<key>inputZCenter</key>
+		<dict>
+			<key>description</key>
+			<string>Z Center location (in Radius mode)</string>
+			<key>name</key>
+			<string>Z Center</string>
+		</dict>
+
+		<key>inputXScale</key>
+		<dict>
+			<key>description</key>
+			<string>X scalar</string>
+			<key>name</key>
+			<string>X Scale</string>
+		</dict>
+		<key>inputYScale</key>
+		<dict>
+			<key>description</key>
+			<string>Y scalar</string>
+			<key>name</key>
+			<string>Y Scale</string>
+		</dict>
+		<key>inputZScale</key>
+		<dict>
+			<key>description</key>
+			<string>Z scalar</string>
+			<key>name</key>
+			<string>Z Scale</string>
+		</dict>
+
+		<key>inputXPhase</key>
+		<dict>
+			<key>description</key>
+			<string>X Phase</string>
+			<key>name</key>
+			<string>X Phase</string>
+		</dict>
+		<key>inputYPhase</key>
+		<dict>
+			<key>description</key>
+			<string>Y Phase</string>
+			<key>name</key>
+			<string>Y Phase</string>
+		</dict>
+		<key>inputZPhase</key>
+		<dict>
+			<key>description</key>
+			<string>Z Phase</string>
+			<key>name</key>
+			<string>Z Phase</string>
+		</dict>
+
+		<key>inputXStrength</key>
+		<dict>
+			<key>description</key>
+			<string>X Deformation Strength</string>
+			<key>name</key>
+			<string>X Strength</string>
+		</dict>
+		<key>inputYStrength</key>
+		<dict>
+			<key>description</key>
+			<string>Y Deformation Strength</string>
+			<key>name</key>
+			<string>Y Strength</string>
+		</dict>
+		<key>inputZStrength</key>
+		<dict>
+			<key>description</key>
+			<string>Z Deformation Strength</string>
+			<key>name</key>
+			<string>Z Strength</string>
+		</dict>
+
+		<key>inputNormals</key>
+		<dict>
+			<key>description</key>
+			<string>How to handle normals</string>
+			<key>name</key>
+			<string>Normals</string>
+			<key>menu</key>
+			<array>
+				<string>Do Nothing</string>
+				<string>Distort</string>
+				<string>Recalculate</string>
+				<string>Blended Recalculate</string>
+			</array>
+		</dict>
+		<key>inputMethod</key>
+		<dict>
+			<key>description</key>
+			<string>How to perform the ripple</string>
+			<key>name</key>
+			<string>Ripple Method</string>
+			<key>menu</key>
+			<array>
+				<string>U, V</string>
+				<string>Radius</string>
+			</array>
+		</dict>
+
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputObject</key>
+		<dict>
+			<key>description</key>
+			<string>Rippled Object</string>
+			<key>name</key>
+			<string>Output Object</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

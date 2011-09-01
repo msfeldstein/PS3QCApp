@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme CV</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme CV</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch finds features in the input image that appear to have easy tracking characteristics.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>Good Points To Track</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Input Image</string>
+			<key>name</key>
+			<string>CV Image</string>
+		</dict>
+		<key>inputMaxPoints</key>
+		<dict>
+			<key>description</key>
+			<string>Maximum number of points to find</string>
+			<key>name</key>
+			<string>Max Points</string>
+		</dict>
+		<key>inputQuality</key>
+		<dict>
+			<key>description</key>
+			<string>Quality of finding</string>
+			<key>name</key>
+			<string>Quality</string>
+		</dict>
+		<key>inputMinDistance</key>
+		<dict>
+			<key>description</key>
+			<string>Minimum distance between points</string>
+			<key>name</key>
+			<string>Min Distance</string>
+		</dict>
+		<key>inputFindSignal</key>
+		<dict>
+			<key>description</key>
+			<string>Signals finding of good track points</string>
+			<key>name</key>
+			<string>Find Signal</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputPoints</key>
+		<dict>
+			<key>description</key>
+			<string>Structure of good auto-generated tracking points</string>
+			<key>name</key>
+			<string>Point Structure</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

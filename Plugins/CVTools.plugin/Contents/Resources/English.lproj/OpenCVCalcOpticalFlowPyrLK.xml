@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme CV</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme CV</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch claculates the flow of given trackpoints based on the input stream.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>Optical Flow Points</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Current frame</string>
+			<key>name</key>
+			<string>CV Image</string>
+		</dict>
+		<key>inputPrevImage</key>
+		<dict>
+			<key>description</key>
+			<string>Optional Previous frame (if unattached, the previous frame is used automatically)</string>
+			<key>name</key>
+			<string>Previous CV Image</string>
+		</dict>
+		<key>inputPoints</key>
+		<dict>
+			<key>description</key>
+			<string>Input Track Points to follow</string>
+			<key>name</key>
+			<string>Point Structure</string>
+		</dict>
+		<key>inputUseInputPointsSignal</key>
+		<dict>
+			<key>description</key>
+			<string>Discards current trackpoint set, and loads from Input Track Points</string>
+			<key>name</key>
+			<string>Reload Points?</string>
+		</dict>
+		<key>inputAddInputPointsSignal</key>
+		<dict>
+			<key>description</key>
+			<string>Signal to add the Point Structure to the current trackpoint set.</string>
+			<key>name</key>
+			<string>Add Points?</string>
+		</dict>
+		<key>inputWindowSize</key>
+		<dict>
+			<key>description</key>
+			<string>Window Size.  Larger means slower but more accurate tracking</string>
+			<key>name</key>
+			<string>Window Size</string>
+		</dict>
+		<key>inputMaxIterations</key>
+		<dict>
+			<key>description</key>
+			<string>Maximum number of iterations to use.  Larger means slower but more accurate tracking</string>
+			<key>name</key>
+			<string>Max Iterations</string>
+		</dict>
+		<key>inputEpsilon</key>
+		<dict>
+			<key>description</key>
+			<string>Error criteria.  Not sure exactly what this does yet :)</string>
+			<key>name</key>
+			<string>ε</string>
+		</dict>
+		<key>inputExcludeNaNs</key>
+		<dict>
+			<key>description</key>
+			<string>Excludes NaN (lost points) from the output structure.</string>
+			<key>name</key>
+			<string>Exclude NaNs?</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputPoints</key>
+		<dict>
+			<key>description</key>
+			<string>Flowed points</string>
+			<key>name</key>
+			<string>Point Structure</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

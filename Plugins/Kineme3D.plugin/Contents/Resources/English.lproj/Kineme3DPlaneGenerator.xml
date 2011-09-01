@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme 3D</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme 3D</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch generates a 3D plane suitable for rendering with a Kineme 3D Object Renderer.
+http://kineme.net/</string>
+		<key>name</key>
+		<string>3D Plane Generator</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputX</key>
+		<dict>
+			<key>description</key>
+			<string>Number of polygons wide the plane is</string>
+			<key>name</key>
+			<string>Width</string>
+		</dict>
+		<key>inputY</key>
+		<dict>
+			<key>description</key>
+			<string>Number of polygons high the plane is</string>
+			<key>name</key>
+			<string>Height</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputObject</key>
+		<dict>
+			<key>description</key>
+			<string>The generated plane</string>
+			<key>name</key>
+			<string>Output Object</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

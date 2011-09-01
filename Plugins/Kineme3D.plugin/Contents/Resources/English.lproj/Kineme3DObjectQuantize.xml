@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme 3D</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme 3D</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch Quantizes an object's vertices.
+If Steps is less than 1.0, no quantization is done.
+http://kineme.net/</string>
+		<key>name</key>
+		<string>3D Object Quantize</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputObject</key>
+		<dict>
+			<key>description</key>
+			<string>Object to Quantize</string>
+			<key>name</key>
+			<string>Input Object</string>
+		</dict>
+		<key>inputXSteps</key>
+		<dict>
+			<key>description</key>
+			<string>The number of positions per unit in the X direction (less than 0.0 means don't quantize on this axis)</string>
+			<key>name</key>
+			<string>X Steps</string>
+		</dict>
+		<key>inputYSteps</key>
+		<dict>
+			<key>description</key>
+			<string>The number of positions per unit in the Y direction (less than 0.0 means don't quantize on this axis)</string>
+			<key>name</key>
+			<string>Y Steps</string>
+		</dict>
+		<key>inputZSteps</key>
+		<dict>
+			<key>description</key>
+			<string>The number of positions per unit in the Z direction (less than 0.0 means don't quantize on this axis)</string>
+			<key>name</key>
+			<string>Z Steps</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputObject</key>
+		<dict>
+			<key>description</key>
+			<string>The Quantized Object</string>
+			<key>name</key>
+			<string>Output Object</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

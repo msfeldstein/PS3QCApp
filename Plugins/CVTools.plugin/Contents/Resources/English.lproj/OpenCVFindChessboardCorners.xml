@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme CV</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme CV</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch finds a set of chessboard corners in the input image.  This is useful for Camera calibration and orientation parameters.  Currently there aren't any calibration or orientation patches in this plugin though, so it's a bit frivolous.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>Find Chessboard Corners</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Input Image</string>
+			<key>name</key>
+			<string>CV Image</string>
+		</dict>
+		<key>inputInnerRows</key>
+		<dict>
+			<key>description</key>
+			<string>The number of inner rows of the board (number of rows - 1)</string>
+			<key>name</key>
+			<string>Inner Rows</string>
+		</dict>
+		<key>inputInnerColumns</key>
+		<dict>
+			<key>description</key>
+			<string>The number of inner columns of the board (number of columns - 1)</string>
+			<key>name</key>
+			<string>Inner Columns</string>
+		</dict>
+		<key>inputFind</key>
+		<dict>
+			<key>description</key>
+			<string>Enable to find corners</string>
+			<key>name</key>
+			<string>Find Signal</string>
+		</dict>
+		<key>inputAdaptiveThreshold</key>
+		<dict>
+			<key>description</key>
+			<string>Use adaptive thresholds to analyze the image</string>
+			<key>name</key>
+			<string>Adaptive Threshold?</string>
+		</dict>
+		<key>inputNormalize</key>
+		<dict>
+			<key>description</key>
+			<string>Normalize the image prior to analysis</string>
+			<key>name</key>
+			<string>Normalize?</string>
+		</dict>
+		<key>inputFilterQuads</key>
+		<dict>
+			<key>description</key>
+			<string>Use additional filter criteria to find corners</string>
+			<key>name</key>
+			<string>Filter Quads?</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputCorners</key>
+		<dict>
+			<key>description</key>
+			<string>Structure of detected corners</string>
+			<key>name</key>
+			<string>Corner Structure</string>
+		</dict>
+		<key>outputCornerCount</key>
+		<dict>
+			<key>description</key>
+			<string>Number of detected corners</string>
+			<key>name</key>
+			<string>Corner Count</string>
+		</dict>
+		<key>outputAllFound</key>
+		<dict>
+			<key>description</key>
+			<string>True when all corners are located and properly oriented.</string>
+			<key>name</key>
+			<string>All Found</string>
+		</dict>
+
+	</dict>
+</dict>
+</plist>

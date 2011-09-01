@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme 3D</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme 3D</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch Renders a 3D Object
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>3D Object Renderer</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputObject</key>
+		<dict>
+			<key>description</key>
+			<string>Object to Render</string>
+			<key>name</key>
+			<string>Input Object</string>
+		</dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Object's Texture</string>
+			<key>name</key>
+			<string>Input Image</string>
+		</dict>
+		<key>inputColor</key>
+		<dict>
+			<key>description</key>
+			<string>Object Color</string>
+			<key>name</key>
+			<string>Color</string>
+		</dict>
+		<key>inputXPosition</key>
+		<dict>
+			<key>description</key>
+			<string>Object's X Position</string>
+			<key>name</key>
+			<string>X Position</string>
+		</dict>
+		<key>inputYPosition</key>
+		<dict>
+			<key>description</key>
+			<string>Object's Y Position</string>
+			<key>name</key>
+			<string>Y Position</string>
+		</dict>
+		<key>inputZPosition</key>
+		<dict>
+			<key>description</key>
+			<string>Object's Z Position</string>
+			<key>name</key>
+			<string>Z Position</string>
+		</dict>
+
+		<key>inputRotateX</key>
+		<dict>
+			<key>description</key>
+			<string>Rotation about the X axis</string>
+			<key>name</key>
+			<string>X Rotation</string>
+		</dict>
+		<key>inputRotateY</key>
+		<dict>
+			<key>description</key>
+			<string>Rotation about the Y axis</string>
+			<key>name</key>
+			<string>Y Rotation</string>
+		</dict>
+		<key>inputRotateZ</key>
+		<dict>
+			<key>description</key>
+			<string>Rotation about the Z axis</string>
+			<key>name</key>
+			<string>Z Rotation</string>
+		</dict>
+
+		<key>inputScaleX</key>
+		<dict>
+			<key>description</key>
+			<string>Scale along the X axis</string>
+			<key>name</key>
+			<string>X Scale</string>
+		</dict>
+		<key>inputScaleY</key>
+		<dict>
+			<key>description</key>
+			<string>Scale along the Y axis</string>
+			<key>name</key>
+			<string>Y Scale</string>
+		</dict>
+		<key>inputScaleZ</key>
+		<dict>
+			<key>description</key>
+			<string>Scale along the Z axis</string>
+			<key>name</key>
+			<string>Z Scale</string>
+		</dict>
+		<key>inputNormals</key>
+		<dict>
+			<key>description</key>
+			<string>Determines how to calculate normals of the object to be rendered.  Pass-through uses the current normals (which may be stripped from deformation)</string>
+			<key>name</key>
+			<string>Normals</string>
+			<key>menu</key>
+			<array>
+				<string>Pass-Through</string>
+				<string>Faceted</string>
+				<string>Smooth</string>
+			</array>
+		</dict>
+		
+	</dict>
+</dict>
+</plist>

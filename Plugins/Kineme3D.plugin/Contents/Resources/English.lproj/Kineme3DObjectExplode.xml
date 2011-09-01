@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme 3D</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme 3D</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch explodes an object.
+		
+http://kineme.net/</string>
+		<key>name</key>
+		<string>3D Object Explode</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputObject</key>
+		<dict>
+			<key>description</key>
+			<string>Object to explode</string>
+			<key>name</key>
+			<string>Input Object</string>
+		</dict>
+		<key>inputSeed</key>
+		<dict>
+			<key>description</key>
+			<string>Explosion Seed</string>
+			<key>name</key>
+			<string>Seed</string>
+		</dict>
+		<key>inputCenterX</key>
+		<dict>
+			<key>description</key>
+			<string>Explosion X coordinate</string>
+			<key>name</key>
+			<string>Center X</string>
+		</dict>
+		<key>inputCenterY</key>
+		<dict>
+			<key>description</key>
+			<string>Explosion Y coordinate</string>
+			<key>name</key>
+			<string>Center Y</string>
+		</dict>
+		<key>inputCenterZ</key>
+		<dict>
+			<key>description</key>
+			<string>Explosion Z coordinate</string>
+			<key>name</key>
+			<string>Center Z</string>
+		</dict>
+		
+		<key>inputRange</key>
+		<dict>
+			<key>description</key>
+			<string>Explosion Range</string>
+			<key>name</key>
+			<string>Range</string>
+		</dict>
+
+		<key>inputGravityX</key>
+		<dict>
+			<key>description</key>
+			<string>Gravity X Value</string>
+			<key>name</key>
+			<string>Gravity X</string>
+		</dict>
+		<key>inputGravityY</key>
+		<dict>
+			<key>description</key>
+			<string>Gravity Y Value</string>
+			<key>name</key>
+			<string>Gravity Y</string>
+		</dict>
+		<key>inputGravityZ</key>
+		<dict>
+			<key>description</key>
+			<string>Gravity Z Value</string>
+			<key>name</key>
+			<string>Gravity Z</string>
+		</dict>
+		
+		<key>inputTranslationStrength</key>
+		<dict>
+			<key>description</key>
+			<string>Explosion Strength</string>
+			<key>name</key>
+			<string>Strength</string>
+		</dict>
+		<key>inputTranslationNoise</key>
+		<dict>
+			<key>description</key>
+			<string>Explosion Chaos</string>
+			<key>name</key>
+			<string>Chaos</string>
+		</dict>
+
+		<key>inputRotationStrength</key>
+		<dict>
+			<key>description</key>
+			<string>Explosion Rotation</string>
+			<key>name</key>
+			<string>Rotation</string>
+		</dict>
+		<key>inputRotationNoise</key>
+		<dict>
+			<key>description</key>
+			<string>Explosion Rotation Chaos</string>
+			<key>name</key>
+			<string>Rotation Chaos</string>
+		</dict>
+		
+		<key>inputAttenuation</key>
+		<dict>
+			<key>description</key>
+			<string>How Explosion Force is calculated</string>
+			<key>name</key>
+			<string>Attenuation</string>
+			<key>menu</key>
+			<array>
+				<string>Linear</string>
+				<string>Inverse-Square</string>
+			</array>
+		</dict>
+
+
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputObject</key>
+		<dict>
+			<key>description</key>
+			<string>Exploded Object</string>
+			<key>name</key>
+			<string>Output Object</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

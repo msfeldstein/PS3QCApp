@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme 3D</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme 3D</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2008 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch loads a 3D Object for rendering in the Kineme 3D Object Renderer.
+
+Currently supported formats:
+   * FBX
+   * DAE
+   * MD2
+   * DXF
+   * OBJ
+   * 3DS
+
+OBJ can take a long time for large/complex moels.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>3D Object Loader</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputFile</key>
+		<dict>
+			<key>description</key>
+			<string>File to Load (DAE, DXF, FBX, MD2, OBJ, 3DS)</string>
+			<key>name</key>
+			<string>File</string>
+		</dict>
+		<key>inputCenter</key>
+		<dict>
+			<key>description</key>
+			<string>Centers the object about the origin (0,0,0)</string>
+			<key>name</key>
+			<string>Center</string>
+		</dict>
+		<key>inputNormalize</key>
+		<dict>
+			<key>description</key>
+			<string>Scales the object to fit in a bounding box from -1 to 1.  Implies Center.</string>
+			<key>name</key>
+			<string>Normalize</string>
+		</dict>
+		<key>inputSimplify</key>
+		<dict>
+			<key>description</key>
+			<string>removes redundant vertices, making Smooth blend across coincident surfaces.</string>
+			<key>name</key>
+			<string>Simplify</string>
+		</dict>
+		<key>inputSmooth</key>
+		<dict>
+			<key>description</key>
+			<string>Smooths the normals of the model to give it a non-faceted look.
+This also builds an object's smooth cache, accelerating smoothing later on (i.e., after deformations).</string>
+			<key>name</key>
+			<string>Smooth</string>
+		</dict>
+
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputObject</key>
+		<dict>
+			<key>description</key>
+			<string>First Object found in the file</string>
+			<key>name</key>
+			<string>Output Object</string>
+		</dict>
+		<key>outputObjects</key>
+		<dict>
+			<key>description</key>
+			<string>Structure of all Objects found</string>
+			<key>name</key>
+			<string>Output Objects</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

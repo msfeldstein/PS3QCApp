@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme CV</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme CV</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch converts a QC Image to an OpenCV Image, suitable for use in OpenCV Image manipulation paths.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>QC Image To CV Image</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Input QC Image</string>
+			<key>name</key>
+			<string>QC Image</string>
+		</dict>
+		<key>inputFlip</key>
+		<dict>
+			<key>description</key>
+			<string>How to flip the input image</string>
+			<key>name</key>
+			<string>Flip</string>
+			<key>menu</key>
+			<array>
+				<string>None</string>
+				<string>Horizontal</string>
+				<string>Vertical</string>
+				<string>Horizontal + Vertical</string>
+			</array>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Image in OpenCV Image form</string>
+			<key>name</key>
+			<string>CV Image</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

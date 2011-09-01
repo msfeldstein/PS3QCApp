@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme CV</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme CV</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch performs Canny Edge Detection on the input OpenCV Image.
+
+http://kineme.net/</string>
+		<key>name</key>
+		<string>Canny Filter</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Input Image to use the Canny Edge detector on</string>
+			<key>name</key>
+			<string>CV Image</string>
+		</dict>
+		<key>inputThreshold1</key>
+		<dict>
+			<key>description</key>
+			<string>Threshold 1</string>
+			<key>name</key>
+			<string>Threshold 1</string>
+		</dict>
+		<key>inputThreshold2</key>
+		<dict>
+			<key>description</key>
+			<string>Threshold 2</string>
+			<key>name</key>
+			<string>Threshold 2</string>
+		</dict>
+		<key>inputAperature</key>
+		<dict>
+			<key>description</key>
+			<string>Aperture (0-2) maps to (3, 5, 7) for the Sobel Filter</string>
+			<key>name</key>
+			<string>Aperture</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputImage</key>
+		<dict>
+			<key>description</key>
+			<string>Image, edge detected</string>
+			<key>name</key>
+			<string>CV Image</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
