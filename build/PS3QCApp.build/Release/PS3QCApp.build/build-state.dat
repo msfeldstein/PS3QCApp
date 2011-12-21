@@ -1,12 +1,13 @@
 TPS3QCApp
 v7
 r0
-t346143821.070438
+t346144498.317504
 cCheck dependencies
 cProcessInfoPlistFile /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Info.plist Info.plist
 cCopyStringsFile /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 cCompileXIB /Users/feldstein/Projects/PS3QCApp/English.lproj/MainMenu.xib
 cCpResource build/Release/PS3QCApp.app/Contents/Resources/PS3QC.qtz PS3QC.qtz
+cCpResource build/Release/PS3QCApp.app/Contents/Resources/icon.icns icon.icns
 cProcessPCH /var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-elrjisdynlqnxidhnycuksxnohjr/PS3QCApp_Prefix.pch.gch PS3QCApp_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cProcessPCH /var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-bebeoagfywojmlftpmppxduabikw/PS3QCApp_Prefix.pch.gch PS3QCApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cProcessPCH /var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-fxqiowletcubefhjcdznvzkihncr/PS3QCApp_Prefix.pch.gch PS3QCApp_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
@@ -235,9 +236,9 @@ t1324369915
 s23463
 
 N/Users/feldstein/Projects/PS3QCApp/PS3QC.qtz
-c000000004EF183040000000000190A0C
-t1324450564
-s1640972
+c000000004EF185DF0000000000190A13
+t1324451295
+s1640979
 
 N/Users/feldstein/Projects/PS3QCApp/PS3QCApp_Prefix.pch
 c000000004DE0A6C700000000000000AE
@@ -298,7 +299,7 @@ t1324450971
 s5040
 
 N/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app
-t1324451021
+t1324451698
 s102
 
 N/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app.dSYM
@@ -306,15 +307,15 @@ t1324450972
 s102
 
 N/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Info.plist
-t1324450965
-s833
+t1324451698
+s890
 
 N/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/MacOS/PS3QCApp
 t1324450972
 s50908
 
 N/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/PkgInfo
-t1324450965
+t1324451698
 s8
 
 N/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources/ABlank.qtz
@@ -462,8 +463,8 @@ t1324451021
 s23463
 
 N/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources/PS3QC.qtz
-t1324450966
-s1640972
+t1324451698
+s1640979
 
 N/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources/Random Triangles.qtz
 t1324450966
@@ -513,9 +514,18 @@ N/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resource
 t1324450966
 s15903
 
+N/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources/icon.icns
+t1324451698
+s435610
+
 N/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources/midiballs.qtz
 t1324450966
 s35999
+
+N/Users/feldstein/Projects/PS3QCApp/icon.icns
+c000000004EF18752000000000006A59A
+t1324451666
+s435610
 
 N/Users/feldstein/Projects/PS3QCApp/main.m
 c000000004DE0A6C70000000000000103
@@ -536,13 +546,13 @@ t1324450971
 s54985936
 
 NInfo.plist
-c000000004DE0A6C70000000000000394
-t1306568391
-s916
+c000000004EF18772000000000000039D
+t1324451698
+s925
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies346143821#346143821#0(0"0(0#1#0"8604712480#0"0#
+lSLF07#2@18"Check dependencies346144498#346144498#0(0"0(0#1#0"8606556864#0"0#
 
 CCompileC build/PS3QCApp.build/Release/PS3QCApp.build/Objects-normal/i386/AppController.o /Users/feldstein/Projects/PS3QCApp/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s346143771.548581
@@ -770,13 +780,13 @@ xCompositions/NoiseSphere.qtz
 lSLF07#2@33"Copy Compositions/NoiseSphere.qtz346143766#346143766#0(0"0(0#0#63"/Users/feldstein/Projects/PS3QCApp/Compositions/NoiseSphere.qtz8600898336#356"    cd /Users/feldstein/Projects/PS3QCApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/feldstein/Projects/PS3QCApp/Compositions/NoiseSphere.qtz /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources0#
 
 CCpResource build/Release/PS3QCApp.app/Contents/Resources/PS3QC.qtz PS3QC.qtz
-s346143765.984807
-e346143766.030700
+s346144498.278749
+e346144498.309832
 r1
 xCpResource
 xbuild/Release/PS3QCApp.app/Contents/Resources/PS3QC.qtz
 xPS3QC.qtz
-lSLF07#2@14"Copy PS3QC.qtz346143765#346143766#0(0"0(0#0#44"/Users/feldstein/Projects/PS3QCApp/PS3QC.qtz8605078080#337"    cd /Users/feldstein/Projects/PS3QCApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/feldstein/Projects/PS3QCApp/PS3QC.qtz /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources0#
+lSLF07#2@14"Copy PS3QC.qtz346144498#346144498#0(0"0(0#0#44"/Users/feldstein/Projects/PS3QCApp/PS3QC.qtz8607545376#337"    cd /Users/feldstein/Projects/PS3QCApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/feldstein/Projects/PS3QCApp/PS3QC.qtz /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources0#
 
 CCpResource build/Release/PS3QCApp.app/Contents/Resources/Rays.qtz Compositions/Rays.qtz
 s346143766.026116
@@ -859,6 +869,15 @@ xCpResource
 xbuild/Release/PS3QCApp.app/Contents/Resources/goto10_doublehelix.qtz
 xCompositions/goto10_doublehelix.qtz
 lSLF07#2@40"Copy Compositions/goto10_doublehelix.qtz346143765#346143766#0(0"0(0#0#70"/Users/feldstein/Projects/PS3QCApp/Compositions/goto10_doublehelix.qtz8602960096#363"    cd /Users/feldstein/Projects/PS3QCApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/feldstein/Projects/PS3QCApp/Compositions/goto10_doublehelix.qtz /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources0#
+
+CCpResource build/Release/PS3QCApp.app/Contents/Resources/icon.icns icon.icns
+s346144498.280187
+e346144498.294680
+r1
+xCpResource
+xbuild/Release/PS3QCApp.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns346144498#346144498#0(0"0(0#0#44"/Users/feldstein/Projects/PS3QCApp/icon.icns8607299392#337"    cd /Users/feldstein/Projects/PS3QCApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/feldstein/Projects/PS3QCApp/icon.icns /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources0#
 
 CCpResource build/Release/PS3QCApp.app/Contents/Resources/midiballs.qtz Compositions/midiballs.qtz
 s346143766.013463
@@ -1172,13 +1191,13 @@ xOverlays/VerticalBarSliders.qtz
 lSLF07#2@36"Copy Overlays/VerticalBarSliders.qtz346143772#346143772#0(0"0(0#0#66"/Users/feldstein/Projects/PS3QCApp/Overlays/VerticalBarSliders.qtz8601280736#368"    cd /Users/feldstein/Projects/PS3QCApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/feldstein/Projects/PS3QCApp/Overlays/VerticalBarSliders.qtz /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Resources/Overlays0#
 
 CProcessInfoPlistFile /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Info.plist Info.plist
-s346143765.978878
-e346143765.983044
+s346144498.272873
+e346144498.278399
 r1
 xProcessInfoPlistFile
 x/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Info.plist
 xInfo.plist
-lSLF07#2@18"Process Info.plist346143765#346143765#0(0"0(0#0#45"/Users/feldstein/Projects/PS3QCApp/Info.plist8606688352#296"    cd /Users/feldstein/Projects/PS3QCApp    builtin-infoPlistUtility Info.plist -genpkginfo /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Info.plist0#
+lSLF07#2@18"Process Info.plist346144498#346144498#0(0"0(0#0#45"/Users/feldstein/Projects/PS3QCApp/Info.plist8608709536#296"    cd /Users/feldstein/Projects/PS3QCApp    builtin-infoPlistUtility Info.plist -genpkginfo /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app/Contents/Info.plist0#
 
 CProcessPCH /var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-bebeoagfywojmlftpmppxduabikw/PS3QCApp_Prefix.pch.gch PS3QCApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s346143766.734879
@@ -1220,10 +1239,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@30"Precompile PS3QCApp_Prefix.pch346143766#346143771#0(0"0(0#0#54"/Users/feldstein/Projects/PS3QCApp/PS3QCApp_Prefix.pch8606394528#1009"    cd /Users/feldstein/Projects/PS3QCApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Release/PS3QCApp.build/PS3QCApp.hmap -F/Users/feldstein/Projects/PS3QCApp/build/Release -I/Users/feldstein/Projects/PS3QCApp/build/Release/include -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Release/PS3QCApp.build/DerivedSources/ppc -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Release/PS3QCApp.build/DerivedSources -c /Users/feldstein/Projects/PS3QCApp/PS3QCApp_Prefix.pch -o /var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-fxqiowletcubefhjcdznvzkihncr/PS3QCApp_Prefix.pch.gch0#
 
 CTouch /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app
-s346143821.066163
-e346143821.070386
+s346144498.313468
+e346144498.317452
 r1
 xTouch
 x/Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app
-lSLF07#2@67"Touch /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app346143821#346143821#0(0"0(0#0#0"8606423616#126"    cd /Users/feldstein/Projects/PS3QCApp    /usr/bin/touch -c /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app0#
+lSLF07#2@67"Touch /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app346144498#346144498#0(0"0(0#0#0"8605883168#126"    cd /Users/feldstein/Projects/PS3QCApp    /usr/bin/touch -c /Users/feldstein/Projects/PS3QCApp/build/Release/PS3QCApp.app0#
 

@@ -1,16 +1,23 @@
 // !$*UTF8*$!
 {
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1358, 629}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 103}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeArchitecturePreference = i386;
 		activeBuildConfigurationName = Release;
-		activeExecutable = 6336A18A1390DE47005DF4E5 /* PS3QCApp */;
-		activeTarget = 8D1107260486CEB800E47090 /* PS3QCApp */;
+		activeExecutable = 6336A18A1390DE47005DF4E5 /* MacroMeez Visuals */;
+		activeTarget = 8D1107260486CEB800E47090 /* MacroMeez Visuals */;
 		addToTargets = (
-			8D1107260486CEB800E47090 /* PS3QCApp */,
+			8D1107260486CEB800E47090 /* MacroMeez Visuals */,
 		);
 		codeSenseManager = 6336A19F1390DE4E005DF4E5 /* Code sense */;
 		executables = (
-			6336A18A1390DE47005DF4E5 /* PS3QCApp */,
+			6336A18A1390DE47005DF4E5 /* MacroMeez Visuals */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
@@ -49,6 +56,18 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					1194,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
 			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -71,41 +90,22 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 346143376;
-			PBXWorkspaceStateSaveDate = 346143376;
+			PBXPerProjectTemplateStateSaveDate = 346144615;
+			PBXWorkspaceStateSaveDate = 346144615;
 		};
 		perUserProjectItems = {
-			630B001D148E18C40069D40E = 630B001D148E18C40069D40E /* PBXTextBookmark */;
-			630BFF54148E04970069D40E = 630BFF54148E04970069D40E /* PBXTextBookmark */;
 			630BFF71148E08640069D40E = 630BFF71148E08640069D40E /* PBXTextBookmark */;
-			63AECFA014A1BA9100C8E83D /* PBXTextBookmark */ = 63AECFA014A1BA9100C8E83D /* PBXTextBookmark */;
-			63AECFC514A1BBB000C8E83D /* PBXTextBookmark */ = 63AECFC514A1BBB000C8E83D /* PBXTextBookmark */;
-			63AECFED14A1BC1C00C8E83D /* PBXTextBookmark */ = 63AECFED14A1BC1C00C8E83D /* PBXTextBookmark */;
-			63AECFF114A1BC4D00C8E83D /* PBXTextBookmark */ = 63AECFF114A1BC4D00C8E83D /* PBXTextBookmark */;
+			63AECFFD14A1BF5A00C8E83D = 63AECFFD14A1BF5A00C8E83D /* PBXTextBookmark */;
+			63AECFFE14A1BF5A00C8E83D = 63AECFFE14A1BF5A00C8E83D /* PBXTextBookmark */;
+			63AECFFF14A1BF5A00C8E83D = 63AECFFF14A1BF5A00C8E83D /* PlistBookmark */;
+			63AED00014A1BF5A00C8E83D = 63AED00014A1BF5A00C8E83D /* PlistBookmark */;
+			63E3905A14A1BF6A00FE7B30 /* PlistBookmark */ = 63E3905A14A1BF6A00FE7B30 /* PlistBookmark */;
+			63E3906B14A1BF8600FE7B30 /* PlistBookmark */ = 63E3906B14A1BF8600FE7B30 /* PlistBookmark */;
+			63E3906F14A1BFA000FE7B30 /* PlistBookmark */ = 63E3906F14A1BFA000FE7B30 /* PlistBookmark */;
 		};
 		sourceControlManager = 6336A19E1390DE4E005DF4E5 /* Source Control */;
 		userBuildSettings = {
 		};
-	};
-	630B001D148E18C40069D40E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 849818230BCF1CE50085CECA /* AppController.h */;
-		name = "AppController.h: 20";
-		rLen = 0;
-		rLoc = 353;
-		rType = 0;
-		vrLen = 400;
-		vrLoc = 0;
-	};
-	630BFF54148E04970069D40E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 849818230BCF1CE50085CECA /* AppController.h */;
-		name = "AppController.h: 20";
-		rLen = 0;
-		rLoc = 353;
-		rType = 0;
-		vrLen = 400;
-		vrLoc = 0;
 	};
 	630BFF71148E08640069D40E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -117,7 +117,7 @@
 		vrLen = 792;
 		vrLoc = 994;
 	};
-	6336A18A1390DE47005DF4E5 /* PS3QCApp */ = {
+	6336A18A1390DE47005DF4E5 /* MacroMeez Visuals */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -140,7 +140,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = PS3QCApp;
+		name = "MacroMeez Visuals";
 		savedGlobals = {
 		};
 		showTypeColumn = 0;
@@ -162,7 +162,7 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	63AECFA014A1BA9100C8E83D /* PBXTextBookmark */ = {
+	63AECFFD14A1BF5A00C8E83D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 849818230BCF1CE50085CECA /* AppController.h */;
 		name = "AppController.h: 20";
@@ -172,35 +172,75 @@
 		vrLen = 400;
 		vrLoc = 0;
 	};
-	63AECFC514A1BBB000C8E83D /* PBXTextBookmark */ = {
+	63AECFFE14A1BF5A00C8E83D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 849818230BCF1CE50085CECA /* AppController.h */;
-		name = "AppController.h: 20";
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
 		rLen = 0;
-		rLoc = 353;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 400;
+		vrLen = 103;
 		vrLoc = 0;
 	};
-	63AECFED14A1BC1C00C8E83D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 849818230BCF1CE50085CECA /* AppController.h */;
-		name = "AppController.h: 20";
+	63AECFFF14A1BF5A00C8E83D /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = /Users/feldstein/Projects/PS3QCApp/Info.plist;
 		rLen = 0;
-		rLoc = 353;
-		rType = 0;
-		vrLen = 400;
-		vrLoc = 0;
+		rLoc = 9223372036854775808;
 	};
-	63AECFF114A1BC4D00C8E83D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 849818230BCF1CE50085CECA /* AppController.h */;
-		name = "AppController.h: 20";
+	63AED00014A1BF5A00C8E83D /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = /Users/feldstein/Projects/PS3QCApp/Info.plist;
 		rLen = 0;
-		rLoc = 353;
-		rType = 0;
-		vrLen = 400;
-		vrLoc = 0;
+		rLoc = 9223372036854775808;
+	};
+	63E3905A14A1BF6A00FE7B30 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = /Users/feldstein/Projects/PS3QCApp/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	63E3906B14A1BF8600FE7B30 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = /Users/feldstein/Projects/PS3QCApp/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	63E3906F14A1BFA000FE7B30 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = /Users/feldstein/Projects/PS3QCApp/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
 	};
 	849818220BCF1CE50085CECA /* AppController.m */ = {
 		uiCtxt = {
@@ -211,15 +251,15 @@
 	};
 	849818230BCF1CE50085CECA /* AppController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1358, 606}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1358, 629}}";
 			sepNavSelRange = "{353, 0}";
 			sepNavVisRange = "{0, 400}";
 		};
 	};
-	8D1107260486CEB800E47090 /* PS3QCApp */ = {
+	8D1107260486CEB800E47090 /* MacroMeez Visuals */ = {
 		activeExec = 0;
 		executables = (
-			6336A18A1390DE47005DF4E5 /* PS3QCApp */,
+			6336A18A1390DE47005DF4E5 /* MacroMeez Visuals */,
 		);
 	};
 }

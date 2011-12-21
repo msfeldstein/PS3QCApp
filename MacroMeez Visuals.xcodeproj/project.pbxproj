@@ -31,6 +31,7 @@
 		63AECFE214A1BBF900C8E83D /* Square Grid.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE8E148CA9870069D40E /* Square Grid.qtz */; };
 		63AECFE314A1BBF900C8E83D /* TriangleExploder.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE8F148CA9870069D40E /* TriangleExploder.qtz */; };
 		63AECFE414A1BBF900C8E83D /* Waveform.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE90148CA9870069D40E /* Waveform.qtz */; };
+		63AECFF414A1BEDF00C8E83D /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 63AECFF314A1BEDF00C8E83D /* icon.icns */; };
 		72CB32F40DCA5BBF008F3AA2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72CB32F20DCA5BBF008F3AA2 /* MainMenu.xib */; };
 		8441128C0BA76E9200F37770 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8441128B0BA76E9200F37770 /* Quartz.framework */; };
 		849818240BCF1CE50085CECA /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849818220BCF1CE50085CECA /* AppController.m */; };
@@ -114,13 +115,14 @@
 		63AECFA714A1BAA500C8E83D /* Sound Particles.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; name = "Sound Particles.qtz"; path = "../Overlays/Sound Particles.qtz"; sourceTree = "<group>"; };
 		63AECFA814A1BAA500C8E83D /* VerticalBarSliders.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; name = VerticalBarSliders.qtz; path = ../Overlays/VerticalBarSliders.qtz; sourceTree = "<group>"; };
 		63AECFB014A1BAD500C8E83D /* Wiry.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Wiry.qtz; sourceTree = "<group>"; };
+		63AECFF314A1BEDF00C8E83D /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		7219AB410FAA1D5900573434 /* PS3QCApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PS3QCApp_Prefix.pch; sourceTree = "<group>"; };
 		72CB32F30DCA5BBF008F3AA2 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8441128B0BA76E9200F37770 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
 		849818220BCF1CE50085CECA /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		849818230BCF1CE50085CECA /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* PS3QCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS3QCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* MacroMeez Visuals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacroMeez Visuals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +169,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* PS3QCApp.app */,
+				8D1107320486CEB800E47090 /* MacroMeez Visuals.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,6 +198,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				63AECFF314A1BEDF00C8E83D /* icon.icns */,
 				63AECFA414A1BAA500C8E83D /* Overlays */,
 				6336A2061390E3EA005DF4E5 /* Compositions */,
 				6336A20C1390E3EA005DF4E5 /* PS3QC.qtz */,
@@ -255,9 +258,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* PS3QCApp */ = {
+		8D1107260486CEB800E47090 /* MacroMeez Visuals */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PS3QCApp" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacroMeez Visuals" */;
 			buildPhases = (
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -269,10 +272,10 @@
 			);
 			dependencies = (
 			);
-			name = PS3QCApp;
+			name = "MacroMeez Visuals";
 			productInstallPath = "$(HOME)/Applications";
 			productName = PS3QCApp;
-			productReference = 8D1107320486CEB800E47090 /* PS3QCApp.app */;
+			productReference = 8D1107320486CEB800E47090 /* MacroMeez Visuals.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -280,14 +283,14 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PS3QCApp" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacroMeez Visuals" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* PS3QCApp */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* PS3QCApp */,
+				8D1107260486CEB800E47090 /* MacroMeez Visuals */,
 			);
 		};
 /* End PBXProject section */
@@ -300,6 +303,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				72CB32F40DCA5BBF008F3AA2 /* MainMenu.xib in Resources */,
 				6336A2121390E3EA005DF4E5 /* PS3QC.qtz in Resources */,
+				63AECFF414A1BEDF00C8E83D /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +368,7 @@
 				GCC_PREFIX_HEADER = PS3QCApp_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = PS3QCApp;
+				PRODUCT_NAME = "MacroMeez Visuals";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -397,7 +401,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PS3QCApp" */ = {
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MacroMeez Visuals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,
@@ -406,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PS3QCApp" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacroMeez Visuals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

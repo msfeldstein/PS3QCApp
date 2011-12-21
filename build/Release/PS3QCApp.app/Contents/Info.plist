@@ -6,6 +6,8 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>PS3QCApp</string>
+	<key>CFBundleIconFile</key>
+	<string>icon.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.PS3QCApp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
