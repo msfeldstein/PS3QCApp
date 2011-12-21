@@ -1,229 +1,0 @@
-TPS3QCApp
-v7
-r0
-t328261298.269026
-cCheck dependencies
-cProcessInfoPlistFile /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Info.plist Info.plist
-cCopyStringsFile /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCpResource build/Debug/PS3QCApp.app/Contents/Resources/Introduction.qtz Introduction.qtz
-cCompileXIB /Users/feldstein/Projects/PS3QCApp/English.lproj/MainMenu.xib
-cProcessPCH /var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-cirlbakxpuatmbdezknurowaabhf/PS3QCApp_Prefix.pch.gch PS3QCApp_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/main.o /Users/feldstein/Projects/PS3QCApp/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/AppController.o /Users/feldstein/Projects/PS3QCApp/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/MacOS/PS3QCApp normal x86_64
-cTouch /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004BF4701900000000000000EE
-t1274310681
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
-c000000004BE54CE90000000000000124
-t1273318633
-s292
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/System/Library/Frameworks/Quartz.framework/Quartz
-c000000004A1249D4000000000000A5F0
-t1242712532
-s42480
-
-N/Users/feldstein/Projects/PS3QCApp/AppController.h
-c000000004DE0A6C7000000000000013F
-t1306568391
-s319
-i<Cocoa/Cocoa.h>
-i<Quartz/Quartz.h>
-
-N/Users/feldstein/Projects/PS3QCApp/AppController.m
-c000000004DE0A716000000000000041F
-t1306568470
-s1055
-i"AppController.h"
-
-N/Users/feldstein/Projects/PS3QCApp/English.lproj/InfoPlist.strings
-c000000004DE0A6C700000000000000D0
-t1306568391
-s208
-
-N/Users/feldstein/Projects/PS3QCApp/English.lproj/MainMenu.xib
-c000000004DE0A6C7000000000004E1FF
-t1306568391
-s319999
-
-N/Users/feldstein/Projects/PS3QCApp/Introduction.qtz
-c000000004DE0A6C70000000000003990
-t1306568391
-s14736
-
-N/Users/feldstein/Projects/PS3QCApp/PS3QCApp_Prefix.pch
-c000000004DE0A6C700000000000000AE
-t1306568391
-s174
-i<Cocoa/Cocoa.h>
-i<Quartz/Quartz.h>
-
-N/Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app
-t1306568498
-s102
-
-N/Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Info.plist
-t1306568493
-s833
-
-N/Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/MacOS/PS3QCApp
-t1306568498
-s14848
-
-N/Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/PkgInfo
-t1306568493
-s8
-
-N/Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1306568493
-s208
-
-N/Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Resources/English.lproj/MainMenu.nib
-t1306568493
-s59567
-
-N/Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Resources/Introduction.qtz
-t1306568493
-s14736
-
-N/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/AppController.o
-t1306568497
-s18044
-
-N/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/PS3QCApp.LinkFileList
-c000000004DE0A72C00000000000000DD
-t1306568492
-s221
-
-N/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/main.o
-t1306568497
-s4984
-
-N/Users/feldstein/Projects/PS3QCApp/main.m
-c000000004DE0A6C70000000000000103
-t1306568391
-s259
-i<Cocoa/Cocoa.h>
-
-N/var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-cirlbakxpuatmbdezknurowaabhf/PS3QCApp_Prefix.pch.gch
-t1306568497
-s56464784
-
-NInfo.plist
-c000000004DE0A6C70000000000000394
-t1306568391
-s916
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies328261292#328261292#0(0"0(0#1#0"8247620834010738688#0"0#
-
-CCompileC build/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/AppController.o /Users/feldstein/Projects/PS3QCApp/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s328261297.317997
-e328261297.502040
-r1
-xCompileC
-xbuild/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/AppController.o
-x/Users/feldstein/Projects/PS3QCApp/AppController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/feldstein/Projects/PS3QCApp/AppController.m328261297#328261297#0(0"0(0#0#50"/Users/feldstein/Projects/PS3QCApp/AppController.m8603374304#1086"    cd /Users/feldstein/Projects/PS3QCApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/PS3QCApp.hmap -F/Users/feldstein/Projects/PS3QCApp/build/Debug -I/Users/feldstein/Projects/PS3QCApp/build/Debug/include -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/DerivedSources/x86_64 -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/DerivedSources -include /var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-cirlbakxpuatmbdezknurowaabhf/PS3QCApp_Prefix.pch -c /Users/feldstein/Projects/PS3QCApp/AppController.m -o /Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/AppController.o0#
-
-CCompileC build/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/main.o /Users/feldstein/Projects/PS3QCApp/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s328261297.316655
-e328261297.484782
-r1
-xCompileC
-xbuild/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/main.o
-x/Users/feldstein/Projects/PS3QCApp/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/feldstein/Projects/PS3QCApp/main.m328261297#328261297#0(0"0(0#0#41"/Users/feldstein/Projects/PS3QCApp/main.m8605746144#1068"    cd /Users/feldstein/Projects/PS3QCApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/PS3QCApp.hmap -F/Users/feldstein/Projects/PS3QCApp/build/Debug -I/Users/feldstein/Projects/PS3QCApp/build/Debug/include -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/DerivedSources/x86_64 -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/DerivedSources -include /var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-cirlbakxpuatmbdezknurowaabhf/PS3QCApp_Prefix.pch -c /Users/feldstein/Projects/PS3QCApp/main.m -o /Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/main.o0#
-
-CCompileXIB /Users/feldstein/Projects/PS3QCApp/English.lproj/MainMenu.xib
-s328261293.016533
-e328261293.690121
-r1
-xCompileXIB
-x/Users/feldstein/Projects/PS3QCApp/English.lproj/MainMenu.xib
-o2011-05-28 00:41:33.444 ibtool[18739:607] *** QCPlugIn: Cannot preflight plug-in at path "/Users/feldstein/Library/Graphics/Quartz Composer Plug-Ins/_1024_Synth.plugin" (Error Domain=NSCocoaErrorDomain Code=3585 UserInfo=0x1052cb080 "The bundle “soundPlayerFFTDemo” couldn’t be loaded because it doesn’t contain a version for the current architecture." (dlopen_preflight(/Users/feldstein/Library/Graphics/Quartz Composer Plug-Ins/_1024_Synth.plugin/Contents/MacOS/soundPlayerFFTDemo): no suitable image found.  Did find:
-o	/Users/feldstein/Library/Graphics/Quartz Composer Plug-Ins/_1024_Synth.plugin/Contents/MacOS/soundPlayerFFTDemo: mach-o, but wrong architecture))
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib328261293#328261293#0(676"2011-05-28 00:41:33.444 ibtool[18739:607] *** QCPlugIn: Cannot preflight plug-in at path "/Users/feldstein/Library/Graphics/Quartz Composer Plug-Ins/_1024_Synth.plugin" (Error Domain=NSCocoaErrorDomain Code=3585 UserInfo=0x1052cb080 "The bundle “soundPlayerFFTDemo” couldn’t be loaded because it doesn’t contain a version for the current architecture." (dlopen_preflight(/Users/feldstein/Library/Graphics/Quartz Composer Plug-Ins/_1024_Synth.plugin/Contents/MacOS/soundPlayerFFTDemo): no suitable image found.  Did find:	/Users/feldstein/Library/Graphics/Quartz Composer Plug-Ins/_1024_Synth.plugin/Contents/MacOS/soundPlayerFFTDemo: mach-o, but wrong architecture))0(0#0#61"/Users/feldstein/Projects/PS3QCApp/English.lproj/MainMenu.xib8605733888#353"    cd /Users/feldstein/Projects/PS3QCApp    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Resources/English.lproj/MainMenu.nib /Users/feldstein/Projects/PS3QCApp/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
-
-CCopyStringsFile /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s328261293.006762
-e328261293.059237
-r1
-xCopyStringsFile
-x/Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings328261293#328261293#0(0"0(0#0#66"/Users/feldstein/Projects/PS3QCApp/English.lproj/InfoPlist.strings8605998784#359"    cd /Users/feldstein/Projects/PS3QCApp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Resources/English.lproj0#
-
-CCpResource build/Debug/PS3QCApp.app/Contents/Resources/Introduction.qtz Introduction.qtz
-s328261293.015585
-e328261293.032865
-r1
-xCpResource
-xbuild/Debug/PS3QCApp.app/Contents/Resources/Introduction.qtz
-xIntroduction.qtz
-lSLF07#2@21"Copy Introduction.qtz328261293#328261293#0(0"0(0#0#51"/Users/feldstein/Projects/PS3QCApp/Introduction.qtz8605787200#321"    cd /Users/feldstein/Projects/PS3QCApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/feldstein/Projects/PS3QCApp/Introduction.qtz /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Resources0#
-
-CLd /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/MacOS/PS3QCApp normal x86_64
-s328261297.502162
-e328261298.265995
-r1
-xLd
-x/Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/MacOS/PS3QCApp
-xnormal
-xx86_64
-lSLF07#2@88"Link /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/MacOS/PS3QCApp328261297#328261298#0(0"0(0#0#0"8602775264#545"    cd /Users/feldstein/Projects/PS3QCApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/feldstein/Projects/PS3QCApp/build/Debug -F/Users/feldstein/Projects/PS3QCApp/build/Debug -filelist /Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/Objects-normal/x86_64/PS3QCApp.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Quartz -o /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/MacOS/PS3QCApp0#
-
-CProcessInfoPlistFile /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Info.plist Info.plist
-s328261292.989731
-e328261293.006626
-r1
-xProcessInfoPlistFile
-x/Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist328261292#328261293#0(0"0(0#0#45"/Users/feldstein/Projects/PS3QCApp/Info.plist30962724183932976#292"    cd /Users/feldstein/Projects/PS3QCApp    builtin-infoPlistUtility Info.plist -genpkginfo /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-cirlbakxpuatmbdezknurowaabhf/PS3QCApp_Prefix.pch.gch PS3QCApp_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s328261293.690315
-e328261297.316387
-r1
-xProcessPCH
-x/var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-cirlbakxpuatmbdezknurowaabhf/PS3QCApp_Prefix.pch.gch
-xPS3QCApp_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile PS3QCApp_Prefix.pch328261293#328261297#0(0"0(0#0#54"/Users/feldstein/Projects/PS3QCApp/PS3QCApp_Prefix.pch8605402752#977"    cd /Users/feldstein/Projects/PS3QCApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/PS3QCApp.hmap -F/Users/feldstein/Projects/PS3QCApp/build/Debug -I/Users/feldstein/Projects/PS3QCApp/build/Debug/include -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/DerivedSources/x86_64 -I/Users/feldstein/Projects/PS3QCApp/build/PS3QCApp.build/Debug/PS3QCApp.build/DerivedSources -c /Users/feldstein/Projects/PS3QCApp/PS3QCApp_Prefix.pch -o /var/folders/++/++457E++6+0++4RjPqRgNE+-VmI/-Caches-/com.apple.Xcode.100133/SharedPrecompiledHeaders/PS3QCApp_Prefix-cirlbakxpuatmbdezknurowaabhf/PS3QCApp_Prefix.pch.gch0#
-
-CTouch /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app
-s328261298.266086
-e328261298.268973
-r1
-xTouch
-x/Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app
-lSLF07#2@65"Touch /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app328261298#328261298#0(0"0(0#0#0"8598745376#124"    cd /Users/feldstein/Projects/PS3QCApp    /usr/bin/touch -c /Users/feldstein/Projects/PS3QCApp/build/Debug/PS3QCApp.app0#
-
