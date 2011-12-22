@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631ADDBD14A3387100787142 /* Flower.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 631ADDBC14A3387100787142 /* Flower.qtz */; };
+		631ADDBE14A3387E00787142 /* Flower.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 631ADDBC14A3387100787142 /* Flower.qtz */; };
+		631ADFEB14A33B4400787142 /* Color Invert.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 631ADE1514A33B4300787142 /* Color Invert.qtz */; };
+		631AE0FB14A33B6900787142 /* Color Invert.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 631ADE1514A33B4300787142 /* Color Invert.qtz */; };
 		6336A2121390E3EA005DF4E5 /* PS3QC.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 6336A20C1390E3EA005DF4E5 /* PS3QC.qtz */; };
 		63AECFBC14A1BBA900C8E83D /* ABlank.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63AECFA514A1BAA500C8E83D /* ABlank.qtz */; };
 		63AECFBD14A1BBA900C8E83D /* ColorSlider.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63AECFA614A1BAA500C8E83D /* ColorSlider.qtz */; };
@@ -41,12 +45,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		631AE0FE14A33B8500787142 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Plugins;
+			dstSubfolderSpec = 7;
+			files = (
+				631AE0FB14A33B6900787142 /* Color Invert.qtz in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6336A2281390E4FC005DF4E5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = Compositions;
 			dstSubfolderSpec = 7;
 			files = (
+				631ADDBE14A3387E00787142 /* Flower.qtz in CopyFiles */,
 				63AECFD214A1BBF900C8E83D /* ASphere Replication.qtz in CopyFiles */,
 				63AECFD314A1BBF900C8E83D /* Blobby.qtz in CopyFiles */,
 				63AECFD414A1BBF900C8E83D /* Circle Grower.qtz in CopyFiles */,
@@ -109,6 +124,8 @@
 		630BFE8E148CA9870069D40E /* Square Grid.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Square Grid.qtz"; sourceTree = "<group>"; };
 		630BFE8F148CA9870069D40E /* TriangleExploder.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = TriangleExploder.qtz; sourceTree = "<group>"; };
 		630BFE90148CA9870069D40E /* Waveform.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Waveform.qtz; sourceTree = "<group>"; };
+		631ADDBC14A3387100787142 /* Flower.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Flower.qtz; sourceTree = "<group>"; };
+		631ADE1514A33B4300787142 /* Color Invert.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Color Invert.qtz"; sourceTree = "<group>"; };
 		6336A20C1390E3EA005DF4E5 /* PS3QC.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = PS3QC.qtz; sourceTree = "<group>"; };
 		63AECFA514A1BAA500C8E83D /* ABlank.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; name = ABlank.qtz; path = ../Overlays/ABlank.qtz; sourceTree = "<group>"; };
 		63AECFA614A1BAA500C8E83D /* ColorSlider.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; name = ColorSlider.qtz; path = ../Overlays/ColorSlider.qtz; sourceTree = "<group>"; };
@@ -198,6 +215,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				631ADDD214A33B4300787142 /* Plugins */,
 				63AECFF314A1BEDF00C8E83D /* icon.icns */,
 				63AECFA414A1BAA500C8E83D /* Overlays */,
 				6336A2061390E3EA005DF4E5 /* Compositions */,
@@ -218,9 +236,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		631ADDD214A33B4300787142 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				631ADE1514A33B4300787142 /* Color Invert.qtz */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
 		6336A2061390E3EA005DF4E5 /* Compositions */ = {
 			isa = PBXGroup;
 			children = (
+				631ADDBC14A3387100787142 /* Flower.qtz */,
 				63AECFA514A1BAA500C8E83D /* ABlank.qtz */,
 				63AECFA614A1BAA500C8E83D /* ColorSlider.qtz */,
 				63AECFA714A1BAA500C8E83D /* Sound Particles.qtz */,
@@ -267,6 +294,7 @@
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				6336A2281390E4FC005DF4E5 /* CopyFiles */,
 				63AECFD014A1BBB000C8E83D /* CopyFiles */,
+				631AE0FE14A33B8500787142 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -286,6 +314,13 @@
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacroMeez Visuals" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* PS3QCApp */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -304,6 +339,8 @@
 				72CB32F40DCA5BBF008F3AA2 /* MainMenu.xib in Resources */,
 				6336A2121390E3EA005DF4E5 /* PS3QC.qtz in Resources */,
 				63AECFF414A1BEDF00C8E83D /* icon.icns in Resources */,
+				631ADDBD14A3387100787142 /* Flower.qtz in Resources */,
+				631ADFEB14A33B4400787142 /* Color Invert.qtz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +382,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Plugins/Syphon.plugin/Contents/Frameworks\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -363,6 +404,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Plugins/Syphon.plugin/Contents/Frameworks\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PS3QCApp_Prefix.pch;

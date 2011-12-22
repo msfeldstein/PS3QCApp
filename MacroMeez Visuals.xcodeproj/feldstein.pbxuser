@@ -90,8 +90,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 346144615;
-			PBXWorkspaceStateSaveDate = 346144615;
+			PBXPerProjectTemplateStateSaveDate = 346240749;
+			PBXWorkspaceStateSaveDate = 346240749;
 		};
 		perUserProjectItems = {
 			630BFF71148E08640069D40E = 630BFF71148E08640069D40E /* PBXTextBookmark */;
@@ -99,9 +99,9 @@
 			63AECFFE14A1BF5A00C8E83D = 63AECFFE14A1BF5A00C8E83D /* PBXTextBookmark */;
 			63AECFFF14A1BF5A00C8E83D = 63AECFFF14A1BF5A00C8E83D /* PlistBookmark */;
 			63AED00014A1BF5A00C8E83D = 63AED00014A1BF5A00C8E83D /* PlistBookmark */;
-			63E3905A14A1BF6A00FE7B30 /* PlistBookmark */ = 63E3905A14A1BF6A00FE7B30 /* PlistBookmark */;
-			63E3906B14A1BF8600FE7B30 /* PlistBookmark */ = 63E3906B14A1BF8600FE7B30 /* PlistBookmark */;
-			63E3906F14A1BFA000FE7B30 /* PlistBookmark */ = 63E3906F14A1BFA000FE7B30 /* PlistBookmark */;
+			63E3905A14A1BF6A00FE7B30 = 63E3905A14A1BF6A00FE7B30 /* PlistBookmark */;
+			63E3906B14A1BF8600FE7B30 = 63E3906B14A1BF8600FE7B30 /* PlistBookmark */;
+			63E3906F14A1BFA000FE7B30 = 63E3906F14A1BFA000FE7B30 /* PlistBookmark */;
 		};
 		sourceControlManager = 6336A19E1390DE4E005DF4E5 /* Source Control */;
 		userBuildSettings = {
@@ -216,7 +216,7 @@
 		);
 		name = /Users/feldstein/Projects/PS3QCApp/Info.plist;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	63E3906B14A1BF8600FE7B30 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -228,7 +228,7 @@
 		);
 		name = /Users/feldstein/Projects/PS3QCApp/Info.plist;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	63E3906F14A1BFA000FE7B30 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -240,7 +240,7 @@
 		);
 		name = /Users/feldstein/Projects/PS3QCApp/Info.plist;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	849818220BCF1CE50085CECA /* AppController.m */ = {
 		uiCtxt = {
