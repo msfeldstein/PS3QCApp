@@ -24,7 +24,6 @@ void loadPlugins() {
 	NSBundle *main = [NSBundle mainBundle];
 	NSArray *all = [main pathsForResourcesOfType:@"plugin" 
 									 inDirectory:@"../PlugIns"];
-	NSBundle *pluginBundle = nil;
 	NSString* libraryPluginPath = getPluginDir();
 	NSError* err;
 	if (![defaultManager isReadableFileAtPath:libraryPluginPath])
@@ -33,19 +32,13 @@ void loadPlugins() {
 	for (NSString *path in all) {
 		NSString* pluginName = [libraryPluginPath stringByAppendingPathComponent:[path lastPathComponent]];
 		[defaultManager copyItemAtPath:path toPath:pluginName error:&err];
-		pluginBundle = [NSBundle bundleWithPath:path];
-		[pluginBundle load];
-		pluginBundle = nil;
 	}
 }
 
 int main(int argc, char *argv[])
 {
 	NSAutoreleasePool *p = [[NSAutoreleasePool alloc] init];
-	loadPlugins();
-	// load plugins in our bundle's resource folder
-	//[QCPatch loadPlugInsInFolder: [[NSBundle mainBundle] resourcePath]];
-	
+	loadPlugins();	
 	int ret = NSApplicationMain(argc,  (const char **) argv);
 	[p release];   // probably won't get here, but good practice
     return ret;
