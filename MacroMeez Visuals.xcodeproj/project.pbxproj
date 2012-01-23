@@ -10,6 +10,10 @@
 		5F16817C14CD0F5300ECEADD /* v002Blurs.plugin in Resources */ = {isa = PBXBuildFile; fileRef = 5F16816A14CD0F5300ECEADD /* v002Blurs.plugin */; };
 		5F16817D14CD0F5600ECEADD /* v002Blurs.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F16816A14CD0F5300ECEADD /* v002Blurs.plugin */; };
 		5F16818214CD100E00ECEADD /* TestBlurs.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 5F16818114CD100E00ECEADD /* TestBlurs.qtz */; };
+		5F16825314CD1D4700ECEADD /* GLTools.plugin in Resources */ = {isa = PBXBuildFile; fileRef = 5F16820514CD1D4700ECEADD /* GLTools.plugin */; };
+		5F16825414CD1D5F00ECEADD /* GLTools.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F16820514CD1D4700ECEADD /* GLTools.plugin */; };
+		5F16826414CD1DEA00ECEADD /* Syphon.plugin in Resources */ = {isa = PBXBuildFile; fileRef = 5F16825914CD1DEA00ECEADD /* Syphon.plugin */; };
+		5F16826514CD1DF300ECEADD /* Syphon.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F16825914CD1DEA00ECEADD /* Syphon.plugin */; };
 		631ADDBD14A3387100787142 /* Flower.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 631ADDBC14A3387100787142 /* Flower.qtz */; };
 		631ADDBE14A3387E00787142 /* Flower.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 631ADDBC14A3387100787142 /* Flower.qtz */; };
 		6336A2121390E3EA005DF4E5 /* PS3QC.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 6336A20C1390E3EA005DF4E5 /* PS3QC.qtz */; };
@@ -54,6 +58,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				5F16826514CD1DF300ECEADD /* Syphon.plugin in CopyFiles */,
+				5F16825414CD1D5F00ECEADD /* GLTools.plugin in CopyFiles */,
 				5F16817D14CD0F5600ECEADD /* v002Blurs.plugin in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,6 +117,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		5F16816A14CD0F5300ECEADD /* v002Blurs.plugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = v002Blurs.plugin; path = Plugins/v002Blurs.plugin; sourceTree = "<group>"; };
 		5F16818114CD100E00ECEADD /* TestBlurs.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = TestBlurs.qtz; sourceTree = "<group>"; };
+		5F16820514CD1D4700ECEADD /* GLTools.plugin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GLTools.plugin; sourceTree = "<group>"; };
+		5F16825914CD1DEA00ECEADD /* Syphon.plugin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Syphon.plugin; sourceTree = "<group>"; };
 		630BFE73148CA9870069D40E /* ASphere Replication.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "ASphere Replication.qtz"; sourceTree = "<group>"; };
 		630BFE75148CA9870069D40E /* Blobby.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Blobby.qtz; sourceTree = "<group>"; };
 		630BFE76148CA9870069D40E /* Circle Grower.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Circle Grower.qtz"; sourceTree = "<group>"; };
@@ -214,6 +222,7 @@
 			children = (
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				7219AB410FAA1D5900573434 /* PS3QCApp_Prefix.pch */,
+				5F16820514CD1D4700ECEADD /* GLTools.plugin */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -221,6 +230,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5F16825914CD1DEA00ECEADD /* Syphon.plugin */,
 				5F16816A14CD0F5300ECEADD /* v002Blurs.plugin */,
 				63AECFF314A1BEDF00C8E83D /* icon.icns */,
 				63AECFA414A1BAA500C8E83D /* Overlays */,
@@ -345,6 +355,8 @@
 				633E209A14C4204B0067BFA5 /* CubeGrid.qtz in Resources */,
 				5F16817C14CD0F5300ECEADD /* v002Blurs.plugin in Resources */,
 				5F16818214CD100E00ECEADD /* TestBlurs.qtz in Resources */,
+				5F16825314CD1D4700ECEADD /* GLTools.plugin in Resources */,
+				5F16826414CD1DEA00ECEADD /* Syphon.plugin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
