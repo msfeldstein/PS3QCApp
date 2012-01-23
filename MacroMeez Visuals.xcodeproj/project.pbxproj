@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F16817C14CD0F5300ECEADD /* v002Blurs.plugin in Resources */ = {isa = PBXBuildFile; fileRef = 5F16816A14CD0F5300ECEADD /* v002Blurs.plugin */; };
-		5F16817D14CD0F5600ECEADD /* v002Blurs.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F16816A14CD0F5300ECEADD /* v002Blurs.plugin */; };
 		5F16818214CD100E00ECEADD /* TestBlurs.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 5F16818114CD100E00ECEADD /* TestBlurs.qtz */; };
-		5F16825314CD1D4700ECEADD /* GLTools.plugin in Resources */ = {isa = PBXBuildFile; fileRef = 5F16820514CD1D4700ECEADD /* GLTools.plugin */; };
-		5F16825414CD1D5F00ECEADD /* GLTools.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F16820514CD1D4700ECEADD /* GLTools.plugin */; };
-		5F16826414CD1DEA00ECEADD /* Syphon.plugin in Resources */ = {isa = PBXBuildFile; fileRef = 5F16825914CD1DEA00ECEADD /* Syphon.plugin */; };
-		5F16826514CD1DF300ECEADD /* Syphon.plugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F16825914CD1DEA00ECEADD /* Syphon.plugin */; };
+		5F5A44A314CD4E59002FEE07 /* Lasers.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F5A44A214CD4E59002FEE07 /* Lasers.qtz */; };
+		5F5A451714CD4F7D002FEE07 /* Quartz Composer Patches in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */; };
+		5F5A451814CD4F7D002FEE07 /* Quartz Composer Plug-Ins in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */; };
+		5F5A451914CD4F80002FEE07 /* Quartz Composer Plug-Ins in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */; };
+		5F5A451A14CD4F84002FEE07 /* Quartz Composer Patches in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */; };
 		631ADDBD14A3387100787142 /* Flower.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 631ADDBC14A3387100787142 /* Flower.qtz */; };
 		631ADDBE14A3387E00787142 /* Flower.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 631ADDBC14A3387100787142 /* Flower.qtz */; };
 		6336A2121390E3EA005DF4E5 /* PS3QC.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 6336A20C1390E3EA005DF4E5 /* PS3QC.qtz */; };
@@ -29,7 +28,6 @@
 		63AECFD514A1BBF900C8E83D /* CrazyStarfield.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE77148CA9870069D40E /* CrazyStarfield.qtz */; };
 		63AECFD614A1BBF900C8E83D /* Fireworks.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE78148CA9870069D40E /* Fireworks.qtz */; };
 		63AECFD714A1BBF900C8E83D /* fractalesque.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE79148CA9870069D40E /* fractalesque.qtz */; };
-		63AECFD814A1BBF900C8E83D /* goto10_doublehelix.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE7A148CA9870069D40E /* goto10_doublehelix.qtz */; };
 		63AECFD914A1BBF900C8E83D /* KaleidoscopeSmooth.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE7E148CA9870069D40E /* KaleidoscopeSmooth.qtz */; };
 		63AECFDA14A1BBF900C8E83D /* LineSphere.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE80148CA9870069D40E /* LineSphere.qtz */; };
 		63AECFDB14A1BBF900C8E83D /* midiballs.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE81148CA9870069D40E /* midiballs.qtz */; };
@@ -58,9 +56,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				5F16826514CD1DF300ECEADD /* Syphon.plugin in CopyFiles */,
-				5F16825414CD1D5F00ECEADD /* GLTools.plugin in CopyFiles */,
-				5F16817D14CD0F5600ECEADD /* v002Blurs.plugin in CopyFiles */,
+				5F5A451A14CD4F84002FEE07 /* Quartz Composer Patches in CopyFiles */,
+				5F5A451914CD4F80002FEE07 /* Quartz Composer Plug-Ins in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +67,7 @@
 			dstPath = Compositions;
 			dstSubfolderSpec = 7;
 			files = (
+				5F5A44A314CD4E59002FEE07 /* Lasers.qtz in CopyFiles */,
 				631ADDBE14A3387E00787142 /* Flower.qtz in CopyFiles */,
 				63AECFD214A1BBF900C8E83D /* ASphere Replication.qtz in CopyFiles */,
 				63AECFD314A1BBF900C8E83D /* Blobby.qtz in CopyFiles */,
@@ -77,7 +75,6 @@
 				63AECFD514A1BBF900C8E83D /* CrazyStarfield.qtz in CopyFiles */,
 				63AECFD614A1BBF900C8E83D /* Fireworks.qtz in CopyFiles */,
 				63AECFD714A1BBF900C8E83D /* fractalesque.qtz in CopyFiles */,
-				63AECFD814A1BBF900C8E83D /* goto10_doublehelix.qtz in CopyFiles */,
 				63AECFD914A1BBF900C8E83D /* KaleidoscopeSmooth.qtz in CopyFiles */,
 				63AECFDA14A1BBF900C8E83D /* LineSphere.qtz in CopyFiles */,
 				63AECFDB14A1BBF900C8E83D /* midiballs.qtz in CopyFiles */,
@@ -115,17 +112,16 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		5F16816A14CD0F5300ECEADD /* v002Blurs.plugin */ = {isa = PBXFileReference; lastKnownFileType = folder; name = v002Blurs.plugin; path = Plugins/v002Blurs.plugin; sourceTree = "<group>"; };
 		5F16818114CD100E00ECEADD /* TestBlurs.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = TestBlurs.qtz; sourceTree = "<group>"; };
-		5F16820514CD1D4700ECEADD /* GLTools.plugin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GLTools.plugin; sourceTree = "<group>"; };
-		5F16825914CD1DEA00ECEADD /* Syphon.plugin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Syphon.plugin; sourceTree = "<group>"; };
+		5F5A44A214CD4E59002FEE07 /* Lasers.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Lasers.qtz; sourceTree = "<group>"; };
+		5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Quartz Composer Patches"; path = "Plugins/Quartz Composer Patches"; sourceTree = "<group>"; };
+		5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Quartz Composer Plug-Ins"; path = "Plugins/Quartz Composer Plug-Ins"; sourceTree = "<group>"; };
 		630BFE73148CA9870069D40E /* ASphere Replication.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "ASphere Replication.qtz"; sourceTree = "<group>"; };
 		630BFE75148CA9870069D40E /* Blobby.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Blobby.qtz; sourceTree = "<group>"; };
 		630BFE76148CA9870069D40E /* Circle Grower.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Circle Grower.qtz"; sourceTree = "<group>"; };
 		630BFE77148CA9870069D40E /* CrazyStarfield.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = CrazyStarfield.qtz; sourceTree = "<group>"; };
 		630BFE78148CA9870069D40E /* Fireworks.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Fireworks.qtz; sourceTree = "<group>"; };
 		630BFE79148CA9870069D40E /* fractalesque.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = fractalesque.qtz; sourceTree = "<group>"; };
-		630BFE7A148CA9870069D40E /* goto10_doublehelix.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = goto10_doublehelix.qtz; sourceTree = "<group>"; };
 		630BFE7E148CA9870069D40E /* KaleidoscopeSmooth.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = KaleidoscopeSmooth.qtz; sourceTree = "<group>"; };
 		630BFE80148CA9870069D40E /* LineSphere.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = LineSphere.qtz; sourceTree = "<group>"; };
 		630BFE81148CA9870069D40E /* midiballs.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = midiballs.qtz; sourceTree = "<group>"; };
@@ -229,9 +225,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5F16820514CD1D4700ECEADD /* GLTools.plugin */,
-				5F16825914CD1DEA00ECEADD /* Syphon.plugin */,
-				5F16816A14CD0F5300ECEADD /* v002Blurs.plugin */,
+				5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */,
+				5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */,
 				63AECFF314A1BEDF00C8E83D /* icon.icns */,
 				63AECFA414A1BAA500C8E83D /* Overlays */,
 				6336A2061390E3EA005DF4E5 /* Compositions */,
@@ -256,6 +251,7 @@
 		6336A2061390E3EA005DF4E5 /* Compositions */ = {
 			isa = PBXGroup;
 			children = (
+				5F5A44A214CD4E59002FEE07 /* Lasers.qtz */,
 				633E209714C420430067BFA5 /* Hexagons.qtz */,
 				633E209914C4204B0067BFA5 /* CubeGrid.qtz */,
 				631ADDBC14A3387100787142 /* Flower.qtz */,
@@ -269,7 +265,6 @@
 				630BFE77148CA9870069D40E /* CrazyStarfield.qtz */,
 				630BFE78148CA9870069D40E /* Fireworks.qtz */,
 				630BFE79148CA9870069D40E /* fractalesque.qtz */,
-				630BFE7A148CA9870069D40E /* goto10_doublehelix.qtz */,
 				630BFE7E148CA9870069D40E /* KaleidoscopeSmooth.qtz */,
 				630BFE80148CA9870069D40E /* LineSphere.qtz */,
 				630BFE81148CA9870069D40E /* midiballs.qtz */,
@@ -353,10 +348,9 @@
 				631ADDBD14A3387100787142 /* Flower.qtz in Resources */,
 				633E209814C420430067BFA5 /* Hexagons.qtz in Resources */,
 				633E209A14C4204B0067BFA5 /* CubeGrid.qtz in Resources */,
-				5F16817C14CD0F5300ECEADD /* v002Blurs.plugin in Resources */,
 				5F16818214CD100E00ECEADD /* TestBlurs.qtz in Resources */,
-				5F16825314CD1D4700ECEADD /* GLTools.plugin in Resources */,
-				5F16826414CD1DEA00ECEADD /* Syphon.plugin in Resources */,
+				5F5A451714CD4F7D002FEE07 /* Quartz Composer Patches in Resources */,
+				5F5A451814CD4F7D002FEE07 /* Quartz Composer Plug-Ins in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

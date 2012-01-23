@@ -15,15 +15,13 @@ NSString* getPluginDir() {
 		dir = [paths objectAtIndex:0];
 	}
 	dir = [dir stringByAppendingPathComponent:@"Graphics"];
-	dir = [dir stringByAppendingPathComponent:@"Quartz Composer Plug-Ins"];
 	return dir;
 }
 
 void loadPlugins() {
-	NSLog(@"LOADING PLUGINS");
 	NSFileManager* defaultManager = [NSFileManager defaultManager];
 	NSBundle *main = [NSBundle mainBundle];
-	NSArray *all = [main pathsForResourcesOfType:@"plugin" 
+	NSArray *all = [main pathsForResourcesOfType:@"" 
 									 inDirectory:@"../PlugIns"];
 	NSString* libraryPluginPath = getPluginDir();
 	NSError* err;
@@ -31,6 +29,7 @@ void loadPlugins() {
 		[defaultManager createDirectoryAtPath:libraryPluginPath withIntermediateDirectories:YES attributes:nil error:&err];
 	
 	for (NSString *path in all) {
+		NSLog(@"Path: %@", path);
 		NSString* pluginName = [libraryPluginPath stringByAppendingPathComponent:[path lastPathComponent]];
 		[defaultManager copyItemAtPath:path toPath:pluginName error:&err];
 	}
