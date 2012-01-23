@@ -32,8 +32,6 @@
 
 @end
 
-
-
 @implementation AppController
  
 - (void) awakeFromNib
@@ -43,6 +41,7 @@
 	}
 	[qcView becomeFirstResponder];
 }
+
 
 - (void)windowWillClose:(NSNotification *)notification 
 {
