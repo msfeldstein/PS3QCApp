@@ -20,6 +20,7 @@ NSString* getPluginDir() {
 }
 
 void loadPlugins() {
+	NSLog(@"LOADING PLUGINS");
 	NSFileManager* defaultManager = [NSFileManager defaultManager];
 	NSBundle *main = [NSBundle mainBundle];
 	NSArray *all = [main pathsForResourcesOfType:@"plugin" 

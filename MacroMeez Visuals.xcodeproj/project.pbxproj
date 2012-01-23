@@ -153,7 +153,7 @@
 		849818220BCF1CE50085CECA /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		849818230BCF1CE50085CECA /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* PS3QCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS3QCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* MacroMeez Visuals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacroMeez Visuals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,7 +200,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* PS3QCApp.app */,
+				8D1107320486CEB800E47090 /* MacroMeez Visuals.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -222,7 +222,6 @@
 			children = (
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				7219AB410FAA1D5900573434 /* PS3QCApp_Prefix.pch */,
-				5F16820514CD1D4700ECEADD /* GLTools.plugin */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -230,6 +229,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5F16820514CD1D4700ECEADD /* GLTools.plugin */,
 				5F16825914CD1DEA00ECEADD /* Syphon.plugin */,
 				5F16816A14CD0F5300ECEADD /* v002Blurs.plugin */,
 				63AECFF314A1BEDF00C8E83D /* icon.icns */,
@@ -314,7 +314,7 @@
 			name = "MacroMeez Visuals";
 			productInstallPath = "$(HOME)/Applications";
 			productName = PS3QCApp;
-			productReference = 8D1107320486CEB800E47090 /* PS3QCApp.app */;
+			productReference = 8D1107320486CEB800E47090 /* MacroMeez Visuals.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -410,7 +410,7 @@
 				GCC_PREFIX_HEADER = PS3QCApp_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = PS3QCApp;
+				PRODUCT_NAME = "MacroMeez Visuals";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
