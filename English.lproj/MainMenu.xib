@@ -420,7 +420,7 @@
 			<object class="NSWindowTemplate" id="513744381">
 				<int key="NSWindowStyleMask">271</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{134, -88}, {1148, 689}}</string>
+				<string key="NSWindowRect">{{134, -88}, {840, 689}}</string>
 				<int key="NSWTFlags">611844096</int>
 				<string key="NSWindowTitle">MacroMeez Visuals</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -3156,19 +3156,6 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 							<int key="flags">0</int>
 							<bool key="forcesClear">NO</bool>
 						</object>
-						<object class="QCCompositionParameterView" id="696679119">
-							<reference key="NSNextResponder" ref="414427165"/>
-							<int key="NSvFlags">275</int>
-							<string key="NSFrame">{{837, 60}, {291, 600}}</string>
-							<reference key="NSSuperview" ref="414427165"/>
-							<nil key="renderer"/>
-							<bool key="drawsBackground">YES</bool>
-							<object class="NSColor" key="backgroundColor">
-								<int key="NSColorSpace">1</int>
-								<bytes key="NSRGB">MC45MDAwMjI4NjQzIDAuOTAwMDIyODY0MyAwLjkwMDAyMjg2NDMAA</bytes>
-							</object>
-							<int key="borderType">0</int>
-						</object>
 						<object class="NSButton" id="368383546">
 							<reference key="NSNextResponder" ref="414427165"/>
 							<int key="NSvFlags">292</int>
@@ -3239,8 +3226,28 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 								<int key="NSPeriodicInterval">25</int>
 							</object>
 						</object>
+						<object class="NSButton" id="112873619">
+							<reference key="NSNextResponder" ref="414427165"/>
+							<int key="NSvFlags">268</int>
+							<string key="NSFrame">{{608, 12}, {96, 32}}</string>
+							<reference key="NSSuperview" ref="414427165"/>
+							<bool key="NSEnabled">YES</bool>
+							<object class="NSButtonCell" key="NSCell" id="571832015">
+								<int key="NSCellFlags">67239424</int>
+								<int key="NSCellFlags2">134217728</int>
+								<string key="NSContents">Controls</string>
+								<reference key="NSSupport" ref="909958717"/>
+								<reference key="NSControlView" ref="112873619"/>
+								<int key="NSButtonFlags">-2038284033</int>
+								<int key="NSButtonFlags2">129</int>
+								<string key="NSAlternateContents"/>
+								<string key="NSKeyEquivalent"/>
+								<int key="NSPeriodicDelay">200</int>
+								<int key="NSPeriodicInterval">25</int>
+							</object>
+						</object>
 					</object>
-					<string key="NSFrameSize">{1148, 689}</string>
+					<string key="NSFrameSize">{840, 689}</string>
 					<reference key="NSSuperview"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
@@ -3375,14 +3382,6 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 					<int key="connectionID">372</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="696679119"/>
-						<reference key="destination" ref="843792443"/>
-					</object>
-					<int key="connectionID">378</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">stop:</string>
 						<reference key="source" ref="770875201"/>
@@ -3424,14 +3423,6 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">compositionRenderer</string>
-						<reference key="source" ref="696679119"/>
-						<reference key="destination" ref="770875201"/>
-					</object>
-					<int key="connectionID">398</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">qcView</string>
 						<reference key="source" ref="843792443"/>
 						<reference key="destination" ref="770875201"/>
@@ -3453,6 +3444,14 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 						<reference key="destination" ref="733263318"/>
 					</object>
 					<int key="connectionID">564</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">launchControls:</string>
+						<reference key="source" ref="843792443"/>
+						<reference key="destination" ref="112873619"/>
+					</object>
+					<int key="connectionID">567</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3649,7 +3648,7 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 							<reference ref="368383546"/>
 							<reference ref="477209691"/>
 							<reference ref="770875201"/>
-							<reference ref="696679119"/>
+							<reference ref="112873619"/>
 						</object>
 						<reference key="parent" ref="513744381"/>
 					</object>
@@ -3713,11 +3712,6 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 						<int key="objectID">539</int>
 						<reference key="object" ref="352384322"/>
 						<reference key="parent" ref="315369507"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">374</int>
-						<reference key="object" ref="696679119"/>
-						<reference key="parent" ref="414427165"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">541</int>
@@ -3848,6 +3842,20 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 						<reference key="object" ref="733263318"/>
 						<reference key="parent" ref="835318025"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">565</int>
+						<reference key="object" ref="112873619"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="571832015"/>
+						</object>
+						<reference key="parent" ref="414427165"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">566</int>
+						<reference key="object" ref="571832015"/>
+						<reference key="parent" ref="112873619"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -3915,7 +3923,6 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 					<string>368.IBPluginDependency</string>
 					<string>373.CustomClassName</string>
 					<string>373.IBPluginDependency</string>
-					<string>374.IBPluginDependency</string>
 					<string>384.IBPluginDependency</string>
 					<string>385.IBPluginDependency</string>
 					<string>387.IBPluginDependency</string>
@@ -3931,6 +3938,8 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 					<string>56.IBPluginDependency</string>
 					<string>56.ImportedFromIB2</string>
 					<string>563.IBPluginDependency</string>
+					<string>565.IBPluginDependency</string>
+					<string>566.IBPluginDependency</string>
 					<string>57.IBEditorWindowLastContentRect</string>
 					<string>57.IBPluginDependency</string>
 					<string>57.ImportedFromIB2</string>
@@ -4014,10 +4023,10 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 					<real value="1"/>
 					<string>{74, 862}</string>
 					<string>{{223, 1136}, {478, 20}}</string>
-					<string>{{315, 121}, {1148, 689}}</string>
+					<string>{{315, 121}, {840, 689}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="0"/>
-					<string>{{315, 121}, {1148, 689}}</string>
+					<string>{{315, 121}, {840, 689}}</string>
 					<real value="1"/>
 					<string>{{543, 756}, {634, 330}}</string>
 					<integer value="0"/>
@@ -4026,7 +4035,6 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 					<string>{634, 290}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>RenderView</string>
-					<string>com.apple.QuartzComposerIBPlugin</string>
 					<string>com.apple.QuartzComposerIBPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4042,6 +4050,8 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<real value="1"/>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>{{12, 942}, {275, 183}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4093,7 +4103,7 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">564</int>
+			<int key="maxID">567</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -4105,8 +4115,8 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>changeColorToBlue:</string>
 							<string>enterFullScreen:</string>
+							<string>launchControls:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -4118,17 +4128,17 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>changeColorToBlue:</string>
 							<string>enterFullScreen:</string>
+							<string>launchControls:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBActionInfo">
-								<string key="name">changeColorToBlue:</string>
+								<string key="name">enterFullScreen:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">
-								<string key="name">enterFullScreen:</string>
+								<string key="name">launchControls:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 						</object>
@@ -4682,7 +4692,7 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="156461523">
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBFrameworkSource</string>
 						<string key="minorKey">QuartzComposer.framework/Headers/QCCompositionParameterView.h</string>
 					</object>
@@ -4767,11 +4777,6 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 						<string key="majorKey">IBFrameworkSource</string>
 						<string key="minorKey">AppKit.framework/Headers/NSWindowScripting.h</string>
 					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">QCCompositionParameterView</string>
-					<string key="superclassName">NSView</string>
-					<reference key="sourceIdentifier" ref="156461523"/>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">QCView</string>

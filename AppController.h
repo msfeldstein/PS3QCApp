@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <Quartz/Quartz.h>
+#import "ControlsWindowController.h"
 
 @interface RenderView : QCView
 @end
@@ -15,8 +16,9 @@
 @interface AppController : NSObject 
 {
     IBOutlet RenderView* qcView;
+	ControlsWindowController* controlsController;
 }
 
-- (IBAction) changeColorToBlue:(id)sender;
 - (IBAction) enterFullScreen:(id)sender;
+- (IBAction) launchControls:(id)sender;
 @end
