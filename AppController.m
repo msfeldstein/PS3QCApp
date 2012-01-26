@@ -40,6 +40,9 @@
 		NSLog(@"Could not load composition");
 	}
 	[qcView becomeFirstResponder];
+	controlsController = [[ControlsWindowController alloc] initWithWindowNibName:@"Controls"];
+	[controlsController loadWindow];
+	[controlsController setQcView:qcView];
 	[self launchControls:nil];
 }
 
@@ -57,10 +60,7 @@
 
 
 - (IBAction) launchControls:(id)sender {
-	controlsController = [[ControlsWindowController alloc] initWithWindowNibName:@"Controls"];
-	[controlsController loadWindow];
-	[controlsController setQcView:qcView];
-	
+	[[controlsController window] orderFront:self];
 }
 
 
