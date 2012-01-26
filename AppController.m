@@ -21,7 +21,11 @@
 				if ([self isInFullScreenMode]) {
 					[self exitFullScreenModeWithOptions:nil];
 				} else {
-					[self enterFullScreenMode:[NSScreen mainScreen] withOptions:nil];
+					NSDictionary* options = [NSDictionary
+											 dictionaryWithObject:[NSNumber numberWithBool:NO]
+											 forKey:NSFullScreenModeAllScreens];
+					NSLog(@"Options %@", options);
+					[self enterFullScreenMode:[NSScreen mainScreen] withOptions:options];
 				}
 				[self becomeFirstResponder];
 			}
@@ -53,8 +57,12 @@
 }
 
 - (IBAction) enterFullScreen:(id)sender {
+	NSDictionary* options = [NSDictionary
+								dictionaryWithObject:[NSNumber numberWithBool:NO]
+											  forKey:NSFullScreenModeAllScreens];
+	NSLog(@"Options %@", options);
 	[qcView enterFullScreenMode: [NSScreen mainScreen]
-	              withOptions: nil];
+	              withOptions: options];
 	[qcView becomeFirstResponder];
 }
 

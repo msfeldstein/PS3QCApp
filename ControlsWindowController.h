@@ -14,4 +14,5 @@
 	QCView* qcView;
 }
 -(void) setQcView:(QCView *)view;
+-(IBAction) nextComposition:(id)sender;
 @end

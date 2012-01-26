@@ -14,4 +14,9 @@
 	qcView = view;
 	[parameterView setCompositionRenderer:view];
 }
+
+-(IBAction) nextComposition:(id)sender {
+	NSNumber* oldValue = [qcView valueForInputKey:@"Trigger_Next"];
+	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"Trigger_Next"];
+}
 @end
