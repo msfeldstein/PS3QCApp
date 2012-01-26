@@ -47,9 +47,17 @@
 	controlsController = [[ControlsWindowController alloc] initWithWindowNibName:@"Controls"];
 	[controlsController loadWindow];
 	[controlsController setQcView:qcView];
+	NSRect windowRect = [[self window] frame];
+	NSRect controlsRect = [[controlsController window] frame];
+	NSPoint controlsOrigin = controlsRect.origin;
+	controlsOrigin.x = windowRect.origin.x + windowRect.size.width + 50;
+	[[controlsController window] setFrameOrigin:controlsOrigin];
 	[self launchControls:nil];
 }
 
+- (NSWindow*) window {
+	return window;
+}
 
 - (void)windowWillClose:(NSNotification *)notification 
 {

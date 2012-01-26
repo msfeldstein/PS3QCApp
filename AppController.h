@@ -16,9 +16,11 @@
 @interface AppController : NSObject 
 {
     IBOutlet RenderView* qcView;
+	IBOutlet NSWindow* window;
 	ControlsWindowController* controlsController;
 }
 
 - (IBAction) enterFullScreen:(id)sender;
 - (IBAction) launchControls:(id)sender;
+- (NSWindow*)window;
 @end

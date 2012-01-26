@@ -21,8 +21,8 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="24"/>
 			<integer value="368"/>
+			<integer value="24"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -3461,6 +3461,14 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 					</object>
 					<int key="connectionID">568</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">window</string>
+						<reference key="source" ref="843792443"/>
+						<reference key="destination" ref="513744381"/>
+					</object>
+					<int key="connectionID">569</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -4031,10 +4039,10 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 					<real value="1"/>
 					<string>{74, 862}</string>
 					<string>{{223, 1136}, {478, 20}}</string>
-					<string>{{377, 210}, {800, 660}}</string>
+					<string>{{709, 216}, {800, 660}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="0"/>
-					<string>{{377, 210}, {800, 660}}</string>
+					<string>{{709, 216}, {800, 660}}</string>
 					<real value="1"/>
 					<string>{{543, 756}, {634, 330}}</string>
 					<integer value="0"/>
@@ -4111,7 +4119,7 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">568</int>
+			<int key="maxID">569</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -4152,14 +4160,35 @@ Y3JpcHRpb26GkoSXmCBDb250cm9scyBleGVjdXRpb24gb2YgdGhlIHBhdGNoLoaGA</bytes>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">qcView</string>
-						<string key="NS.object.0">RenderView</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>qcView</string>
+							<string>window</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>RenderView</string>
+							<string>NSWindow</string>
+						</object>
 					</object>
 					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">qcView</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">qcView</string>
-							<string key="candidateClassName">RenderView</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>qcView</string>
+							<string>window</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">qcView</string>
+								<string key="candidateClassName">RenderView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">window</string>
+								<string key="candidateClassName">NSWindow</string>
+							</object>
 						</object>
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="1052079061">
