@@ -17,7 +17,6 @@
 
 -(IBAction) nextComposition:(id)sender {
 	NSNumber* oldValue = [qcView valueForInputKey:@"Trigger_Next"];
-	NSLog(@"Old Value %@", oldValue);
 	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"Trigger_Next"];
 }
 
@@ -57,4 +56,20 @@
 	[qcView setValue:[sender objectValue] forInputKey:@"YBlur"];
 }
 
+-(IBAction) setWobble:(id)sender {
+	[qcView setValue:[sender objectValue] forInputKey:@"Wobble"];
+}
+
+-(IBAction) toggleMode:(id)sender {
+	NSNumber* oldValue = [qcView valueForInputKey:@"ToggleMode"];
+	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"ToggleMode"];
+}
+
+-(IBAction) toggleUseController:(id)sender {
+	[qcView setValue:[NSNumber numberWithBool:[sender state]] forInputKey:@"Use_Controller"];
+}
+
+-(IBAction) toggleSyphon:(id)sender {
+	[qcView setValue:[NSNumber numberWithBool:[sender state]] forInputKey:@"Enable_Syphon"];	
+}
 @end

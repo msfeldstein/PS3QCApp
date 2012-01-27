@@ -24,4 +24,9 @@
 -(IBAction) setInvertAmount:(id)sender;
 -(IBAction) setXBlur:(id)sender;
 -(IBAction) setYBlur:(id)sender;
+-(IBAction) setWobble:(id)sender;
+-(IBAction) toggleMode:(id)sender;
+-(IBAction) toggleUseController:(id)sender;
+-(IBAction) toggleSyphon:(id)sender;
+
 @end
