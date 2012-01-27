@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F16818214CD100E00ECEADD /* TestBlurs.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 5F16818114CD100E00ECEADD /* TestBlurs.qtz */; };
 		5F5A44A314CD4E59002FEE07 /* Lasers.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F5A44A214CD4E59002FEE07 /* Lasers.qtz */; };
 		5F5A451714CD4F7D002FEE07 /* Quartz Composer Patches in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */; };
 		5F5A451814CD4F7D002FEE07 /* Quartz Composer Plug-Ins in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */; };
@@ -16,8 +15,8 @@
 		631ADDBD14A3387100787142 /* Flower.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 631ADDBC14A3387100787142 /* Flower.qtz */; };
 		631ADDBE14A3387E00787142 /* Flower.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 631ADDBC14A3387100787142 /* Flower.qtz */; };
 		6336A2121390E3EA005DF4E5 /* PS3QC.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 6336A20C1390E3EA005DF4E5 /* PS3QC.qtz */; };
-		633E209814C420430067BFA5 /* Hexagons.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 633E209714C420430067BFA5 /* Hexagons.qtz */; };
-		633E209A14C4204B0067BFA5 /* CubeGrid.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 633E209914C4204B0067BFA5 /* CubeGrid.qtz */; };
+		633E209814C420430067BFA5 /* Hexagons.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 633E209714C420430067BFA5 /* Hexagons.qtz */; };
+		633E209A14C4204B0067BFA5 /* CubeGrid.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 633E209914C4204B0067BFA5 /* CubeGrid.qtz */; };
 		637BBCC814D215BA00750550 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 637BBCC714D215BA00750550 /* Credits.rtf */; };
 		6385569114CF30F200197634 /* Controls.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6385569014CF30F200197634 /* Controls.xib */; };
 		6385569714CF313900197634 /* ControlsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6385569614CF313900197634 /* ControlsWindowController.m */; };
@@ -70,6 +69,8 @@
 			dstPath = Compositions;
 			dstSubfolderSpec = 7;
 			files = (
+				633E209A14C4204B0067BFA5 /* CubeGrid.qtz in CopyFiles */,
+				633E209814C420430067BFA5 /* Hexagons.qtz in CopyFiles */,
 				5F5A44A314CD4E59002FEE07 /* Lasers.qtz in CopyFiles */,
 				631ADDBE14A3387E00787142 /* Flower.qtz in CopyFiles */,
 				63AECFD214A1BBF900C8E83D /* ASphere Replication.qtz in CopyFiles */,
@@ -115,7 +116,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		5F16818114CD100E00ECEADD /* TestBlurs.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = TestBlurs.qtz; sourceTree = "<group>"; };
 		5F5A44A214CD4E59002FEE07 /* Lasers.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Lasers.qtz; sourceTree = "<group>"; };
 		5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Quartz Composer Patches"; path = "Plugins/Quartz Composer Patches"; sourceTree = "<group>"; };
 		5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Quartz Composer Plug-Ins"; path = "Plugins/Quartz Composer Plug-Ins"; sourceTree = "<group>"; };
@@ -241,7 +241,6 @@
 				63AECFA414A1BAA500C8E83D /* Overlays */,
 				6336A2061390E3EA005DF4E5 /* Compositions */,
 				6336A20C1390E3EA005DF4E5 /* PS3QC.qtz */,
-				5F16818114CD100E00ECEADD /* TestBlurs.qtz */,
 				637BBCC714D215BA00750550 /* Credits.rtf */,
 				72CB32F20DCA5BBF008F3AA2 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -357,9 +356,6 @@
 				6336A2121390E3EA005DF4E5 /* PS3QC.qtz in Resources */,
 				63AECFF414A1BEDF00C8E83D /* icon.icns in Resources */,
 				631ADDBD14A3387100787142 /* Flower.qtz in Resources */,
-				633E209814C420430067BFA5 /* Hexagons.qtz in Resources */,
-				633E209A14C4204B0067BFA5 /* CubeGrid.qtz in Resources */,
-				5F16818214CD100E00ECEADD /* TestBlurs.qtz in Resources */,
 				5F5A451714CD4F7D002FEE07 /* Quartz Composer Patches in Resources */,
 				5F5A451814CD4F7D002FEE07 /* Quartz Composer Plug-Ins in Resources */,
 				6385569114CF30F200197634 /* Controls.xib in Resources */,
