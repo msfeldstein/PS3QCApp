@@ -7,41 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F5A44A314CD4E59002FEE07 /* Lasers.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F5A44A214CD4E59002FEE07 /* Lasers.qtz */; };
 		5F5A451714CD4F7D002FEE07 /* Quartz Composer Patches in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */; };
 		5F5A451814CD4F7D002FEE07 /* Quartz Composer Plug-Ins in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */; };
 		5F5A451914CD4F80002FEE07 /* Quartz Composer Plug-Ins in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */; };
 		5F5A451A14CD4F84002FEE07 /* Quartz Composer Patches in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */; };
-		631ADDBD14A3387100787142 /* Flower.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 631ADDBC14A3387100787142 /* Flower.qtz */; };
-		631ADDBE14A3387E00787142 /* Flower.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 631ADDBC14A3387100787142 /* Flower.qtz */; };
 		6336A2121390E3EA005DF4E5 /* PS3QC.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 6336A20C1390E3EA005DF4E5 /* PS3QC.qtz */; };
-		633E209814C420430067BFA5 /* Hexagons.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 633E209714C420430067BFA5 /* Hexagons.qtz */; };
-		633E209A14C4204B0067BFA5 /* CubeGrid.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 633E209914C4204B0067BFA5 /* CubeGrid.qtz */; };
 		637BBCC814D215BA00750550 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 637BBCC714D215BA00750550 /* Credits.rtf */; };
+		637BBDEE14D2697200750550 /* Overlays in Resources */ = {isa = PBXBuildFile; fileRef = 637BBDE814D2697200750550 /* Overlays */; };
+		637BBE0A14D2697A00750550 /* Compositions in Resources */ = {isa = PBXBuildFile; fileRef = 637BBDEF14D2697A00750550 /* Compositions */; };
 		6385569114CF30F200197634 /* Controls.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6385569014CF30F200197634 /* Controls.xib */; };
 		6385569714CF313900197634 /* ControlsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6385569614CF313900197634 /* ControlsWindowController.m */; };
-		63AECFBC14A1BBA900C8E83D /* ABlank.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63AECFA514A1BAA500C8E83D /* ABlank.qtz */; };
-		63AECFBD14A1BBA900C8E83D /* ColorSlider.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63AECFA614A1BAA500C8E83D /* ColorSlider.qtz */; };
-		63AECFBE14A1BBA900C8E83D /* Sound Particles.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63AECFA714A1BAA500C8E83D /* Sound Particles.qtz */; };
-		63AECFBF14A1BBA900C8E83D /* VerticalBarSliders.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63AECFA814A1BAA500C8E83D /* VerticalBarSliders.qtz */; };
-		63AECFD214A1BBF900C8E83D /* ASphere Replication.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE73148CA9870069D40E /* ASphere Replication.qtz */; };
-		63AECFD314A1BBF900C8E83D /* Blobby.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE75148CA9870069D40E /* Blobby.qtz */; };
-		63AECFD414A1BBF900C8E83D /* Circle Grower.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE76148CA9870069D40E /* Circle Grower.qtz */; };
-		63AECFD514A1BBF900C8E83D /* CrazyStarfield.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE77148CA9870069D40E /* CrazyStarfield.qtz */; };
-		63AECFD614A1BBF900C8E83D /* Fireworks.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE78148CA9870069D40E /* Fireworks.qtz */; };
-		63AECFD714A1BBF900C8E83D /* fractalesque.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE79148CA9870069D40E /* fractalesque.qtz */; };
-		63AECFD914A1BBF900C8E83D /* KaleidoscopeSmooth.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE7E148CA9870069D40E /* KaleidoscopeSmooth.qtz */; };
-		63AECFDA14A1BBF900C8E83D /* LineSphere.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE80148CA9870069D40E /* LineSphere.qtz */; };
-		63AECFDB14A1BBF900C8E83D /* midiballs.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE81148CA9870069D40E /* midiballs.qtz */; };
-		63AECFDC14A1BBF900C8E83D /* NoiseSphere.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE89148CA9870069D40E /* NoiseSphere.qtz */; };
-		63AECFDD14A1BBF900C8E83D /* Random Triangles.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE8A148CA9870069D40E /* Random Triangles.qtz */; };
-		63AECFDE14A1BBF900C8E83D /* Rays.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE8B148CA9870069D40E /* Rays.qtz */; };
-		63AECFDF14A1BBF900C8E83D /* Wiry.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 63AECFB014A1BAD500C8E83D /* Wiry.qtz */; };
-		63AECFE014A1BBF900C8E83D /* Ribbon.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE8C148CA9870069D40E /* Ribbon.qtz */; };
-		63AECFE114A1BBF900C8E83D /* Sound Particles.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE8D148CA9870069D40E /* Sound Particles.qtz */; };
-		63AECFE214A1BBF900C8E83D /* Square Grid.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE8E148CA9870069D40E /* Square Grid.qtz */; };
-		63AECFE314A1BBF900C8E83D /* TriangleExploder.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE8F148CA9870069D40E /* TriangleExploder.qtz */; };
-		63AECFE414A1BBF900C8E83D /* Waveform.qtz in CopyFiles */ = {isa = PBXBuildFile; fileRef = 630BFE90148CA9870069D40E /* Waveform.qtz */; };
 		63AECFF414A1BEDF00C8E83D /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 63AECFF314A1BEDF00C8E83D /* icon.icns */; };
 		72CB32F40DCA5BBF008F3AA2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72CB32F20DCA5BBF008F3AA2 /* MainMenu.xib */; };
 		8441128C0BA76E9200F37770 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8441128B0BA76E9200F37770 /* Quartz.framework */; };
@@ -63,50 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6336A2281390E4FC005DF4E5 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Compositions;
-			dstSubfolderSpec = 7;
-			files = (
-				633E209A14C4204B0067BFA5 /* CubeGrid.qtz in CopyFiles */,
-				633E209814C420430067BFA5 /* Hexagons.qtz in CopyFiles */,
-				5F5A44A314CD4E59002FEE07 /* Lasers.qtz in CopyFiles */,
-				631ADDBE14A3387E00787142 /* Flower.qtz in CopyFiles */,
-				63AECFD214A1BBF900C8E83D /* ASphere Replication.qtz in CopyFiles */,
-				63AECFD314A1BBF900C8E83D /* Blobby.qtz in CopyFiles */,
-				63AECFD414A1BBF900C8E83D /* Circle Grower.qtz in CopyFiles */,
-				63AECFD514A1BBF900C8E83D /* CrazyStarfield.qtz in CopyFiles */,
-				63AECFD614A1BBF900C8E83D /* Fireworks.qtz in CopyFiles */,
-				63AECFD714A1BBF900C8E83D /* fractalesque.qtz in CopyFiles */,
-				63AECFD914A1BBF900C8E83D /* KaleidoscopeSmooth.qtz in CopyFiles */,
-				63AECFDA14A1BBF900C8E83D /* LineSphere.qtz in CopyFiles */,
-				63AECFDB14A1BBF900C8E83D /* midiballs.qtz in CopyFiles */,
-				63AECFDC14A1BBF900C8E83D /* NoiseSphere.qtz in CopyFiles */,
-				63AECFDD14A1BBF900C8E83D /* Random Triangles.qtz in CopyFiles */,
-				63AECFDE14A1BBF900C8E83D /* Rays.qtz in CopyFiles */,
-				63AECFDF14A1BBF900C8E83D /* Wiry.qtz in CopyFiles */,
-				63AECFE014A1BBF900C8E83D /* Ribbon.qtz in CopyFiles */,
-				63AECFE114A1BBF900C8E83D /* Sound Particles.qtz in CopyFiles */,
-				63AECFE214A1BBF900C8E83D /* Square Grid.qtz in CopyFiles */,
-				63AECFE314A1BBF900C8E83D /* TriangleExploder.qtz in CopyFiles */,
-				63AECFE414A1BBF900C8E83D /* Waveform.qtz in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63AECFD014A1BBB000C8E83D /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Overlays;
-			dstSubfolderSpec = 7;
-			files = (
-				63AECFBC14A1BBA900C8E83D /* ABlank.qtz in CopyFiles */,
-				63AECFBD14A1BBA900C8E83D /* ColorSlider.qtz in CopyFiles */,
-				63AECFBE14A1BBA900C8E83D /* Sound Particles.qtz in CopyFiles */,
-				63AECFBF14A1BBA900C8E83D /* VerticalBarSliders.qtz in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -116,39 +47,15 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		5F5A44A214CD4E59002FEE07 /* Lasers.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Lasers.qtz; sourceTree = "<group>"; };
 		5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Quartz Composer Patches"; path = "Plugins/Quartz Composer Patches"; sourceTree = "<group>"; };
 		5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Quartz Composer Plug-Ins"; path = "Plugins/Quartz Composer Plug-Ins"; sourceTree = "<group>"; };
-		630BFE73148CA9870069D40E /* ASphere Replication.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "ASphere Replication.qtz"; sourceTree = "<group>"; };
-		630BFE75148CA9870069D40E /* Blobby.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Blobby.qtz; sourceTree = "<group>"; };
-		630BFE76148CA9870069D40E /* Circle Grower.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Circle Grower.qtz"; sourceTree = "<group>"; };
-		630BFE77148CA9870069D40E /* CrazyStarfield.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = CrazyStarfield.qtz; sourceTree = "<group>"; };
-		630BFE78148CA9870069D40E /* Fireworks.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Fireworks.qtz; sourceTree = "<group>"; };
-		630BFE79148CA9870069D40E /* fractalesque.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = fractalesque.qtz; sourceTree = "<group>"; };
-		630BFE7E148CA9870069D40E /* KaleidoscopeSmooth.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = KaleidoscopeSmooth.qtz; sourceTree = "<group>"; };
-		630BFE80148CA9870069D40E /* LineSphere.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = LineSphere.qtz; sourceTree = "<group>"; };
-		630BFE81148CA9870069D40E /* midiballs.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = midiballs.qtz; sourceTree = "<group>"; };
-		630BFE89148CA9870069D40E /* NoiseSphere.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = NoiseSphere.qtz; sourceTree = "<group>"; };
-		630BFE8A148CA9870069D40E /* Random Triangles.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Random Triangles.qtz"; sourceTree = "<group>"; };
-		630BFE8B148CA9870069D40E /* Rays.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Rays.qtz; sourceTree = "<group>"; };
-		630BFE8C148CA9870069D40E /* Ribbon.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Ribbon.qtz; sourceTree = "<group>"; };
-		630BFE8D148CA9870069D40E /* Sound Particles.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Sound Particles.qtz"; sourceTree = "<group>"; };
-		630BFE8E148CA9870069D40E /* Square Grid.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Square Grid.qtz"; sourceTree = "<group>"; };
-		630BFE8F148CA9870069D40E /* TriangleExploder.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = TriangleExploder.qtz; sourceTree = "<group>"; };
-		630BFE90148CA9870069D40E /* Waveform.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Waveform.qtz; sourceTree = "<group>"; };
-		631ADDBC14A3387100787142 /* Flower.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Flower.qtz; sourceTree = "<group>"; };
 		6336A20C1390E3EA005DF4E5 /* PS3QC.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = PS3QC.qtz; sourceTree = "<group>"; };
-		633E209714C420430067BFA5 /* Hexagons.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Hexagons.qtz; sourceTree = "<group>"; };
-		633E209914C4204B0067BFA5 /* CubeGrid.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = CubeGrid.qtz; sourceTree = "<group>"; };
 		637BBCC714D215BA00750550 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		637BBDE814D2697200750550 /* Overlays */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Overlays; sourceTree = "<group>"; };
+		637BBDEF14D2697A00750550 /* Compositions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Compositions; sourceTree = "<group>"; };
 		6385569014CF30F200197634 /* Controls.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Controls.xib; sourceTree = "<group>"; };
 		6385569514CF313900197634 /* ControlsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlsWindowController.h; sourceTree = "<group>"; };
 		6385569614CF313900197634 /* ControlsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlsWindowController.m; sourceTree = "<group>"; };
-		63AECFA514A1BAA500C8E83D /* ABlank.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; name = ABlank.qtz; path = ../Overlays/ABlank.qtz; sourceTree = "<group>"; };
-		63AECFA614A1BAA500C8E83D /* ColorSlider.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; name = ColorSlider.qtz; path = ../Overlays/ColorSlider.qtz; sourceTree = "<group>"; };
-		63AECFA714A1BAA500C8E83D /* Sound Particles.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; name = "Sound Particles.qtz"; path = "../Overlays/Sound Particles.qtz"; sourceTree = "<group>"; };
-		63AECFA814A1BAA500C8E83D /* VerticalBarSliders.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; name = VerticalBarSliders.qtz; path = ../Overlays/VerticalBarSliders.qtz; sourceTree = "<group>"; };
-		63AECFB014A1BAD500C8E83D /* Wiry.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Wiry.qtz; sourceTree = "<group>"; };
 		63AECFF314A1BEDF00C8E83D /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		7219AB410FAA1D5900573434 /* PS3QCApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PS3QCApp_Prefix.pch; sourceTree = "<group>"; };
 		72CB32F30DCA5BBF008F3AA2 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -238,9 +145,9 @@
 				5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */,
 				5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */,
 				63AECFF314A1BEDF00C8E83D /* icon.icns */,
-				63AECFA414A1BAA500C8E83D /* Overlays */,
-				6336A2061390E3EA005DF4E5 /* Compositions */,
+				637BBDEF14D2697A00750550 /* Compositions */,
 				6336A20C1390E3EA005DF4E5 /* PS3QC.qtz */,
+				637BBDE814D2697200750550 /* Overlays */,
 				637BBCC714D215BA00750550 /* Credits.rtf */,
 				72CB32F20DCA5BBF008F3AA2 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -258,46 +165,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6336A2061390E3EA005DF4E5 /* Compositions */ = {
-			isa = PBXGroup;
-			children = (
-				5F5A44A214CD4E59002FEE07 /* Lasers.qtz */,
-				633E209714C420430067BFA5 /* Hexagons.qtz */,
-				633E209914C4204B0067BFA5 /* CubeGrid.qtz */,
-				631ADDBC14A3387100787142 /* Flower.qtz */,
-				63AECFA514A1BAA500C8E83D /* ABlank.qtz */,
-				63AECFA614A1BAA500C8E83D /* ColorSlider.qtz */,
-				63AECFA714A1BAA500C8E83D /* Sound Particles.qtz */,
-				63AECFA814A1BAA500C8E83D /* VerticalBarSliders.qtz */,
-				630BFE73148CA9870069D40E /* ASphere Replication.qtz */,
-				630BFE75148CA9870069D40E /* Blobby.qtz */,
-				630BFE76148CA9870069D40E /* Circle Grower.qtz */,
-				630BFE77148CA9870069D40E /* CrazyStarfield.qtz */,
-				630BFE78148CA9870069D40E /* Fireworks.qtz */,
-				630BFE79148CA9870069D40E /* fractalesque.qtz */,
-				630BFE7E148CA9870069D40E /* KaleidoscopeSmooth.qtz */,
-				630BFE80148CA9870069D40E /* LineSphere.qtz */,
-				630BFE81148CA9870069D40E /* midiballs.qtz */,
-				630BFE89148CA9870069D40E /* NoiseSphere.qtz */,
-				630BFE8A148CA9870069D40E /* Random Triangles.qtz */,
-				630BFE8B148CA9870069D40E /* Rays.qtz */,
-				63AECFB014A1BAD500C8E83D /* Wiry.qtz */,
-				630BFE8C148CA9870069D40E /* Ribbon.qtz */,
-				630BFE8D148CA9870069D40E /* Sound Particles.qtz */,
-				630BFE8E148CA9870069D40E /* Square Grid.qtz */,
-				630BFE8F148CA9870069D40E /* TriangleExploder.qtz */,
-				630BFE90148CA9870069D40E /* Waveform.qtz */,
-			);
-			path = Compositions;
-			sourceTree = "<group>";
-		};
-		63AECFA414A1BAA500C8E83D /* Overlays */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Overlays;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -308,8 +175,6 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
-				6336A2281390E4FC005DF4E5 /* CopyFiles */,
-				63AECFD014A1BBB000C8E83D /* CopyFiles */,
 				631AE0FE14A33B8500787142 /* CopyFiles */,
 			);
 			buildRules = (
@@ -355,11 +220,12 @@
 				72CB32F40DCA5BBF008F3AA2 /* MainMenu.xib in Resources */,
 				6336A2121390E3EA005DF4E5 /* PS3QC.qtz in Resources */,
 				63AECFF414A1BEDF00C8E83D /* icon.icns in Resources */,
-				631ADDBD14A3387100787142 /* Flower.qtz in Resources */,
 				5F5A451714CD4F7D002FEE07 /* Quartz Composer Patches in Resources */,
 				5F5A451814CD4F7D002FEE07 /* Quartz Composer Plug-Ins in Resources */,
 				6385569114CF30F200197634 /* Controls.xib in Resources */,
 				637BBCC814D215BA00750550 /* Credits.rtf in Resources */,
+				637BBDEE14D2697200750550 /* Overlays in Resources */,
+				637BBE0A14D2697A00750550 /* Compositions in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
