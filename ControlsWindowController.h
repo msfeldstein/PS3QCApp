@@ -18,4 +18,10 @@
 -(IBAction) toggleMirror:(id)sender;
 -(IBAction) toggleCityLights:(id)sender;
 -(IBAction) toggleFreakOut:(id)sender;
+-(IBAction) setFeedbackAlpha:(id)sender;
+-(IBAction) setFeedbackRotation:(id)sender;
+-(IBAction) setFeedbackDirection:(id)sender;
+-(IBAction) setInvertAmount:(id)sender;
+-(IBAction) setXBlur:(id)sender;
+-(IBAction) setYBlur:(id)sender;
 @end

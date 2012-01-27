@@ -32,4 +32,29 @@
 -(IBAction) toggleFreakOut:(id)sender {
 	[qcView setValue:[NSNumber numberWithBool:[sender state]] forInputKey:@"FreakOut"];
 }
+
+-(IBAction) setFeedbackAlpha:(id)sender {
+	[qcView setValue:[sender objectValue] forInputKey:@"Feedback_Alpha"];
+}
+
+-(IBAction) setFeedbackRotation:(id)sender {
+	[qcView setValue:[sender objectValue] forInputKey:@"Feedback_Rotation"];	
+}
+
+-(IBAction) setFeedbackDirection:(id)sender {
+	[qcView setValue:[sender objectValue] forInputKey:@"Feedback_Direction_InOut"];
+}
+
+-(IBAction) setInvertAmount:(id)sender {
+	[qcView setValue:[sender objectValue] forInputKey:@"Invert"];
+}
+
+-(IBAction) setXBlur:(id)sender {
+	[qcView setValue:[sender objectValue] forInputKey:@"XBlur"];
+}
+
+-(IBAction) setYBlur:(id)sender {
+	[qcView setValue:[sender objectValue] forInputKey:@"YBlur"];
+}
+
 @end
