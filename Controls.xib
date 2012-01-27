@@ -391,7 +391,7 @@
 								<reference key="NSControlView" ref="274536672"/>
 								<double key="NSMaxValue">1</double>
 								<double key="NSMinValue">0.0</double>
-								<double key="NSValue">0.5</double>
+								<double key="NSValue">0.0</double>
 								<double key="NSAltIncValue">0.0</double>
 								<int key="NSNumberOfTickMarks">0</int>
 								<int key="NSTickMarkPosition">1</int>
@@ -545,21 +545,10 @@ ciB0aGUgYmx1ZXRvb3RoIGljb24sIGFuZCBhbGwgNCByZWQgbGlnaHRzIHNob3VsZCBmbGFzaC4</str
 				<string key="NSScreenRect">{{0, 0}, {1680, 1028}}</string>
 				<string key="NSMaxSize">{1.79769e+308, 1.79769e+308}</string>
 			</object>
-			<object class="NSCustomObject" id="868547224">
-				<string key="NSClassName">ControlsWindowController</string>
-			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<object class="NSMutableArray" key="connectionRecords">
 				<bool key="EncodedWithXMLCoder">YES</bool>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">parameterView</string>
-						<reference key="source" ref="868547224"/>
-						<reference key="destination" ref="258199544"/>
-					</object>
-					<int key="connectionID">8</int>
-				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">parameterView</string>
@@ -755,11 +744,6 @@ ciB0aGUgYmx1ZXRvb3RoIGljb24sIGFuZCBhbGwgNCByZWQgbGlnaHRzIHNob3VsZCBmbGFzaC4</str
 							<reference ref="221337466"/>
 						</object>
 						<reference key="parent" ref="1005"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">6</int>
-						<reference key="object" ref="868547224"/>
-						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">7</int>
@@ -1123,7 +1107,6 @@ ciB0aGUgYmx1ZXRvb3RoIGljb24sIGFuZCBhbGwgNCByZWQgbGlnaHRzIHNob3VsZCBmbGFzaC4</str
 					<string>55.IBPluginDependency</string>
 					<string>56.IBPluginDependency</string>
 					<string>57.IBPluginDependency</string>
-					<string>6.IBPluginDependency</string>
 					<string>60.IBPluginDependency</string>
 					<string>61.IBPluginDependency</string>
 					<string>63.IBPluginDependency</string>
@@ -1156,7 +1139,6 @@ ciB0aGUgYmx1ZXRvb3RoIGljb24sIGFuZCBhbGwgNCByZWQgbGlnaHRzIHNob3VsZCBmbGFzaC4</str
 					<reference ref="904883847"/>
 					<real value="0.0"/>
 					<real value="0.0"/>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
