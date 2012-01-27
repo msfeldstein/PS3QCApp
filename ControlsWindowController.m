@@ -17,6 +17,19 @@
 
 -(IBAction) nextComposition:(id)sender {
 	NSNumber* oldValue = [qcView valueForInputKey:@"Trigger_Next"];
+	NSLog(@"Old Value %@", oldValue);
 	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"Trigger_Next"];
+}
+
+-(IBAction) toggleMirror:(id)sender {
+	[qcView setValue:[NSNumber numberWithBool:[sender state]] forInputKey:@"Mirror"];
+}
+
+-(IBAction) toggleCityLights:(id)sender {
+	[qcView setValue:[NSNumber numberWithBool:[sender state]] forInputKey:@"City_Lights"];	
+}
+
+-(IBAction) toggleFreakOut:(id)sender {
+	[qcView setValue:[NSNumber numberWithBool:[sender state]] forInputKey:@"FreakOut"];
 }
 @end

@@ -15,4 +15,7 @@
 }
 -(void) setQcView:(QCView *)view;
 -(IBAction) nextComposition:(id)sender;
+-(IBAction) toggleMirror:(id)sender;
+-(IBAction) toggleCityLights:(id)sender;
+-(IBAction) toggleFreakOut:(id)sender;
 @end
