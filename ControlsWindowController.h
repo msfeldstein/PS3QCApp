@@ -12,8 +12,17 @@
 @interface ControlsWindowController : NSWindowController {
 	IBOutlet QCCompositionParameterView* parameterView;
 	QCView* qcView;
+	IBOutlet NSPanel* ps3Instructions;
+	IBOutlet NSPanel* syphonInstructions;
+	IBOutlet NSButton* mirrorButton;
+	IBOutlet NSButton* freakoutButton;
+	IBOutlet NSButton* citylightsButton;
 }
+
 -(void) setQcView:(QCView *)view;
+-(IBAction) showPS3Instructions:(id)sender;
+-(IBAction) showSyphonInstructions:(id)sender;
+-(IBAction) downloadSyphonRecorder:(id)sender;
 -(IBAction) nextComposition:(id)sender;
 -(IBAction) toggleMirror:(id)sender;
 -(IBAction) toggleCityLights:(id)sender;

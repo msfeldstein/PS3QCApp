@@ -13,8 +13,24 @@
 -(void) setQcView:(QCView *)view {
 	qcView = view;
 	[parameterView setCompositionRenderer:view];
+	[mirrorButton setState:NSOffState];
+	[citylightsButton setState:NSOnState];
+	[freakoutButton setState:NSOffState];
 }
 
+-(IBAction) showPS3Instructions:(id)sender {
+	[ps3Instructions makeKeyAndOrderFront:sender];
+}
+-(IBAction) showSyphonInstructions:(id)sender {
+	[syphonInstructions makeKeyAndOrderFront:sender];
+}
+
+-(IBAction) downloadSyphonRecorder:(id)sender {
+	NSWorkspace* ws = [NSWorkspace sharedWorkspace];
+	NSString* myurl = @"http://syphon.v002.info/recorder/";
+	NSURL* url = [NSURL URLWithString:myurl];
+	[ws openURL:url];
+}
 -(IBAction) nextComposition:(id)sender {
 	NSNumber* oldValue = [qcView valueForInputKey:@"Trigger_Next"];
 	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"Trigger_Next"];
