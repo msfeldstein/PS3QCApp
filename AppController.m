@@ -43,10 +43,7 @@
 	if(![qcView loadCompositionFromFile:[[NSBundle mainBundle] pathForResource:@"PS3QC" ofType:@"qtz"]]) {
 		NSLog(@"Could not load composition");
 	}
-	
 	[qcView becomeFirstResponder];
-	[controlsController setQcView:qcView];
-	[controlsController setPatchController:patchController];
 	NSRect windowRect = [[self window] frame];
 	NSRect controlsRect = [[controlsController window] frame];
 	NSPoint controlsOrigin = controlsRect.origin;
@@ -77,6 +74,5 @@
 - (IBAction) launchControls:(id)sender {
 	[[controlsController window] orderFront:self];
 }
-
 
 @end

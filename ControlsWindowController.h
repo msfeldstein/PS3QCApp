@@ -10,16 +10,10 @@
 @class QCPatchController;
 
 @interface ControlsWindowController : NSWindowController {
-	QCPatchController* patchController;
-	IBOutlet QCCompositionParameterView* parameterView;
-	QCView* qcView;
-	IBOutlet NSTextField* compositionName;
+	IBOutlet QCPatchController* patchController;
+	IBOutlet QCView* qcView;
 	IBOutlet NSPanel* ps3Instructions;
 	IBOutlet NSPanel* syphonInstructions;
-	IBOutlet NSButton* mirrorButton;
-	IBOutlet NSButton* freakoutButton;
-	IBOutlet NSButton* citylightsButton;
-	IBOutlet NSSlider* feedbackAlphaSlider;
 }
 
 -(void) setQcView:(QCView *)view;
