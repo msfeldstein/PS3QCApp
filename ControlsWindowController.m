@@ -23,14 +23,17 @@
 @implementation ControlsWindowController
 -(void) setPatchController:(QCPatchController*)controller {
 	patchController = controller;
+	[patchController addObserver:self forKeyPath:@"patch.Composition_List.value" options:0 context:nil];
 }
 
 -(void) setQcView:(QCView *)view {
 	qcView = view;
 	[parameterView setCompositionRenderer:view];
-	[mirrorButton setState:NSOffState];
-	[citylightsButton setState:NSOnState];
-	[freakoutButton setState:NSOffState];
+}
+
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+	NSArray* comps = [object valueForKeyPath:keyPath];
+	
 }
 
 -(IBAction) showPS3Instructions:(id)sender {
