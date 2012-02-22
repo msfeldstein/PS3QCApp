@@ -20,7 +20,8 @@
 	IBOutlet QCPatchController* patchController;
     IBOutlet RenderView* qcView;
 	IBOutlet NSWindow* window;
-	ControlsWindowController* controlsController;
+	IBOutlet NSWindow* controlsWindow;
+	IBOutlet ControlsWindowController* controlsController;
 }
 
 - (IBAction) enterFullScreen:(id)sender;

@@ -45,8 +45,6 @@
 	}
 	
 	[qcView becomeFirstResponder];
-	controlsController = [[ControlsWindowController alloc] initWithWindowNibName:@"Controls"];
-	[controlsController loadWindow];
 	[controlsController setQcView:qcView];
 	[controlsController setPatchController:patchController];
 	NSRect windowRect = [[self window] frame];
@@ -70,7 +68,6 @@
 	NSDictionary* options = [NSDictionary
 								dictionaryWithObject:[NSNumber numberWithBool:NO]
 											  forKey:NSFullScreenModeAllScreens];
-	NSLog(@"Options %@", options);
 	[qcView enterFullScreenMode: [NSScreen mainScreen]
 	              withOptions: options];
 	[qcView becomeFirstResponder];
