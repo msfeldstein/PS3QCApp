@@ -23,17 +23,6 @@
 @implementation ControlsWindowController
 -(void) setPatchController:(QCPatchController*)controller {
 	patchController = controller;
-	[patchController addObserver:self forKeyPath:@"patch.Comp_Name.value" options:0 context:nil];
-	FilenameTransformer* filenameTransformer = [[FilenameTransformer alloc]init];
-	NSDictionary* bindingOptions = [NSDictionary dictionaryWithObject:filenameTransformer forKey:NSValueTransformerBindingOption];
-	[compositionName bind:@"value" toObject:patchController withKeyPath:@"patch.Comp_Name.value" options:bindingOptions];
-	[feedbackAlphaSlider bind:@"value" toObject:patchController withKeyPath:@"patch.Feedback_Alpha.value" options:nil];
-}
-
--(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
-	NSString* path = [patchController valueForKeyPath:keyPath];
-	NSString* filename = [path lastPathComponent];
-
 }
 
 -(void) setQcView:(QCView *)view {
@@ -65,13 +54,5 @@
 -(IBAction) toggleMode:(id)sender {
 	NSNumber* oldValue = [qcView valueForInputKey:@"ToggleMode"];
 	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"ToggleMode"];
-}
-
--(IBAction) toggleUseController:(id)sender {
-	[qcView setValue:[NSNumber numberWithBool:[sender state]] forInputKey:@"Use_Controller"];
-}
-
--(IBAction) toggleSyphon:(id)sender {
-	[qcView setValue:[NSNumber numberWithBool:[sender state]] forInputKey:@"Enable_Syphon"];	
 }
 @end

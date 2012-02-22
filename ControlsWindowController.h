@@ -29,7 +29,5 @@
 -(IBAction) downloadSyphonRecorder:(id)sender;
 -(IBAction) nextComposition:(id)sender;
 -(IBAction) toggleMode:(id)sender;
--(IBAction) toggleUseController:(id)sender;
--(IBAction) toggleSyphon:(id)sender;
 
 @end
