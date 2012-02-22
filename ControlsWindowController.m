@@ -9,7 +9,33 @@
 #import "ControlsWindowController.h"
 #import "AppController.h"
 
+// Returns just the file name with no extension from a full file path.
+@interface FilenameTransformer : NSValueTransformer
+@end
+@implementation FilenameTransformer
++ (Class)transformedValueClass { return [NSString class]; }
++ (BOOL)allowsReverseTransformation { return NO; }
+- (id)transformedValue:(id)item {
+    return [[[item lastPathComponent] stringByDeletingPathExtension] stringByReplacingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
+}
+@end
+
 @implementation ControlsWindowController
+-(void) setPatchController:(QCPatchController*)controller {
+	patchController = controller;
+	[patchController addObserver:self forKeyPath:@"patch.Comp_Name.value" options:0 context:nil];
+	FilenameTransformer* filenameTransformer = [[FilenameTransformer alloc]init];
+	NSDictionary* bindingOptions = [NSDictionary dictionaryWithObject:filenameTransformer forKey:NSValueTransformerBindingOption];
+	[compositionName bind:@"value" toObject:patchController withKeyPath:@"patch.Comp_Name.value" options:bindingOptions];
+	[feedbackAlphaSlider bind:@"value" toObject:patchController withKeyPath:@"patch.Feedback_Alpha.value" options:nil];
+}
+
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+	NSString* path = [patchController valueForKeyPath:keyPath];
+	NSString* filename = [path lastPathComponent];
+
+}
+
 -(void) setQcView:(QCView *)view {
 	qcView = view;
 	[parameterView setCompositionRenderer:view];
@@ -46,10 +72,6 @@
 
 -(IBAction) toggleFreakOut:(id)sender {
 	[qcView setValue:[NSNumber numberWithBool:[sender state]] forInputKey:@"FreakOut"];
-}
-
--(IBAction) setFeedbackAlpha:(id)sender {
-	[qcView setValue:[sender objectValue] forInputKey:@"Feedback_Alpha"];
 }
 
 -(IBAction) setFeedbackRotation:(id)sender {

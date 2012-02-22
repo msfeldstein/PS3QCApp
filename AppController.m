@@ -43,10 +43,12 @@
 	if(![qcView loadCompositionFromFile:[[NSBundle mainBundle] pathForResource:@"PS3QC" ofType:@"qtz"]]) {
 		NSLog(@"Could not load composition");
 	}
+	
 	[qcView becomeFirstResponder];
 	controlsController = [[ControlsWindowController alloc] initWithWindowNibName:@"Controls"];
 	[controlsController loadWindow];
 	[controlsController setQcView:qcView];
+	[controlsController setPatchController:patchController];
 	NSRect windowRect = [[self window] frame];
 	NSRect controlsRect = [[controlsController window] frame];
 	NSPoint controlsOrigin = controlsRect.origin;

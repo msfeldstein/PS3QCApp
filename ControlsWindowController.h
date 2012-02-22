@@ -7,19 +7,23 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+@class QCPatchController;
 
 @interface ControlsWindowController : NSWindowController {
+	QCPatchController* patchController;
 	IBOutlet QCCompositionParameterView* parameterView;
 	QCView* qcView;
+	IBOutlet NSTextField* compositionName;
 	IBOutlet NSPanel* ps3Instructions;
 	IBOutlet NSPanel* syphonInstructions;
 	IBOutlet NSButton* mirrorButton;
 	IBOutlet NSButton* freakoutButton;
 	IBOutlet NSButton* citylightsButton;
+	IBOutlet NSSlider* feedbackAlphaSlider;
 }
 
 -(void) setQcView:(QCView *)view;
+-(void) setPatchController:(QCPatchController*)controller;
 -(IBAction) showPS3Instructions:(id)sender;
 -(IBAction) showSyphonInstructions:(id)sender;
 -(IBAction) downloadSyphonRecorder:(id)sender;
@@ -27,7 +31,6 @@
 -(IBAction) toggleMirror:(id)sender;
 -(IBAction) toggleCityLights:(id)sender;
 -(IBAction) toggleFreakOut:(id)sender;
--(IBAction) setFeedbackAlpha:(id)sender;
 -(IBAction) setFeedbackRotation:(id)sender;
 -(IBAction) setFeedbackDirection:(id)sender;
 -(IBAction) setInvertAmount:(id)sender;

@@ -10,11 +10,14 @@
 #import <Quartz/Quartz.h>
 #import "ControlsWindowController.h"
 
+@class QCPatchController;
+
 @interface RenderView : QCView
 @end
 
 @interface AppController : NSObject 
 {
+	IBOutlet QCPatchController* patchController;
     IBOutlet RenderView* qcView;
 	IBOutlet NSWindow* window;
 	ControlsWindowController* controlsController;
