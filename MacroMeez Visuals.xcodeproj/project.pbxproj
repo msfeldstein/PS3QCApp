@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C350AA7179DF77D00970914 /* controls.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C350AA6179DF77D00970914 /* controls.png */; };
+		4C4732FF179D265000EA6F16 /* MM.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4C4732FE179D265000EA6F16 /* MM.icns */; };
+		4CB90B8816059FF7002B68C4 /* Compositions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB90B8716059FF7002B68C4 /* Compositions.xib */; };
+		4CB90B8C1605A10E002B68C4 /* CompositionGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB90B8B1605A10E002B68C4 /* CompositionGridView.m */; };
+		4CB90B8F1605A269002B68C4 /* CompositionThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB90B8E1605A269002B68C4 /* CompositionThumbnailView.m */; };
 		5F5A451714CD4F7D002FEE07 /* Quartz Composer Patches in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */; };
 		5F5A451814CD4F7D002FEE07 /* Quartz Composer Plug-Ins in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */; };
 		5F5A451914CD4F80002FEE07 /* Quartz Composer Plug-Ins in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */; };
@@ -47,6 +52,13 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4C350AA6179DF77D00970914 /* controls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controls.png; sourceTree = "<group>"; };
+		4C4732FE179D265000EA6F16 /* MM.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MM.icns; sourceTree = "<group>"; };
+		4CB90B8716059FF7002B68C4 /* Compositions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Compositions.xib; sourceTree = "<group>"; };
+		4CB90B8A1605A10E002B68C4 /* CompositionGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositionGridView.h; sourceTree = "<group>"; };
+		4CB90B8B1605A10E002B68C4 /* CompositionGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositionGridView.m; sourceTree = "<group>"; };
+		4CB90B8D1605A268002B68C4 /* CompositionThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositionThumbnailView.h; sourceTree = "<group>"; };
+		4CB90B8E1605A269002B68C4 /* CompositionThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositionThumbnailView.m; sourceTree = "<group>"; };
 		5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Quartz Composer Patches"; path = "Plugins/Quartz Composer Patches"; sourceTree = "<group>"; };
 		5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Quartz Composer Plug-Ins"; path = "Plugins/Quartz Composer Plug-Ins"; sourceTree = "<group>"; };
 		6336A20C1390E3EA005DF4E5 /* PS3QC.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = PS3QC.qtz; sourceTree = "<group>"; };
@@ -85,8 +97,13 @@
 				6385569014CF30F200197634 /* Controls.xib */,
 				6385569514CF313900197634 /* ControlsWindowController.h */,
 				6385569614CF313900197634 /* ControlsWindowController.m */,
+				4CB90B8716059FF7002B68C4 /* Compositions.xib */,
 				849818230BCF1CE50085CECA /* AppController.h */,
 				849818220BCF1CE50085CECA /* AppController.m */,
+				4CB90B8A1605A10E002B68C4 /* CompositionGridView.h */,
+				4CB90B8B1605A10E002B68C4 /* CompositionGridView.m */,
+				4CB90B8D1605A268002B68C4 /* CompositionThumbnailView.h */,
+				4CB90B8E1605A269002B68C4 /* CompositionThumbnailView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -142,6 +159,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4C350AA6179DF77D00970914 /* controls.png */,
+				4C4732FE179D265000EA6F16 /* MM.icns */,
 				5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */,
 				5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */,
 				63AECFF314A1BEDF00C8E83D /* icon.icns */,
@@ -194,6 +213,7 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacroMeez Visuals" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -226,6 +246,9 @@
 				637BBCC814D215BA00750550 /* Credits.rtf in Resources */,
 				637BBDEE14D2697200750550 /* Overlays in Resources */,
 				637BBE0A14D2697A00750550 /* Compositions in Resources */,
+				4CB90B8816059FF7002B68C4 /* Compositions.xib in Resources */,
+				4C4732FF179D265000EA6F16 /* MM.icns in Resources */,
+				4C350AA7179DF77D00970914 /* controls.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +262,8 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				849818240BCF1CE50085CECA /* AppController.m in Sources */,
 				6385569714CF313900197634 /* ControlsWindowController.m in Sources */,
+				4CB90B8C1605A10E002B68C4 /* CompositionGridView.m in Sources */,
+				4CB90B8F1605A269002B68C4 /* CompositionThumbnailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +306,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "MacroMeez Visuals";
+				SDKROOT = "";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -300,6 +326,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "MacroMeez Visuals";
+				SDKROOT = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

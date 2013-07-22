@@ -16,6 +16,8 @@
 	IBOutlet NSPanel* syphonInstructions;
 }
 
+@property (retain) NSMutableArray* compositions;
+
 -(void) setQcView:(QCView *)view;
 -(void) setPatchController:(QCPatchController*)controller;
 -(IBAction) showPS3Instructions:(id)sender;

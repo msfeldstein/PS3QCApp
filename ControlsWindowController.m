@@ -21,14 +21,33 @@
 @end
 
 @implementation ControlsWindowController
+
+@synthesize compositions;
+
 - (void) awakeFromNib {
 	[patchController addObserver:self forKeyPath:@"patch.Composition_List.value" options:0 context:nil];
+    self.compositions = [[NSMutableArray alloc] init];
 }
 
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
-	NSArray* comps = [object valueForKeyPath:keyPath];
-	NSLog(@"COMPS : %@" ,comps);
-	
+	NSDictionary* comps = [object valueForKeyPath:keyPath];
+    NSString* compositionDirectory = [[NSBundle mainBundle] resourcePath];
+    compositionDirectory = [compositionDirectory stringByAppendingPathComponent:@"Compositions"];
+    [self willChangeValueForKey:@"compositions"];
+    for (NSNumber* index in comps) {
+        NSString* filename = [comps objectForKey:index];
+        NSString* path = [compositionDirectory stringByAppendingPathComponent:filename];
+        path = [path stringByAppendingString:@".qtz"];
+        QCComposition* comp = [QCComposition compositionWithFile:path];
+        NSData* bmpData = [[comp attributes] objectForKey:@"thumbnail"];
+        if (bmpData == nil) continue;
+        NSImage* thumb = [[NSImage alloc] initWithData:bmpData];
+        NSMutableDictionary* compData = [[NSMutableDictionary alloc] init];
+        [compData setObject:thumb forKey:@"image"];
+        [compData setObject:filename forKey:@"name"];
+        [self.compositions addObject:compData];
+    }
+    [self didChangeValueForKey:@"compositions"];
 }
 
 -(IBAction) showPS3Instructions:(id)sender {
