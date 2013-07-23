@@ -24,10 +24,10 @@
 					NSDictionary* options = [NSDictionary
 											 dictionaryWithObject:[NSNumber numberWithBool:NO]
 											 forKey:NSFullScreenModeAllScreens];
-					NSLog(@"Options %@", options);
 					[self enterFullScreenMode:[NSScreen mainScreen] withOptions:options];
 				}
 				[self becomeFirstResponder];
+                [self start:nil];
 			}
         default:
             [super keyDown:event];
@@ -37,6 +37,8 @@
 @end
 
 @implementation AppController
+
+@synthesize controlsController;
  
 - (void) awakeFromNib
 {
@@ -44,10 +46,14 @@
 		NSLog(@"Could not load composition");
 	}
 	[qcView becomeFirstResponder];
+    
 	NSRect windowRect = [[self window] frame];
 	NSRect controlsRect = [[controlsController window] frame];
 	NSPoint controlsOrigin = controlsRect.origin;
 	controlsOrigin.x = windowRect.origin.x + windowRect.size.width + 50;
+    controlsController = [[ControlsWindowController alloc] initWithWindowNibName:@"Controls"];
+    controlsController.qcView = qcView;
+    controlsController.patchController = patchController;
 	[[controlsController window] setFrameOrigin:controlsOrigin];
 	[self launchControls:nil];
 }
@@ -68,11 +74,13 @@
 	[qcView enterFullScreenMode: [NSScreen mainScreen]
 	              withOptions: options];
 	[qcView becomeFirstResponder];
+    [qcView start:nil];
 }
 
 
 - (IBAction) launchControls:(id)sender {
 	[[controlsController window] orderFront:self];
+    NSLog(@"Launch %@ %@", controlsController, controlsController.window);
 }
 
 @end

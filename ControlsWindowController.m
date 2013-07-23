@@ -22,32 +22,32 @@
 
 @implementation ControlsWindowController
 
-@synthesize compositions;
+@synthesize compositions, patchController, qcView;
 
 - (void) awakeFromNib {
-	[patchController addObserver:self forKeyPath:@"patch.Composition_List.value" options:0 context:nil];
+	[self addObserver:self forKeyPath:@"patchController.patch.Composition_List.value" options:0 context:nil];
     self.compositions = [[NSMutableArray alloc] init];
 }
 
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
-	NSDictionary* comps = [object valueForKeyPath:keyPath];
-    NSString* compositionDirectory = [[NSBundle mainBundle] resourcePath];
-    compositionDirectory = [compositionDirectory stringByAppendingPathComponent:@"Compositions"];
-    [self willChangeValueForKey:@"compositions"];
-    for (NSNumber* index in comps) {
-        NSString* filename = [comps objectForKey:index];
-        NSString* path = [compositionDirectory stringByAppendingPathComponent:filename];
-        path = [path stringByAppendingString:@".qtz"];
-        QCComposition* comp = [QCComposition compositionWithFile:path];
-        NSData* bmpData = [[comp attributes] objectForKey:@"thumbnail"];
-        if (bmpData == nil) continue;
-        NSImage* thumb = [[NSImage alloc] initWithData:bmpData];
-        NSMutableDictionary* compData = [[NSMutableDictionary alloc] init];
-        [compData setObject:thumb forKey:@"image"];
-        [compData setObject:filename forKey:@"name"];
-        [self.compositions addObject:compData];
-    }
-    [self didChangeValueForKey:@"compositions"];
+//	NSDictionary* comps = [object valueForKeyPath:keyPath];
+//    NSString* compositionDirectory = [[NSBundle mainBundle] resourcePath];
+//    compositionDirectory = [compositionDirectory stringByAppendingPathComponent:@"Compositions"];
+//    [self willChangeValueForKey:@"compositions"];
+//    for (NSNumber* index in comps) {
+//        NSString* filename = [comps objectForKey:index];
+//        NSString* path = [compositionDirectory stringByAppendingPathComponent:filename];
+//        path = [path stringByAppendingString:@".qtz"];
+//        QCComposition* comp = [QCComposition compositionWithFile:path];
+//        NSData* bmpData = [[comp attributes] objectForKey:@"thumbnail"];
+//        if (bmpData == nil) continue;
+//        NSImage* thumb = [[NSImage alloc] initWithData:bmpData];
+//        NSMutableDictionary* compData = [[NSMutableDictionary alloc] init];
+//        [compData setObject:thumb forKey:@"image"];
+//        [compData setObject:filename forKey:@"name"];
+//        [self.compositions addObject:compData];
+//    }
+//    [self didChangeValueForKey:@"compositions"];
 }
 
 -(IBAction) showPS3Instructions:(id)sender {
@@ -64,6 +64,7 @@
 	[ws openURL:url];
 }
 -(IBAction) nextComposition:(id)sender {
+    NSLog(@"Next composition");
 	NSNumber* oldValue = [qcView valueForInputKey:@"Trigger_Next"];
 	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"Trigger_Next"];
 }
@@ -72,4 +73,10 @@
 	NSNumber* oldValue = [qcView valueForInputKey:@"ToggleMode"];
 	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"ToggleMode"];
 }
+
+-(IBAction) toggleUseController:(id)sender {
+	NSNumber* oldValue = [qcView valueForInputKey:@"Use_Controller"];
+	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"Use_Controller"];
+}
+
 @end

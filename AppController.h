@@ -21,8 +21,9 @@
     IBOutlet RenderView* qcView;
 	IBOutlet NSWindow* window;
 	IBOutlet NSWindow* controlsWindow;
-	IBOutlet ControlsWindowController* controlsController;
 }
+
+@property (retain) ControlsWindowController* controlsController;
 
 - (IBAction) enterFullScreen:(id)sender;
 - (IBAction) launchControls:(id)sender;

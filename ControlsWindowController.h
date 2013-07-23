@@ -10,13 +10,15 @@
 @class QCPatchController;
 
 @interface ControlsWindowController : NSWindowController {
-	IBOutlet QCPatchController* patchController;
-	IBOutlet QCView* qcView;
+
 	IBOutlet NSPanel* ps3Instructions;
 	IBOutlet NSPanel* syphonInstructions;
 }
 
 @property (retain) NSMutableArray* compositions;
+
+@property (retain) QCPatchController* patchController;
+@property (retain) QCView* qcView;
 
 -(void) setQcView:(QCView *)view;
 -(void) setPatchController:(QCPatchController*)controller;
@@ -25,5 +27,6 @@
 -(IBAction) downloadSyphonRecorder:(id)sender;
 -(IBAction) nextComposition:(id)sender;
 -(IBAction) toggleMode:(id)sender;
+-(IBAction) toggleUseController:(id)sender;
 
 @end
