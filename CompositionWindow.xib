@@ -39,10 +39,10 @@
 			<object class="NSCustomObject" id="1004">
 				<string key="NSClassName">NSApplication</string>
 			</object>
-			<object class="QCPatchController" id="656759870">
+			<object class="QCPatchController" id="742129152">
 				<nil key="composition"/>
 			</object>
-			<object class="NSCustomObject" id="667101789">
+			<object class="NSCustomObject" id="271791233">
 				<string key="NSClassName">AppController</string>
 			</object>
 			<object class="NSWindowTemplate" id="1005">
@@ -58,7 +58,7 @@
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
-						<object class="QCView" id="324694394">
+						<object class="QCView" id="1029950160">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">274</int>
 							<set class="NSMutableSet" key="NSDragTypes">
@@ -77,35 +77,35 @@
 							<float key="maxFPS">0.0</float>
 							<bool key="autorun">NO</bool>
 							<int key="forwardingEventMask">-1</int>
-							<object class="NSColor" key="clearColor" id="664498923">
+							<object class="NSColor" key="clearColor" id="743754203">
 								<int key="NSColorSpace">1</int>
 								<bytes key="NSRGB">MCAwIDAAA</bytes>
 							</object>
-							<reference key="backgroundColor" ref="664498923"/>
+							<reference key="backgroundColor" ref="743754203"/>
 							<int key="checkerboardSize">0</int>
 							<int key="flags">0</int>
 							<bool key="forcesClear">NO</bool>
 						</object>
-						<object class="NSButton" id="666944637">
+						<object class="NSButton" id="984063604">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">292</int>
 							<string key="NSFrame">{{14, 6}, {70, 32}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="706545935"/>
+							<reference key="NSNextKeyView" ref="1044996076"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSButtonCell" key="NSCell" id="876149163">
+							<object class="NSButtonCell" key="NSCell" id="727254243">
 								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents">Start</string>
-								<object class="NSFont" key="NSSupport" id="1016593663">
+								<object class="NSFont" key="NSSupport" id="81118952">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">13</double>
 									<int key="NSfFlags">1044</int>
 								</object>
 								<string key="NSCellIdentifier">_NS:9</string>
-								<reference key="NSControlView" ref="666944637"/>
+								<reference key="NSControlView" ref="984063604"/>
 								<int key="NSButtonFlags">-2038284288</int>
 								<int key="NSButtonFlags2">129</int>
 								<string key="NSAlternateContents"/>
@@ -114,7 +114,7 @@
 								<int key="NSPeriodicInterval">25</int>
 							</object>
 						</object>
-						<object class="NSButton" id="213256784">
+						<object class="NSButton" id="285994100">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">289</int>
 							<string key="NSFrame">{{597, 6}, {109, 32}}</string>
@@ -123,13 +123,13 @@
 							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSButtonCell" key="NSCell" id="841158101">
+							<object class="NSButtonCell" key="NSCell" id="914188880">
 								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents">Full Screen</string>
-								<reference key="NSSupport" ref="1016593663"/>
+								<reference key="NSSupport" ref="81118952"/>
 								<string key="NSCellIdentifier">_NS:9</string>
-								<reference key="NSControlView" ref="213256784"/>
+								<reference key="NSControlView" ref="285994100"/>
 								<int key="NSButtonFlags">-2038284288</int>
 								<int key="NSButtonFlags2">129</int>
 								<string key="NSAlternateContents"/>
@@ -138,22 +138,22 @@
 								<int key="NSPeriodicInterval">25</int>
 							</object>
 						</object>
-						<object class="NSButton" id="706545935">
+						<object class="NSButton" id="1044996076">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">292</int>
 							<string key="NSFrame">{{84, 6}, {68, 32}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="1025295050"/>
+							<reference key="NSNextKeyView" ref="711125966"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSButtonCell" key="NSCell" id="323140593">
+							<object class="NSButtonCell" key="NSCell" id="392814043">
 								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents">Stop</string>
-								<reference key="NSSupport" ref="1016593663"/>
+								<reference key="NSSupport" ref="81118952"/>
 								<string key="NSCellIdentifier">_NS:9</string>
-								<reference key="NSControlView" ref="706545935"/>
+								<reference key="NSControlView" ref="1044996076"/>
 								<int key="NSButtonFlags">-2038284288</int>
 								<int key="NSButtonFlags2">129</int>
 								<string key="NSAlternateContents"/>
@@ -162,22 +162,22 @@
 								<int key="NSPeriodicInterval">25</int>
 							</object>
 						</object>
-						<object class="NSButton" id="1025295050">
+						<object class="NSButton" id="711125966">
 							<reference key="NSNextResponder" ref="1006"/>
 							<int key="NSvFlags">289</int>
 							<string key="NSFrame">{{503, 6}, {94, 32}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="213256784"/>
+							<reference key="NSNextKeyView" ref="285994100"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
-							<object class="NSButtonCell" key="NSCell" id="156320872">
+							<object class="NSButtonCell" key="NSCell" id="91733341">
 								<int key="NSCellFlags">67108864</int>
 								<int key="NSCellFlags2">134217728</int>
 								<string key="NSContents">Controls</string>
-								<reference key="NSSupport" ref="1016593663"/>
+								<reference key="NSSupport" ref="81118952"/>
 								<string key="NSCellIdentifier">_NS:9</string>
-								<reference key="NSControlView" ref="1025295050"/>
+								<reference key="NSControlView" ref="711125966"/>
 								<int key="NSButtonFlags">-2038284288</int>
 								<int key="NSButtonFlags2">129</int>
 								<string key="NSAlternateContents"/>
@@ -186,199 +186,1670 @@
 								<int key="NSPeriodicInterval">25</int>
 							</object>
 						</object>
+						<object class="QCView" id="440534453">
+							<reference key="NSNextResponder" ref="1006"/>
+							<int key="NSvFlags">268</int>
+							<set class="NSMutableSet" key="NSDragTypes">
+								<string>NSFilenamesPboardType</string>
+							</set>
+							<string key="NSFrame">{{0, 49}, {720, 591}}</string>
+							<reference key="NSSuperview" ref="1006"/>
+							<reference key="NSWindow"/>
+							<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
+							<string key="NSReuseIdentifierKey">_NS:9</string>
+							<dictionary key="composition">
+								<string type="base64-UTF8" key="description">PGltZyBzcmM9IkJsYW5rIENvbXBvc2l0aW9uLnRpZmYiIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgLz4J
+CQo8aDQ+QmxhbmsgQ29tcG9zaXRpb248L2g0Pgo8cD5BIHRlbXBsYXRlIHRoYXQgY3JlYXRlcyBhIGJs
+YW5rIGNvbXBvc2l0aW9uLjwvcD4</string>
+								<string key="frameworkVersion">236.10</string>
+								<object class="NSDictionary" key="portAttributes">
+									<string key="NS.key.0">_enable</string>
+									<dictionary key="NS.object.0">
+										<string key="description">Controls execution of the patch.</string>
+										<string key="name">Enable</string>
+									</dictionary>
+								</object>
+								<dictionary key="rootPatch">
+									<string key="class">QCPatch</string>
+									<dictionary key="state">
+										<dictionary key="connections">
+											<dictionary key="connection_1">
+												<string key="destinationNode">Sprite_1</string>
+												<string key="destinationPort">inputImage</string>
+												<string key="sourceNode">ImageLoader_1</string>
+												<string key="sourcePort">outputImage</string>
+											</dictionary>
+											<dictionary key="connection_2">
+												<string key="destinationNode">Sprite_1</string>
+												<string key="destinationPort">inputWidth</string>
+												<string key="sourceNode">LFO_1</string>
+												<string key="sourcePort">outputValue</string>
+											</dictionary>
+											<dictionary key="connection_3">
+												<string key="destinationNode">Sprite_1</string>
+												<string key="destinationPort">inputHeight</string>
+												<string key="sourceNode">LFO_1</string>
+												<string key="sourcePort">outputValue</string>
+											</dictionary>
+										</dictionary>
+										<array key="nodes">
+											<dictionary>
+												<string key="class">QCClear</string>
+												<string key="key">Clear_1</string>
+												<dictionary key="state">
+													<boolean value="YES" key="clearColorBuffer"/>
+													<boolean value="YES" key="clearDepthBuffer"/>
+													<object class="NSDictionary" key="ivarInputPortStates">
+														<string key="NS.key.0">inputColor</string>
+														<object class="NSDictionary" key="NS.object.0">
+															<string key="NS.key.0">value</string>
+															<dictionary key="NS.object.0">
+																<real value="0.0" key="alpha"/>
+																<real value="0.0" key="blue"/>
+																<real value="0.0" key="green"/>
+																<real value="0.0" key="red"/>
+															</dictionary>
+														</object>
+													</object>
+													<object class="NSDictionary" key="systemInputPortStates">
+														<string key="NS.key.0">_enable</string>
+														<object class="NSDictionary" key="NS.object.0">
+															<string key="NS.key.0">value</string>
+															<boolean value="YES" key="NS.object.0"/>
+														</object>
+													</object>
+													<object class="NSMutableData" key="userInfo">
+														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
+KoSEDHtDR1BvaW50PWRkfZuBjwGBAQGGhg</bytes>
+													</object>
+												</dictionary>
+											</dictionary>
+											<dictionary>
+												<string key="class">QCImageLoader</string>
+												<string key="key">ImageLoader_1</string>
+												<dictionary key="state">
+													<integer value="0" key="allImages"/>
+													<integer value="1" key="colorCorrection"/>
+													<integer value="0" key="fillBackground"/>
+													<object class="NSMutableData" key="imageData">
+														<bytes key="NS.bytes">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
+gg</bytes>
+													</object>
+													<string key="imagePath">~/Desktop/mmicon.png</string>
+													<object class="NSMutableData" key="userInfo">
+														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpApKEhIQITlNTdHJpbmcBlYQBKwRuYW1lhpKEl5gGbW1pY29uhpKEl5gIcG9z
+aXRpb26GkoSEhAdOU1ZhbHVlAJWEASqEhAx7Q0dQb2ludD1kZH2bgTwBTYaGA</bytes>
+													</object>
+													<integer value="2" key="version"/>
+												</dictionary>
+											</dictionary>
+											<dictionary>
+												<string key="class">QCSprite</string>
+												<string key="key">Sprite_1</string>
+												<dictionary key="state">
+													<integer value="0" key="antialiasing"/>
+													<dictionary key="ivarInputPortStates">
+														<object class="NSDictionary" key="inputBlending">
+															<string key="NS.key.0">value</string>
+															<integer value="1" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputColor">
+															<string key="NS.key.0">value</string>
+															<dictionary key="NS.object.0">
+																<real value="1" key="alpha"/>
+																<real value="1" key="blue"/>
+																<real value="1" key="green"/>
+																<real value="1" key="red"/>
+															</dictionary>
+														</object>
+														<object class="NSDictionary" key="inputCulling">
+															<string key="NS.key.0">value</string>
+															<integer value="0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputRX">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputRY">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputRZ">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputX">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputY">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputZ">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputZBuffer">
+															<string key="NS.key.0">value</string>
+															<integer value="1" key="NS.object.0"/>
+														</object>
+													</dictionary>
+													<object class="NSDictionary" key="systemInputPortStates">
+														<string key="NS.key.0">_enable</string>
+														<object class="NSDictionary" key="NS.object.0">
+															<string key="NS.key.0">value</string>
+															<boolean value="YES" key="NS.object.0"/>
+														</object>
+													</object>
+													<object class="NSMutableData" key="userInfo">
+														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
+KoSEDHtDR1BvaW50PWRkfZuBewJlhoY</bytes>
+													</object>
+												</dictionary>
+											</dictionary>
+											<dictionary>
+												<string key="class">QCLFO</string>
+												<string key="key">LFO_1</string>
+												<dictionary key="state">
+													<dictionary key="ivarInputPortStates">
+														<object class="NSDictionary" key="inputAmplitude">
+															<string key="NS.key.0">value</string>
+															<real value="0.040000000000000001" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputOffset">
+															<string key="NS.key.0">value</string>
+															<real value="1" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputPWMRatio">
+															<string key="NS.key.0">value</string>
+															<real value="0.25" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputPeriod">
+															<string key="NS.key.0">value</string>
+															<real value="20" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputPhase">
+															<string key="NS.key.0">value</string>
+															<real value="0.0" key="NS.object.0"/>
+														</object>
+														<object class="NSDictionary" key="inputType">
+															<string key="NS.key.0">value</string>
+															<integer value="0" key="NS.object.0"/>
+														</object>
+													</dictionary>
+													<integer value="1951052775" key="randomSeed"/>
+													<string key="timebase">parent</string>
+													<object class="NSMutableData" key="userInfo">
+														<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpAZKEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
+KoSEDHtDR1BvaW50PWRkfZuBEwGBrQCGhg</bytes>
+													</object>
+												</dictionary>
+											</dictionary>
+										</array>
+										<string key="timebase">parent</string>
+										<object class="NSMutableData" key="userInfo">
+											<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCE
+hAhOU09iamVjdACFhAFpA5KEhIQITlNTdHJpbmcBlYQBKwhwb3NpdGlvboaShISEB05TVmFsdWUAlYQB
+KoSEDHtDR1BvaW50PWRkfZsAAYaShJeYCXNjcm9sbGluZ4aShJmampuBywGDAAAAAAA4cUCGkoSXmAp6
+b29tRmFjdG9yhpKEhIQITlNOdW1iZXIAmZqEhAFmnQGGhg</bytes>
+										</object>
+									</dictionary>
+								</dictionary>
+								<object class="NSMutableData" key="templateImageData">
+									<bytes key="NS.bytes">BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0ltYWdlLoSECE5TT2JqZWN0AIWShYQBYwCVAJUAlQCVAJUA
+lQCVAJUBlQGVAJUAlQCVAIQBcwGVAJKEhIQQTlNCaXRtYXBJbWFnZVJlcBGEhApOU0ltYWdlUmVwEZSE
+AWmBTmeECFsyNjQ0NmNdTU0AKgAAWkj///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AAAAAAAAAAAAAAAAAAAAAABUVlWXn5+g6paWl96WlpfdlpaX3ZaWl92Xl5jdl5eY3ZeXmd2Y
+mJndmJiY3ZiZmt2ZmZrdmZma3ZmZmt2amprdmpqa3Zqam92ampzdmpuc3ZqbnN2bnJ3dnJyd3Zycnd2c
+nZ3dnJ2d3Z2dnd2dnZ7dnZ2e3Z2dn92dnp/dnZ6f3Z2en92dnp/dnZ2f3Z2dnt2dnZ7dnZ2d3Zydnd2c
+nZ3dnJyd3Zycnd2bnJzdmpuc3ZqbnN2ampzdmpqb3Zqamt2ZmZrdmZma3ZmZmt2ZmZrdmJiZ3ZiYmd2Y
+mJndl5eZ3ZeXmN2WlpjdlpaX3ZaWl92WlpfdlpaX3qCgoO1AQEB1AAAAAAAAAAAAAAAAAAAAAP///wD/
+//8A////AP///wAAAAAAAAAAAAAAAAEAAAABhYWGuP/////m5+n/5ebo/+bm6P/m5un/5+fp/+fn6f/n
+5+n/5+fp/+fn6v/o6Or/6Ojq/+jo6//n5+v/6efr/+np6//o6Or/6Ojq/+jq6//o6ev/6Onr/+np6//p
+6uv/6err/+nq6//q6uz/6urs/+rq7P/q6uz/6urs/+rq7P/q6uz/6urs/+rq7P/q6uz/6urs/+rq7P/p
+6uv/6err/+np6//o6ev/6Onr/+jp6//o6Ov/6Ojq/+jo6v/p6ev/6efp/+jn6f/o6Ov/6Ojq/+fo6v/n
+5+r/5+fp/+fn6f/n5+n/5ubn/+bm6f/m5uj/5ebo/+bn6f//////aGhokAAAAAEAAAABAAAAAAAAAAD/
+//8A////AP///wD///8AAAAAAAAAAAEAAAACAAAAA29vcK7Ky8//vr/D/76/w//AwMT/v8DE/8HBxP/A
+wcX/wMHF/8LCxf/Cwsb/wsLG/8PDxv/Dw8f/xMTH/8TEyP/ExMj/xcXI/8XFyf/Fxcn/xsbJ/8bGyv/G
+xsr/x8fK/8fHy//Hx8v/yMjL/8jIy//IyMv/yMjL/8jIy//IyMz/yMjM/8jIzP/IyMv/yMjL/8jIy//H
+x8v/x8fL/8fHyv/Hx8r/xsbK/8bGyv/Gxsn/xcXJ/8XFyP/Fxcj/xMTI/8TEx//DxMf/w8PH/8PDxv/C
+wsb/wsLG/8LCxf/AwcX/wMHF/7/AxP+/wMT/wMDD/76/w/++v8P/zs/T/1NTU44AAAACAAAAAQAAAAEA
+AAAA////AP///wD///8A////AAAAAAEAAAACAAAAAwAAAAVwb3Cvzc7R/8DBxP/AwMT/xMXJ/83O0v/P
+z9L/z9HU/8/P1P/R0tT/0NLV/9HS1f/S09b/0tPX/9PU1//T1Nf/1NTY/9TV2P/U1dn/1dXZ/9XW2f/V
+1tv/1tbb/9bX2//W19v/1tfc/9fX3P/X2Nz/19jc/9fY3P/X2Nz/19jc/9fY3P/X2Nz/19jc/9fY3P/X
+2dz/19fc/9bX3P/W19v/1tfb/9bW2//V1tr/1dba/9XV2v/U1dj/1NXY/9PU2f/T1Nj/09PY/9LT2P/S
+09b/0dLX/9HS1//R0dX/0NHV/9DR1v/P0NT/zc7S/8PDx//AwcT/wMHE/9HS1/9TVFSPAAAABQAAAAMA
+AAABAAAAAP///wD///8A////AP///wAAAAABAAAAAgAAAAUAAAAJb29wsMzN0v+/wMT/xMXJ/7S0t/9/
+f3//goKE/4ODhf+Cg4T/hISF/4ODhP+Dg4X/g4OF/4ODhP+Dg4X/g4OF/4KCg/+EhIX/hISF/4SEhf+D
+g4T/hISE/4SEhf+EhIX/hISF/4SEhv+EhIT/hYWG/4WFhv+FhYb/hYWG/4WFhv+EhIX/hYWG/4WFhv+E
+hYX/hISF/4SEhf+EhIX/hISF/4SEhP+DhIT/g4OD/4ODhP+Dg4T/g4OE/4ODhP+Dg4X/goKC/4ODhP+C
+goP/goKD/4KCg/+CgoP/gYGC/4GCg/+BgYL/gICB/3+Agf+9vsD/w8TH/7/AxP/R0tX/UlJUkgAAAAgA
+AAAFAAAAAgAAAAH///8A////AP///wD///8AAAAAAQAAAAQAAAAIAAAADW1ubrPNztH/v8DD/8jJzf+U
+lJX/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/ubm5/7W1tf+3t7f/tra2/7a2tv+2
+trb/tra2/7e3t/+2trb/t7e3/7a2tv+2trb/tLS0/7u7u//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//L
+y8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/v7+//7S0tP+2trb/tra2/7a2tv+2trb/t7e3/7e3t/+2
+trb/tra2/7a2tv+3t7f/tra2/7e3t//Jycn/y8vL/8vLy//Ly8v/qqut/8bGyv+/wMP/0dLU/09PUZUA
+AAAMAAAABwAAAAMAAAAB////AP///wD///8A////AAAAAAEAAAAFAAAACgAAABFqa220zM3Q/76+wv/H
+x8v/mJma/8vLy//y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy/93d3f/Y2Nj/2NjY/9jY2P/Y
+2Nj/2NjY/9jY2P/Y2Nj/2NjY/9jY2P/Z2dn/2NjY/9jY2P/e3t7/8vLy//Ly8v/y8vL/8vLy//Ly8v/y
+8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy/+Pj4//X19f/2NjY/9nZ2f/Y2Nj/2dnZ/9jY2P/Z
+2dn/2NjY/9nZ2f/Y2Nj/2NjY/9jY2P/Z2dn/7+/v//Ly8v/y8vL/y8vL/62tsP/ExMj/vr7C/87Q1P9N
+TlCXAAAAEAAAAAkAAAAEAAAAAf///wD///8A////AP///wAAAAACAAAABQAAAAsAAAATaGhstsnLz/+8
+vcL/xMXK/52dn//Ly8v/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/c3Nz/19fX/9nZ2f/Z
+2dn/2dnZ/9nZ2f/Z2dn/2NjY/9jY2P/Y2Nj/2dnZ/9jY2P/X19f/39/f//Ly8v/y8vL/8vLy//Ly8v/y
+8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/i4uL/1tbW/9nZ2f/Z2dn/2NjY/9nZ2f/Z
+2dn/2NjY/9jY2P/Z2dn/2NjY/9jY2P/X19f/2dnZ/+/v7//y8vL/8vLy/8vLy/+vsLP/wsPH/7y9wv/M
+ztP/TE1OmQAAABIAAAAKAAAABQAAAAH///8A////AP///wD///8AAAAAAgAAAAYAAAAMAAAAFWhoabfI
+yM7/vLzB/8TEyP+foKD/y8vL//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/3Nzc/9bW1v/X
+19f/19fX/9fX1//Y2Nj/19fX/9fX1//Y2Nj/19fX/9fX1//X19f/1tbW/97e3v/y8vL/8vLy//Ly8v/y
+8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/y8vL/4uLi/9bW1v/Y2Nj/19fX/9fX1//X
+19f/2NjY/9jY2P/Y2Nj/2NjY/9fX1//Y2Nj/19fX/9jY2P/v7+//8vLy//Ly8v/Ly8v/srG1/8HCxv+8
+vMH/zMzQ/0xMTZoAAAAUAAAACwAAAAUAAAAB////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZo
+Z2i3yMjN/7u7v//Dw8f/np6h/8rKyv/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx/9vb2//V
+1dX/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9bW1v/d3d3/8fHx//Hx8f/x
+8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx/+Li4v/V1dX/19fX/9fX1//X
+19f/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9bW1v/X19f/7+/v//Hx8f/x8fH/ysrK/7Kytf/A
+wMT/u7u//8zMz/9MTEyaAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0A
+AAAWZ2dot8fHyv+6u73/wsLH/56eof/Kysr/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/a
+2tr/1dXV/9fX1//W1tb/1tbW/9bW1v/W1tb/19fX/9fX1//W1tb/1tbW/9fX1//V1dX/3Nzc//Hx8f/x
+8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/h4eH/1NTU/9fX1//W
+1tb/1tbW/9bW1v/X19f/1tbW/9bW1v/W1tb/1tbW/9bW1v/V1dX/19fX/+7u7v/x8fH/8fHx/8rKyv+x
+sbT/v7/D/7q7vv/Ky87/SktMmwAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYA
+AAANAAAAFmZnaLfFxcr/ubm9/8HCxf+fn6L/ysrK//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x
+8fH/2tra/9TU1P/W1tb/1dXV/9XV1f/V1dX/1tbW/9bW1v/W1tb/1tbW/9XV1f/V1dX/09PT/9vb2//x
+8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/4eHh/9LS0v/V
+1dX/1dXV/9bW1v/V1dX/1dXV/9XV1f/V1dX/1dXV/9XV1f/V1dX/1dXV/9bW1v/u7u7/8fHx//Hx8f/K
+ysr/sLCz/76/w/+5ub3/yMnO/0tKTJsAAAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIA
+AAAGAAAADQAAABZlZmi3xMXJ/7e4vP+/wMT/np6h/8nJyf/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
+8PD/8PDw/9nZ2f/T09P/1NTU/9XV1f/U1NT/1NTU/9TU1P/V1dX/1dXV/9TU1P/V1dX/1NTU/9LS0v/c
+3Nz/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw/9/f3//S
+0tL/1NTU/9TU1P/U1NT/1dXV/9XV1f/V1dX/1NTU/9TU1P/V1dX/1NTU/9TU1P/V1dX/7u7u//Dw8P/w
+8PD/ycnJ/6+ws/+9vsH/t7i8/8fIzf9ISUubAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAA
+AAACAAAABgAAAA0AAAAWZWZot8PDyP+2trv/vr7D/52eoP/Jycn/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
+8PD/8PDw//Dw8P/W1tb/0dHR/9LS0v/S0tL/0tLS/9LS0v/S0tL/0tLS/9LS0v/R0dH/0tLS/9LS0v/R
+0dH/2tra//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/g
+4OD/0NDQ/9LS0v/S0tL/0tLS/9HR0f/S0tL/0tLS/9LS0v/S0tL/0tLS/9LS0v/R0dH/1NTU/+/v7//w
+8PD/8PDw/8nJyf+vr7P/u7zA/7a2u//Hx8z/SElLmwAAABUAAAAMAAAABQAAAAL///8A////AP///wD/
+//8AAAAAAgAAAAYAAAANAAAAFmVkZrfCwsf/tbW6/7y9wv+fn6L/wsLC/+fn5//n5+f/5+fn/+fn5//n
+5+f/5+fn/+fn5//n5+f/3t7e/9zc3P/d3d3/3Nzc/93d3f/c3Nz/3d3d/93d3f/d3d3/3Nzc/9zc3P/d
+3d3/3Nzc/9/f3//n5+f/5+fn/+fn5//n5+f/5+fn/+fn5//n5+f/5+fn/+fn5//n5+f/5+fn/+fn5//n
+5+f/4eHh/9vb2//d3d3/3d3d/9zc3P/d3d3/3d3d/9zc3P/c3Nz/3d3d/9zc3P/c3Nz/3Nzc/93d3f/n
+5+f/5+fn/+fn5//CwsL/r6+z/7q6v/+1tbr/xcbK/0lISZsAAAAVAAAADAAAAAUAAAAC////AP///wD/
+//8A////AAAAAAIAAAAGAAAADQAAABZjZGa3wMHF/7O0uf+6u8H/nJ2f/6+vr//Q0ND/0NDQ/9DQ0P/Q
+0ND/0NDQ/9DQ0P/Q0ND/0NDQ/+3t7f/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
+8PD/8PDw//Dw8P/p6en/0NDQ/9DQ0P/Q0ND/0NDQ/9DQ0P/Q0ND/0NDQ/9DQ0P/Q0ND/0NDQ/9DQ0P/Q
+0ND/zs7O/+Pj4//w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
+8PD/1dXV/9DQ0P/Q0ND/r6+v/62usf+4ub7/s7S5/8PEyf9IR0mbAAAAFQAAAAwAAAAFAAAAAv///wD/
+//8A////AP///wAAAAACAAAABgAAAA0AAAAWYmNlt7/AxP+ys7f/ubrA/5manP+vr6//0dHR/9HR0f/R
+0dH/0tLS/9LS0v/S0tL/0dHR/9LS0v/r6+v/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
+8PD/8PDw//Dw8P/w8PD/6urq/9HR0f/R0dH/0dHR/9HR0f/R0dH/0dHR/9HR0f/S0tL/0tLS/9HR0f/S
+0tL/0dHR/9HR0f/k5OT/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
+8PD/8PDw/9XV1f/R0dH/0tLS/7CwsP+rrK7/t7i9/7KzuP/Cw8f/SEhImwAAABUAAAAMAAAABQAAAAL/
+//8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFmFhZLe9v8P/sbK2/7i6v/+YmJv/sLCw/9LS0v/S
+0tL/0tLS/9LS0v/S0tL/0tLS/9LS0v/S0tL/6+vr//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
+8PD/8PDw//Dw8P/w8PD/8PDw/+np6f/Q0ND/0tLS/9LS0v/S0tL/0tLS/9LS0v/S0tL/0tLS/9LS0v/S
+0tL/0tLS/9LS0v/Q0ND/5eXl//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
+8PD/8PDw/+/v7//V1dX/0tLS/9LS0v+wsLD/qaqt/7a3vP+xsrb/wcLF/0dHSZsAAAAVAAAADAAAAAUA
+AAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZhYWO3vL3B/7CxtP+4ub3/lZaX/7CwsP/R
+0dH/0tLS/9HR0f/R0dH/0tLS/9HR0f/S0tL/0dHR/+rq6v/w8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
+8PD/8PDw//Dw8P/w8PD/8PDw//Dw8P/p6en/z8/P/9HR0f/S0tL/0tLS/9HR0f/S0tL/0dHR/9HR0f/R
+0dH/0dHR/9LS0v/R0dH/z8/P/+Pj4//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v7+//7+/v/+/v7//v
+7+//7+/v/+/v7//u7u7/0dHR/87Ozv/Ozs7/ra2t/6iprf+1trr/sLG0/77AxP9GRkibAAAAFQAAAAwA
+AAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWYGFjt7q7wP+ur7P/t7i8/5OUl/+w
+sLD/0dHR/9LS0v/R0dH/0dHR/9LS0v/R0dH/0dHR/9HR0f/r6+v/8PDw//Dw8P/w8PD/8PDw//Dw8P/w
+8PD/8PDw//Dw8P/w8PD/7+/v/+/v7//v7+//5+fn/83Nzf/Pz8//zc3N/8zMzP/MzMz/y8vL/8vLy//K
+ysr/ycnJ/8nJyf/Kysr/ysrK/8fHx//e3t7/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7Ozs/87Ozv/IyMj/ycnJ/6mpqf+oqa3/tLW5/6+vs/+9v8P/RUVImwAAABUA
+AAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFl9gY7e5uMD/ra2y/7S2u/+P
+k5P/r6+v/9HR0f/S0tL/0tLS/9HR0f/S0tL/0NDQ/9DQ0P/Pz8//6enp/+7u7v/u7u7/7u7u/+7u7v/u
+7u7/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+Xl5f/IyMj/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/J
+ycn/ycnJ/8rKyv/Jycn/ycnJ/8nJyf/Hx8f/3t7e/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+zs7P/Ozs7/ycnJ/8nJyf+pqan/qaqu/7OzuP+srbL/vLzC/0VFSJsA
+AAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZdXmK3uLm+/6ytsf+y
+tbj/jZaS/6urq//MzMz/zMzM/8rKyv/Kysr/ysrK/8nJyf/Jycn/ysrK/+jo6P/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/k5OT/yMjI/8nJyf/Jycn/ysrK/8rKyv/K
+ysr/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/x8fH/97e3v/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/s7Oz/zc3N/8jIyP/Jycn/qamp/6aprP+xsrf/rK2x/7u8wv9F
+RUebAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWXF1gt7e4vf+r
+rLD/r7W3/4iWkf+qqqr/ycnJ/8rKyv/Jycn/ycnJ/8nJyf/Kysr/ycnJ/8nJyf/o6Oj/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/5eXl/8fHx//Jycn/ycnJ/8rKyv/J
+ycn/ycnJ/8nJyf/Kysr/ysrK/8rKyv/Jycn/ycnJ/8fHx//e3t7/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7Ozs/83Nzf/IyMj/ysrK/6mpqf+mpqn/sLG2/6ussP+6
+u8D/REVGmwAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFlxcXre2
+t7z/qquw/661tf+Gl5H/qamp/8rKyv/Jycn/ycnJ/8nJyf/Kysr/ycnJ/8rKyv/Jycn/6Ojo/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+Xl5f/IyMj/ysrK/8rKyv/K
+ysr/ycnJ/8rKyv/Kysr/ycnJ/8nJyf/Jycn/ycnJ/8rKyv/Hx8f/3t7e/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+zs7P/Ozs7/yMjI/8nJyf+pqan/o6Sn/6+wtf+q
+q7D/uLm9/0RERZsAAAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZb
+XF63tLS6/6iqrv+stLX/hJeS/6mpqf/Jycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ycnJ/+fn5//t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/l5eX/yMjI/8nJyf/J
+ycn/ysrK/8nJyf/Jycn/ycnJ/8nJyf/Kysr/ycnJ/8rKyv/Jycn/x8fH/9/f3//t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/s7Oz/zc3N/8jIyP/Jycn/qqqq/6Ojp/+v
+sLX/qaqu/7e3vf9DRUWbAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0A
+AAAWW1tdt7Ozuf+nqa3/q7O1/4SWkv+pqan/ycnJ/8nJyf/Jycn/ysrK/8rKyv/Jycn/ycnJ/8nJyf/o
+6Oj/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/5eXl/8fHx//J
+ycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ysrK/8fHx//f39//7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7Ozs/83Nzf/IyMj/ysrK/6qqqv+g
+oqb/rq+0/6eorf+1t7z/RENFmwAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYA
+AAANAAAAFllaXLewsbj/pqis/6qytf+Cl5P/qqqq/8rKyv/Kysr/ysrK/8nJyf/Kysr/ycnJ/8nJyf/J
+ycn/5+fn/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+Xl5f/H
+x8f/ysrK/8nJyf/Kysr/ycnJ/8nJyf/Kysr/ysrK/8nJyf/Jycn/ycnJ/8rKyv/Hx8f/3t7e/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+zs7P/Ozs7/ycnJ/8rKyv+q
+qqr/oKCl/6yts/+mp6z/tLW9/0NERZsAAAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIA
+AAAGAAAADQAAABZZWVy3rq+2/6Smq/+osLP/gpaV/6enp//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//H
+x8f/x8fH/+np6f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/l
+5eX/xcXF/8fHx//Hx8f/x8fH/8fHx//Gxsb/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/xMTE/97e3v/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/zMzM/8bGxv/H
+x8f/p6en/56fpP+rrLL/pqes/7S1uv9DREWbAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAA
+AAACAAAABgAAAA0AAAAWWFhbt62us/+jpKn/p6+z/4OWlv+9vb3/4uLi/+Hh4f/i4uL/4uLi/+Hh4f/i
+4uL/4uLi/+Hh4f/X19f/1dXV/9XV1f/V1dX/1dXV/9XV1f/V1dX/1dXV/9XV1f/V1dX/1dXV/9XV1f/U
+1NT/2NjY/+Hh4f/h4eH/4eHh/+Hh4f/h4eH/4uLi/+Li4v/i4uL/4uLi/+Hh4f/h4eH/4uLi/+Hh4f/a
+2tr/09PT/9XV1f/W1tb/1tbW/9XV1f/V1dX/1tbW/9XV1f/W1tb/1dXV/9bW1v/V1dX/19fX/+Dg4P/g
+4OD/4uLi/729vf+fn6P/qqux/6Wmq/+ztLn/Q0NEmwAAABUAAAAMAAAABQAAAAL///8A////AP///wD/
+//8AAAAAAgAAAAYAAAANAAAAFldXWberrLH/oaOn/6Wtsf+ElZb/x8fH/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/zc3N/8XFxf/Hx8f/x8fH/8fHx//Hx8f/xsbG/8fHx//Hx8f/xsbG/8fHx//H
+x8f/xcXF/9HR0f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/2NjY/8TExP/Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/xsbG/8nJyf/r
+6+v/7e3t/+3t7f/Hx8f/np6i/6mqsf+kpar/srO4/0JDQ5sAAAAVAAAADAAAAAUAAAAC////AP///wD/
+//8A////AAAAAAIAAAAGAAAADQAAABZVVli3qKmu/5+hpf+kq7D/hJSY/8fHx//t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/87Ozv/IyMj/ysrK/8nJyf/Kysr/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/J
+ycn/ycnJ/8jIyP/S0tL/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/9jY2P/Hx8f/ycnJ/8nJyf/Jycn/ycnJ/8rKyv/Jycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/L
+y8v/6enp/+3t7f/t7e3/x8fH/56fpP+pqq//pKWq/7Cxt/9BQEObAAAAFQAAAAwAAAAFAAAAAv///wD/
+//8A////AP///wAAAAACAAAABgAAAA0AAAAWVFVXt6eorf+en6T/oqqv/4WWmf/Hx8f/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Ozs7/yMjI/8nJyf/Jycn/ysrK/8rKyv/Kysr/ysrK/8rKyv/K
+ysr/ycnJ/8nJyf/IyMj/0tLS/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/Y2Nj/x8fH/8nJyf/Jycn/ysrK/8nJyf/Jycn/ycnJ/8rKyv/Jycn/ysrK/8nJyf/J
+ycn/ysrK/+np6f/t7e3/7e3t/8fHx/+goqX/qaqv/6Okqf+vsbb/QEFCmwAAABUAAAAMAAAABQAAAAL/
+//8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFlRVV7emp6z/nZ6j/6Gnrf+HlZn/x8fH/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/0NDQ/8jIyP/Kysr/ycnJ/8rKyv/Kysr/ycnJ/8rKyv/J
+ycn/ycnJ/8nJyf/Kysr/yMjI/9HR0f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/2NjY/8fHx//Kysr/ysrK/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ysrK/8nJyf/J
+ycn/ycnJ/8rKyv/p6en/7e3t/+3t7f/Hx8f/oaKl/6eorv+io6j/rK+0/z9AQZsAAAAVAAAADAAAAAUA
+AAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZTVFa3paWq/5ycof+gpqv/iZWc/8fHx//t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/9DQ0P/Hx8f/ycnJ/8nJyf/Kysr/ycnJ/8rKyv/K
+ysr/ycnJ/8rKyv/Jycn/ycnJ/8jIyP/S0tL/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/9jY2P/Hx8f/ycnJ/8rKyv/Kysr/ycnJ/8nJyf/Kysr/ycnJ/8nJyf/K
+ysr/ysrK/8jIyP/Kysr/6enp/+3t7f/t7e3/x8fH/6Skp/+mp63/oKGm/6ussv8/P0KbAAAAFQAAAAwA
+AAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWUVJVt6KjqP+amp//n6Sq/4mVnP/H
+x8f/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Q0ND/yMjI/8nJyf/Jycn/ysrK/8nJyf/J
+ycn/ysrK/8nJyf/Kysr/ycnJ/8nJyf/IyMj/0dHR/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Y2Nj/x8fH/8rKyv/Kysr/ycnJ/8nJyf/Jycn/ysrK/8rKyv/J
+ycn/ysrK/8nJyf/Jycn/ysrK/+np6f/t7e3/7e3t/8fHx/+kpan/pKWq/5+gpf+qq7H/Pz9AmwAAABUA
+AAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFk9QVLegoab/l5ie/56hqP+K
+lZ3/x8fH/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/zs7O/8fHx//Jycn/ysrK/8rKyv/K
+ysr/ycnJ/8nJyf/Kysr/ycnJ/8nJyf/Jycn/x8fH/9LS0v/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/19fX/8fHx//Kysr/ycnJ/8rKyv/Kysr/ycnJ/8rKyv/J
+ycn/ycnJ/8nJyf/Jycn/yMjI/8rKyv/p6en/7e3t/+3t7f/Hx8f/paeq/6KjqP+dnqP/qKmv/zw8QJsA
+AAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZOT1K3n6Ck/5aXnf+c
+n6f/jJWe/8fHx//t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/9DQ0P/Hx8f/ycnJ/8rKyv/J
+ycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ysrK/8fHx//R0dH/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/9jY2P/Hx8f/ycnJ/8nJyf/Jycn/ycnJ/8rKyv/J
+ycn/ycnJ/8nJyf/Kysr/ycnJ/8nJyf/Kysr/6enp/+3t7f/t7e3/x8fH/6enq/+hoqf/nJ2i/6eorv87
+OzybAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWTk5Rt56eo/+V
+l5v/mp6m/46WoP/Hx8f/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Pz8//yMjI/8nJyf/J
+ycn/ycnJ/8rKyv/Jycn/ysrK/8nJyf/Kysr/ycnJ/8rKyv/IyMj/0dHR/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Y2Nj/x8fH/8nJyf/Jycn/ysrK/8nJyf/J
+ycn/ycnJ/8nJyf/Kysr/ycnJ/8nJyf/Jycn/ysrK/+np6f/t7e3/7e3t/8fHx/+np6v/oaGm/5ucof+m
+p63/Ozs8mwAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFk5OULed
+nqL/lZWb/5qdpf+PlqD/x8fH/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/0NDQ/8jIyP/J
+ycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Jycn/yMjI/9HR0f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/2NjY/8bGxv/Jycn/ycnJ/8nJyf/J
+ycn/ysrK/8rKyv/Jycn/ycnJ/8rKyv/Jycn/ycnJ/8rKyv/p6en/7e3t/+3t7f/Hx8f/qKms/5+gpv+b
+nKD/paas/zo6PJsAAAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZN
+TlC3nZ2h/5SVmv+ZnaT/kZah/8fHx//t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/8/Pz//I
+yMj/ysrK/8nJyf/Kysr/ycnJ/8rKyv/Jycn/ysrK/8nJyf/Kysr/ysrK/8fHx//R0dH/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/9jY2P/Hx8f/ycnJ/8rKyv/J
+ycn/ycnJ/8rKyv/Jycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/Kysr/6enp/+3t7f/t7e3/x8fH/6qqrf+f
+oKT/mpuf/6Wmq/86OjybAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0A
+AAAWTU1Pt5ucoP+TlJr/mJui/5GWov/Hx8f/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/O
+zs7/x8fH/8jIyP/IyMj/yMjI/8nJyf/Jycn/ycnJ/8jIyP/Jycn/ycnJ/8jIyP/Hx8f/0dHR/+3t7f/t
+7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/Y2Nj/xsbG/8nJyf/J
+ycn/ycnJ/8nJyf/Jycn/ycnJ/8nJyf/IyMj/yMjI/8jIyP/Hx8f/ysrK/+rq6v/t7e3/7e3t/8fHx/+q
+rK//np+k/5qan/+kpar/Ojo7mwAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYA
+AAANAAAAFk1NT7ebnKD/k5SY/5iaov+TlqP/xcXF/+vr6//q6ur/6urq/+vr6//r6+v/6urq/+rq6v/r
+6+v/0dHR/8rKyv/MzMz/y8vL/8zMzP/MzMz/y8vL/8zMzP/MzMz/zMzM/8vLy//MzMz/ysrK/9PT0//r
+6+v/6+vr/+rq6v/q6ur/6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/6urq/+vr6//q6ur/2NjY/8rKyv/M
+zMz/zMzM/8zMzP/MzMz/y8vL/8vLy//Ly8v/zMzM/8zMzP/Ly8v/y8vL/83Nzf/n5+f/6+vr/+vr6//E
+xMT/q62w/56fo/+Zm57/o6Sq/zk6O5sAAAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIA
+AAAGAAAADQAAABZNTU+3m5yg/5OUmP+YmaH/k5aj/6qqqv/Ly8v/y8vL/8vLy//Kysr/y8vL/8vLy//L
+y8v/y8vL/+bm5v/s7Oz/7Ozs/+vr6//s7Oz/6+vr/+zs7P/r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//k
+5OT/ysrK/8rKyv/Ly8v/y8vL/8vLy//Ly8v/y8vL/8vLy//Ly8v/ysrK/8vLy//Ly8v/ysrK/97e3v/r
+6+v/7Ozs/+zs7P/s7Oz/7Ozs/+vr6//r6+v/6+vr/+zs7P/r6+v/6+vr/+vr6//q6ur/z8/P/8rKyv/L
+y8v/qqqq/6yur/+en6P/mZqe/6OkqP85OTubAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAA
+AAACAAAABgAAAA0AAAAWTE1Pt5qbn/+TlJj/l5ig/5SWpP+oqKj/ycnJ/8jIyP/Jycn/yMjI/8nJyf/J
+ycn/yMjI/8jIyP/o6Oj/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/5eXl/8fHx//Jycn/yMjI/8nJyf/IyMj/yMjI/8nJyf/Jycn/yMjI/8nJyf/Jycn/ycnJ/8bGxv/e
+3t7/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7Ozs/83Nzf/I
+yMj/ycnJ/6mpqf+srbD/nZ6i/5mZnf+io6n/OTk7mwAAABUAAAAMAAAABQAAAAL///8A////AP///wD/
+//8AAAAAAgAAAAYAAAANAAAAFkxMTream57/kpOX/5eYoP+WlqT/qqqq/8rKyv/Jycn/ycnJ/8nJyf/K
+ysr/ysrK/8jIyP/Jycn/6Ojo/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+Xl5f/IyMj/ysrK/8rKyv/Kysr/ycnJ/8nJyf/Kysr/ycnJ/8rKyv/Kysr/ycnJ/8nJyf/H
+x8f/3t7e/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+zs7P/N
+zc3/ycnJ/8rKyv+pqan/rq+y/5ydof+YmZ3/oKOm/zk5OpsAAAAVAAAADAAAAAUAAAAC////AP///wD/
+//8A////AAAAAAIAAAAGAAAADQAAABZMTE63mpue/5KTl/+XmKD/lZWj/6mpqf/Jycn/ysrK/8nJyf/K
+ysr/ysrK/8rKyv/Jycn/ycnJ/+jo6P/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t
+7e3/7e3t/+3t7f/l5eX/yMjI/8nJyf/Kysr/ysrK/8nJyf/Kysr/ysrK/8rKyv/Jycn/ysrK/8nJyf/K
+ysr/x8fH/97e3v/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/t7e3/7e3t/+3t7f/r
+6+v/zc3N/8jIyP/Jycn/qqqq/6qrrv+cnaD/mJic/6Gipv84OTqbAAAAFQAAAAwAAAAFAAAAAv///wD/
+//8A////AP///wAAAAACAAAABgAAAA0AAAAWTExOt5manf+Skpb/lZWc/6Ohr/+pqan/qamp/6mpqf+p
+qan/qamp/6qqqv+qqqr/qamp/6mpqf/Dw8P/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//H
+x8f/x8fH/8fHx//Hx8f/wMDA/6ioqP+pqan/qamp/6mpqf+qqqr/qqqq/6mpqf+pqan/qqqq/6qqqv+q
+qqr/qamp/6ampv+6urr/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//Hx8f/x8fH/8fHx//H
+x8f/xsbG/6ysrP+pqan/qqqq/6mpqf+urrH/mpue/5eYm/+foaX/ODg6mwAAABUAAAAMAAAABQAAAAL/
+//8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFktMTbeZmZ3/kZKV/5OTl/+pqK//sLC6/7Kyvv+0
+sr//tLLB/7e0w/+5tMH/ubXC/7m1wv+6tcL/urXC/7u2xP+7tsT/u7TB/7y2wf+7tcD/ubS//7m0vv+5
+tLz/uLW6/7azuP+ztLf/s7O1/7Kztv+xsbT/r7Cz/6+vsv+wsLL/r6+x/66usf+vsLP/sbK2/7Kztv+z
+tbf/tLa5/7e4u/+4uLv/urq9/7u8vv+9vsH/vr/C/8DBw//BwsX/wcLE/8HCxf/AwcT/wcLE/8LCxf/C
+w8X/wcLF/8HCxP+/wMP/vr/B/728wf+5urz/rK2w/5iZnP+Xl5r/oJ+k/zg4OZsAAAAVAAAADAAAAAUA
+AAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABZLTE23l5ib/5CQk/+Sk5b/lJSY/5WVmv+X
+l5z/mJed/5mZnv+amqD/nJug/5ycof+dnKL/np2i/56dov+enaP/np2j/56dov+dnKL/nJyh/5ybof+c
+m5//m5ue/5qZnf+YmZz/lpea/5WVmP+TlJb/kpOV/5GRlP+QkJP/j5CS/4+Qkv+QkJP/kZGU/5KTlf+T
+lJf/lZWY/5aXmv+YmZz/mpue/5ydn/+en6H/n6Gk/6GhpP+hoqX/oqOm/6Ojp/+jpKf/o6Sn/6Okp/+j
+o6f/oqOm/6Gipf+hoqX/n6Ck/56fov+dnqH/m5yf/5manf+YmJv/lZaY/52eof83ODmbAAAAFQAAAAwA
+AAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWTExOuJqanf+SkpX/lJSX/5eXmv+Z
+mZz/mpqd/5ucnv+cnaD/nZ6h/56fof+foKP/oKCj/6ChpP+hoaT/oaGl/6Gipf+hoqT/oKGk/6ChpP+h
+oaP/oKGj/5+fov+enqH/nZ6h/5ydoP+bm57/mZqc/5eYm/+Xl5n/lpaZ/5WVmP+UlZf/lpaY/5eXmf+Y
+mJv/mZqc/5ubnf+cnZ//np6h/6Cgo/+ioqX/o6Om/6SlqP+lpqj/paap/6amqv+mp6n/pqeq/6anqv+m
+p6r/paap/6Wlqf+kpaj/o6Sm/6Kipf+goaT/n5+j/56eof+cnJ7/mZqd/5eXmv+enqL/Nzc4mwAAABUA
+AAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAANAAAAFl9gYcLLy83/t7e7/7m5vP+7
+u73/vL2//729wP++v8H/v8DC/8DBw//BwsT/wsLF/8LDxf/DxMX/xMTG/8TExv/Excb/xMXG/8TFxv/E
+xMb/xMXG/8TExf/DxMX/wsPF/8LDxf/Bwsb/wcPD/8DAwv+/v8H/vr/A/72+v/+8vb//vL2//729v/++
+wML/v7/B/8DAwv/BwsT/wsPF/8TExv/Fx8f/xsbI/8fHyf/Hx8r/x8jK/8jIy//IyMv/yMjL/8jIy//I
+yMv/x8jK/8fIyv/Gx8r/xsbI/8XGyP/Excb/w8PF/8LCxP/BwcP/vr/B/7y9v/+8vL7/0NHT/0hISZ8A
+AAAVAAAADAAAAAUAAAAC////AP///wD///8A////AAAAAAIAAAAGAAAADQAAABYrKyygX19g8lpaW+1b
+W1vtXFtd7VxdX+1dXV/tXl9f7V9fYO1gYGDtYGBh7WBgYu1gYGLtYGFi7WFhY+1hYmPtYmJj7WJiY+1i
+YmPtYmJj7WFiY+1iYmPtYWJj7WFiY+1gYGPtYGFi7WBhYu1gYGLtYGBh7V9fYO1fX2DtX19g7V9fYO1f
+X2DtX19g7V9gYe1gYGLtYWFi7WFiY+1iY2TtY2Nl7WNkZe1kZWXtZWVl7WVlZu1kZWXtZWVl7WVlZu1l
+ZWbtZGVl7WRkZe1jZGXtY2Nl7WJiZe1iYmTtYWFi7WBgYu1gYGLtX2Bg7V9eYO1cXV/tW1xd7WFhYvMf
+Hx+EAAAAFQAAAAwAAAAFAAAAAv///wD///8A////AP///wAAAAACAAAABgAAAA0AAAAWAAAAIgAAAC0A
+AAA2AAAAOwAAAD8AAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAA
+AABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAA
+AABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAA
+AABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAA+AAAAOwAAADUA
+AAAsAAAAIQAAABUAAAAMAAAABQAAAAL///8A////AP///wD///8AAAAAAgAAAAYAAAAMAAAAFQAAACEA
+AAArAAAAMwAAADkAAAA8AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0A
+AAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0A
+AAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0A
+AAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPQAAAD0AAAA9AAAAPAAAADgA
+AAAyAAAAKgAAAB8AAAAUAAAACwAAAAUAAAAB////AP///wD///8A////AAAAAAIAAAAFAAAACwAAABMA
+AAAeAAAAJwAAAC8AAAA0AAAANwAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgA
+AAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgA
+AAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgA
+AAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADcA
+AAAzAAAALgAAACYAAAAcAAAAEgAAAAoAAAAFAAAAAf///wD///8A////AP///wAAAAABAAAABQAAAAoA
+AAARAAAAGgAAACIAAAAoAAAALQAAAC8AAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAA
+AAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAA
+AAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAA
+AAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAA
+AAAvAAAALAAAACcAAAAhAAAAGAAAABAAAAAJAAAABAAAAAH///8A////AP///wD///8AAAAAAQAAAAQA
+AAAIAAAADQAAABQAAAAaAAAAHwAAACMAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUA
+AAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUA
+AAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUA
+AAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUAAAAlAAAAJQAAACUA
+AAAlAAAAJQAAACIAAAAfAAAAGgAAABMAAAAMAAAABwAAAAMAAAAB////AP///wD///8A////AAAAAAEA
+AAACAAAABQAAAAkAAAANAAAAEgAAABUAAAAXAAAAGAAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkA
+AAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkA
+AAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkA
+AAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkAAAAZAAAAGQAAABkA
+AAAZAAAAGQAAABgAAAAXAAAAFAAAABEAAAANAAAACAAAAAUAAAACAAAAAf///wD///8A////AP///wAA
+AAABAAAAAgAAAAMAAAAFAAAACAAAAAoAAAAMAAAADgAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8A
+AAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8A
+AAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8A
+AAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8A
+AAAPAAAADwAAAA8AAAAOAAAADgAAAAwAAAAKAAAACAAAAAUAAAADAAAAAQAAAAD///8A////AP///wD/
+//8AAAAAAAAAAAEAAAACAAAAAwAAAAQAAAAFAAAABgAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcA
+AAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcA
+AAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcA
+AAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcA
+AAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAGAAAABQAAAAQAAAACAAAAAQAAAAEAAAAA////AP///wD/
+//8A////AAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIA
+AAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIA
+AAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIA
+AAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIA
+AAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAABAAAAAQAAAAEAAAAAAAAAAP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD/
+//8A////AP///wD///8A////AP///wD///8AAA4BAAADAAAAAQBMAAABAQADAAAAAQBMAAABAgADAAAA
+BAAAWvYBAwADAAAAAQABAAABBgADAAAAAQACAAABEQAEAAAAAQAAAAgBEgADAAAAAQABAAABFQADAAAA
+AQAEAAABFgADAAAAAQGZAAABFwAEAAAAAQAAWkABHAADAAAAAQABAAABUgADAAAAAQACAAABUwADAAAA
+BAAAWv6HcwAHAAAMSAAAWwYAAAAAAAgACAAIAAgAAQABAAEAAQAADEhMaW5vAhAAAG1udHJSR0IgWFla
+IAfOAAIACQAGADEAAGFjc3BNU0ZUAAAAAElFQyBzUkdCAAAAAAAAAAAAAAABAAD21gABAAAAANMtSFAg
+IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEWNwcnQAAAFQAAAA
+M2Rlc2MAAAGEAAAAbHd0cHQAAAHwAAAAFGJrcHQAAAIEAAAAFHJYWVoAAAIYAAAAFGdYWVoAAAIsAAAA
+FGJYWVoAAAJAAAAAFGRtbmQAAAJUAAAAcGRtZGQAAALEAAAAiHZ1ZWQAAANMAAAAhnZpZXcAAAPUAAAA
+JGx1bWkAAAP4AAAAFG1lYXMAAAQMAAAAJHRlY2gAAAQwAAAADHJUUkMAAAQ8AAAIDGdUUkMAAAQ8AAAI
+DGJUUkMAAAQ8AAAIDHRleHQAAAAAQ29weXJpZ2h0IChjKSAxOTk4IEhld2xldHQtUGFja2FyZCBDb21w
+YW55AABkZXNjAAAAAAAAABJzUkdCIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAAEnNSR0IgSUVDNjE5NjYt
+Mi4xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYWVogAAAA
+AAAA81EAAQAAAAEWzFhZWiAAAAAAAAAAAAAAAAAAAAAAWFlaIAAAAAAAAG+iAAA49QAAA5BYWVogAAAA
+AAAAYpkAALeFAAAY2lhZWiAAAAAAAAAkoAAAD4QAALbPZGVzYwAAAAAAAAAWSUVDIGh0dHA6Ly93d3cu
+aWVjLmNoAAAAAAAAAAAAAAAWSUVDIGh0dHA6Ly93d3cuaWVjLmNoAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAALklFQyA2MTk2Ni0yLjEgRGVmYXVsdCBS
+R0IgY29sb3VyIHNwYWNlIC0gc1JHQgAAAAAAAAAAAAAALklFQyA2MTk2Ni0yLjEgRGVmYXVsdCBSR0Ig
+Y29sb3VyIHNwYWNlIC0gc1JHQgAAAAAAAAAAAAAAAAAAAAAAAAAAAABkZXNjAAAAAAAAACxSZWZlcmVu
+Y2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAsUmVmZXJlbmNlIFZp
+ZXdpbmcgQ29uZGl0aW9uIGluIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdmll
+dwAAAAAAE6T+ABRfLgAQzxQAA+3MAAQTCwADXJ4AAAABWFlaIAAAAAAATAlWAFAAAABXH+dtZWFzAAAA
+AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACjwAAAAJzaWcgAAAAAENSVCBjdXJ2AAAAAAAABAAAAAAFAAoA
+DwAUABkAHgAjACgALQAyADcAOwBAAEUASgBPAFQAWQBeAGMAaABtAHIAdwB8AIEAhgCLAJAAlQCaAJ8A
+pACpAK4AsgC3ALwAwQDGAMsA0ADVANsA4ADlAOsA8AD2APsBAQEHAQ0BEwEZAR8BJQErATIBOAE+AUUB
+TAFSAVkBYAFnAW4BdQF8AYMBiwGSAZoBoQGpAbEBuQHBAckB0QHZAeEB6QHyAfoCAwIMAhQCHQImAi8C
+OAJBAksCVAJdAmcCcQJ6AoQCjgKYAqICrAK2AsECywLVAuAC6wL1AwADCwMWAyEDLQM4A0MDTwNaA2YD
+cgN+A4oDlgOiA64DugPHA9MD4APsA/kEBgQTBCAELQQ7BEgEVQRjBHEEfgSMBJoEqAS2BMQE0wThBPAE
+/gUNBRwFKwU6BUkFWAVnBXcFhgWWBaYFtQXFBdUF5QX2BgYGFgYnBjcGSAZZBmoGewaMBp0GrwbABtEG
+4wb1BwcHGQcrBz0HTwdhB3QHhgeZB6wHvwfSB+UH+AgLCB8IMghGCFoIbgiCCJYIqgi+CNII5wj7CRAJ
+JQk6CU8JZAl5CY8JpAm6Cc8J5Qn7ChEKJwo9ClQKagqBCpgKrgrFCtwK8wsLCyILOQtRC2kLgAuYC7AL
+yAvhC/kMEgwqDEMMXAx1DI4MpwzADNkM8w0NDSYNQA1aDXQNjg2pDcMN3g34DhMOLg5JDmQOfw6bDrYO
+0g7uDwkPJQ9BD14Peg+WD7MPzw/sEAkQJhBDEGEQfhCbELkQ1xD1ERMRMRFPEW0RjBGqEckR6BIHEiYS
+RRJkEoQSoxLDEuMTAxMjE0MTYxODE6QTxRPlFAYUJxRJFGoUixStFM4U8BUSFTQVVhV4FZsVvRXgFgMW
+JhZJFmwWjxayFtYW+hcdF0EXZReJF64X0hf3GBsYQBhlGIoYrxjVGPoZIBlFGWsZkRm3Gd0aBBoqGlEa
+dxqeGsUa7BsUGzsbYxuKG7Ib2hwCHCocUhx7HKMczBz1HR4dRx1wHZkdwx3sHhYeQB5qHpQevh7pHxMf
+Ph9pH5Qfvx/qIBUgQSBsIJggxCDwIRwhSCF1IaEhziH7IiciVSKCIq8i3SMKIzgjZiOUI8Ij8CQfJE0k
+fCSrJNolCSU4JWgllyXHJfcmJyZXJocmtyboJxgnSSd6J6sn3CgNKD8ocSiiKNQpBik4KWspnSnQKgIq
+NSpoKpsqzysCKzYraSudK9EsBSw5LG4soizXLQwtQS12Last4S4WLkwugi63Lu4vJC9aL5Evxy/+MDUw
+bDCkMNsxEjFKMYIxujHyMioyYzKbMtQzDTNGM38zuDPxNCs0ZTSeNNg1EzVNNYc1wjX9Njc2cjauNuk3
+JDdgN5w31zgUOFA4jDjIOQU5Qjl/Obw5+To2OnQ6sjrvOy07azuqO+g8JzxlPKQ84z0iPWE9oT3gPiA+
+YD6gPuA/IT9hP6I/4kAjQGRApkDnQSlBakGsQe5CMEJyQrVC90M6Q31DwEQDREdEikTORRJFVUWaRd5G
+IkZnRqtG8Ec1R3tHwEgFSEtIkUjXSR1JY0mpSfBKN0p9SsRLDEtTS5pL4kwqTHJMuk0CTUpNk03cTiVO
+bk63TwBPSU+TT91QJ1BxULtRBlFQUZtR5lIxUnxSx1MTU19TqlP2VEJUj1TbVShVdVXCVg9WXFapVvdX
+RFeSV+BYL1h9WMtZGllpWbhaB1pWWqZa9VtFW5Vb5Vw1XIZc1l0nXXhdyV4aXmxevV8PX2Ffs2AFYFdg
+qmD8YU9homH1YklinGLwY0Njl2PrZEBklGTpZT1lkmXnZj1mkmboZz1nk2fpaD9olmjsaUNpmmnxakhq
+n2r3a09rp2v/bFdsr20IbWBtuW4SbmtuxG8eb3hv0XArcIZw4HE6cZVx8HJLcqZzAXNdc7h0FHRwdMx1
+KHWFdeF2Pnabdvh3VnezeBF4bnjMeSp5iXnnekZ6pXsEe2N7wnwhfIF84X1BfaF+AX5ifsJ/I3+Ef+WA
+R4CogQqBa4HNgjCCkoL0g1eDuoQdhICE44VHhauGDoZyhteHO4efiASIaYjOiTOJmYn+imSKyoswi5aL
+/IxjjMqNMY2Yjf+OZo7OjzaPnpAGkG6Q1pE/kaiSEZJ6kuOTTZO2lCCUipT0lV+VyZY0lp+XCpd1l+CY
+TJi4mSSZkJn8mmia1ZtCm6+cHJyJnPedZJ3SnkCerp8dn4uf+qBpoNihR6G2oiailqMGo3aj5qRWpMel
+OKWpphqmi6b9p26n4KhSqMSpN6mpqhyqj6sCq3Wr6axcrNCtRK24ri2uoa8Wr4uwALB1sOqxYLHWskuy
+wrM4s660JbSctRO1irYBtnm28Ldot+C4WbjRuUq5wro7urW7LrunvCG8m70VvY++Cr6Evv+/er/1wHDA
+7MFnwePCX8Lbw1jD1MRRxM7FS8XIxkbGw8dBx7/IPci8yTrJuco4yrfLNsu2zDXMtc01zbXONs62zzfP
+uNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr724DcBdyK3RDdlt4c3qLf
+Kd+v4DbgveFE4cziU+Lb42Pj6+Rz5PzlhOYN5pbnH+ep6DLovOlG6dDqW+rl63Dr++yG7RHtnO4o7rTv
+QO/M8Fjw5fFy8f/yjPMZ86f0NPTC9VD13vZt9vv3ivgZ+Kj5OPnH+lf65/t3/Af8mP0p/br+S/7c/23/
+/4aShISEB05TQ29sb3IAlJUDhAJmZgAAhpKFhg</bytes>
+								</object>
+								<string key="templatePath">Library/Compositions</string>
+							</dictionary>
+							<string key="aspectRatio">{0, 0}</string>
+							<bool key="allowsDragIn">NO</bool>
+							<bool key="allowsDragOut">NO</bool>
+							<float key="maxFPS">0.0</float>
+							<bool key="autorun">YES</bool>
+							<int key="forwardingEventMask">0</int>
+							<reference key="clearColor" ref="743754203"/>
+							<reference key="backgroundColor" ref="743754203"/>
+							<int key="checkerboardSize">0</int>
+							<int key="flags">0</int>
+							<bool key="forcesClear">NO</bool>
+						</object>
 					</array>
 					<string key="NSFrameSize">{720, 640}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
-					<reference key="NSNextKeyView" ref="324694394"/>
+					<reference key="NSNextKeyView" ref="1029950160"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
-			<object class="NSMenu" id="488865850">
+			<object class="NSMenu" id="590028903">
 				<string key="NSTitle">AMainMenu</string>
 				<array class="NSMutableArray" key="NSMenuItems">
-					<object class="NSMenuItem" id="510604457">
-						<reference key="NSMenu" ref="488865850"/>
+					<object class="NSMenuItem" id="468936533">
+						<reference key="NSMenu" ref="590028903"/>
 						<string key="NSTitle">MacroMeez Visuals</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
-						<object class="NSCustomResource" key="NSOnImage" id="481267498">
+						<object class="NSCustomResource" key="NSOnImage" id="275291094">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">NSMenuCheckmark</string>
 						</object>
-						<object class="NSCustomResource" key="NSMixedImage" id="140845544">
+						<object class="NSCustomResource" key="NSMixedImage" id="523079358">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">NSMenuMixedState</string>
 						</object>
 						<string key="NSAction">submenuAction:</string>
-						<object class="NSMenu" key="NSSubmenu" id="516134224">
+						<object class="NSMenu" key="NSSubmenu" id="668196184">
 							<string key="NSTitle">MacroMeez Visuals</string>
 							<array class="NSMutableArray" key="NSMenuItems">
-								<object class="NSMenuItem" id="860058706">
-									<reference key="NSMenu" ref="516134224"/>
+								<object class="NSMenuItem" id="358011133">
+									<reference key="NSMenu" ref="668196184"/>
 									<string key="NSTitle">About MacroMeez Visuals</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
-								<object class="NSMenuItem" id="735411959">
-									<reference key="NSMenu" ref="516134224"/>
+								<object class="NSMenuItem" id="150574082">
+									<reference key="NSMenu" ref="668196184"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
 									<string key="NSTitle"/>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
-								<object class="NSMenuItem" id="583328874">
-									<reference key="NSMenu" ref="516134224"/>
+								<object class="NSMenuItem" id="398592532">
+									<reference key="NSMenu" ref="668196184"/>
 									<string key="NSTitle">Preferences…</string>
 									<string key="NSKeyEquiv">,</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
-								<object class="NSMenuItem" id="86258407">
-									<reference key="NSMenu" ref="516134224"/>
+								<object class="NSMenuItem" id="665249414">
+									<reference key="NSMenu" ref="668196184"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
 									<string key="NSTitle"/>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
-								<object class="NSMenuItem" id="29734351">
-									<reference key="NSMenu" ref="516134224"/>
+								<object class="NSMenuItem" id="192466824">
+									<reference key="NSMenu" ref="668196184"/>
 									<string key="NSTitle">Hide MacroMeez Visuals</string>
 									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
-								<object class="NSMenuItem" id="753498079">
-									<reference key="NSMenu" ref="516134224"/>
+								<object class="NSMenuItem" id="333345476">
+									<reference key="NSMenu" ref="668196184"/>
 									<string key="NSTitle">Hide Others</string>
 									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1572864</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
-								<object class="NSMenuItem" id="149305383">
-									<reference key="NSMenu" ref="516134224"/>
+								<object class="NSMenuItem" id="828913183">
+									<reference key="NSMenu" ref="668196184"/>
 									<string key="NSTitle">Show All</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
-								<object class="NSMenuItem" id="370073090">
-									<reference key="NSMenu" ref="516134224"/>
+								<object class="NSMenuItem" id="761210389">
+									<reference key="NSMenu" ref="668196184"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
 									<string key="NSTitle"/>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
-								<object class="NSMenuItem" id="742853637">
-									<reference key="NSMenu" ref="516134224"/>
+								<object class="NSMenuItem" id="245887663">
+									<reference key="NSMenu" ref="668196184"/>
 									<string key="NSTitle">Quit MacroMeez Visuals</string>
 									<string key="NSKeyEquiv">q</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
 							</array>
 							<string key="NSName">_NSAppleMenu</string>
 						</object>
 					</object>
-					<object class="NSMenuItem" id="318137813">
-						<reference key="NSMenu" ref="488865850"/>
+					<object class="NSMenuItem" id="98203876">
+						<reference key="NSMenu" ref="590028903"/>
 						<string key="NSTitle">File</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="481267498"/>
-						<reference key="NSMixedImage" ref="140845544"/>
+						<reference key="NSOnImage" ref="275291094"/>
+						<reference key="NSMixedImage" ref="523079358"/>
 						<string key="NSAction">submenuAction:</string>
-						<object class="NSMenu" key="NSSubmenu" id="456011806">
+						<object class="NSMenu" key="NSSubmenu" id="679237278">
 							<string key="NSTitle">File</string>
 							<array class="NSMutableArray" key="NSMenuItems">
-								<object class="NSMenuItem" id="838721930">
-									<reference key="NSMenu" ref="456011806"/>
+								<object class="NSMenuItem" id="692114110">
+									<reference key="NSMenu" ref="679237278"/>
 									<string key="NSTitle">Close</string>
 									<string key="NSKeyEquiv">w</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
 							</array>
 						</object>
 					</object>
-					<object class="NSMenuItem" id="776872276">
-						<reference key="NSMenu" ref="488865850"/>
+					<object class="NSMenuItem" id="584199260">
+						<reference key="NSMenu" ref="590028903"/>
 						<string key="NSTitle">Window</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
-						<reference key="NSOnImage" ref="481267498"/>
-						<reference key="NSMixedImage" ref="140845544"/>
+						<reference key="NSOnImage" ref="275291094"/>
+						<reference key="NSMixedImage" ref="523079358"/>
 						<string key="NSAction">submenuAction:</string>
-						<object class="NSMenu" key="NSSubmenu" id="745200643">
+						<object class="NSMenu" key="NSSubmenu" id="126614906">
 							<string key="NSTitle">Window</string>
 							<array class="NSMutableArray" key="NSMenuItems">
-								<object class="NSMenuItem" id="330192643">
-									<reference key="NSMenu" ref="745200643"/>
+								<object class="NSMenuItem" id="1024449660">
+									<reference key="NSMenu" ref="126614906"/>
 									<string key="NSTitle">Minimize</string>
 									<string key="NSKeyEquiv">m</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
-								<object class="NSMenuItem" id="216325844">
-									<reference key="NSMenu" ref="745200643"/>
+								<object class="NSMenuItem" id="528795887">
+									<reference key="NSMenu" ref="126614906"/>
 									<string key="NSTitle">Full Screen</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
-								<object class="NSMenuItem" id="143406569">
-									<reference key="NSMenu" ref="745200643"/>
+								<object class="NSMenuItem" id="379256314">
+									<reference key="NSMenu" ref="126614906"/>
 									<bool key="NSIsDisabled">YES</bool>
 									<bool key="NSIsSeparator">YES</bool>
 									<string key="NSTitle"/>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
-								<object class="NSMenuItem" id="982635736">
-									<reference key="NSMenu" ref="745200643"/>
+								<object class="NSMenuItem" id="69456130">
+									<reference key="NSMenu" ref="126614906"/>
 									<string key="NSTitle">Bring All to Front</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="481267498"/>
-									<reference key="NSMixedImage" ref="140845544"/>
+									<reference key="NSOnImage" ref="275291094"/>
+									<reference key="NSMixedImage" ref="523079358"/>
 								</object>
 							</array>
 							<string key="NSName">_NSWindowsMenu</string>
@@ -394,7 +1865,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">terminate:</string>
 						<reference key="source" ref="1003"/>
-						<reference key="destination" ref="742853637"/>
+						<reference key="destination" ref="245887663"/>
 					</object>
 					<int key="connectionID">117</int>
 				</object>
@@ -402,7 +1873,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">showHelp:</string>
 						<reference key="source" ref="1003"/>
-						<reference key="destination" ref="860058706"/>
+						<reference key="destination" ref="358011133"/>
 					</object>
 					<int key="connectionID">127</int>
 				</object>
@@ -410,7 +1881,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">performClose:</string>
 						<reference key="source" ref="1003"/>
-						<reference key="destination" ref="838721930"/>
+						<reference key="destination" ref="692114110"/>
 					</object>
 					<int key="connectionID">129</int>
 				</object>
@@ -418,7 +1889,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">performMiniaturize:</string>
 						<reference key="source" ref="1003"/>
-						<reference key="destination" ref="330192643"/>
+						<reference key="destination" ref="1024449660"/>
 					</object>
 					<int key="connectionID">130</int>
 				</object>
@@ -426,7 +1897,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">hide:</string>
 						<reference key="source" ref="1003"/>
-						<reference key="destination" ref="29734351"/>
+						<reference key="destination" ref="192466824"/>
 					</object>
 					<int key="connectionID">132</int>
 				</object>
@@ -434,7 +1905,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">hideOtherApplications:</string>
 						<reference key="source" ref="1003"/>
-						<reference key="destination" ref="753498079"/>
+						<reference key="destination" ref="333345476"/>
 					</object>
 					<int key="connectionID">133</int>
 				</object>
@@ -442,79 +1913,87 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">unhide:</string>
 						<reference key="source" ref="1003"/>
-						<reference key="destination" ref="149305383"/>
+						<reference key="destination" ref="828913183"/>
 					</object>
 					<int key="connectionID">134</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">stop:</string>
-						<reference key="source" ref="324694394"/>
-						<reference key="destination" ref="706545935"/>
-					</object>
-					<int key="connectionID">118</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">start:</string>
-						<reference key="source" ref="324694394"/>
-						<reference key="destination" ref="666944637"/>
-					</object>
-					<int key="connectionID">119</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="324694394"/>
-						<reference key="destination" ref="656759870"/>
+						<reference key="source" ref="1029950160"/>
+						<reference key="destination" ref="742129152"/>
 					</object>
 					<int key="connectionID">121</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">qcView</string>
-						<reference key="source" ref="667101789"/>
-						<reference key="destination" ref="324694394"/>
+						<reference key="source" ref="271791233"/>
+						<reference key="destination" ref="1029950160"/>
 					</object>
 					<int key="connectionID">31</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">enterFullScreen:</string>
-						<reference key="source" ref="667101789"/>
-						<reference key="destination" ref="213256784"/>
+						<reference key="source" ref="271791233"/>
+						<reference key="destination" ref="285994100"/>
 					</object>
 					<int key="connectionID">73</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">patchController</string>
-						<reference key="source" ref="667101789"/>
-						<reference key="destination" ref="656759870"/>
+						<reference key="source" ref="271791233"/>
+						<reference key="destination" ref="742129152"/>
 					</object>
 					<int key="connectionID">120</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">launchControls:</string>
-						<reference key="source" ref="667101789"/>
-						<reference key="destination" ref="1025295050"/>
+						<reference key="source" ref="271791233"/>
+						<reference key="destination" ref="711125966"/>
 					</object>
 					<int key="connectionID">126</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">enterFullScreen:</string>
-						<reference key="source" ref="667101789"/>
-						<reference key="destination" ref="216325844"/>
+						<reference key="source" ref="271791233"/>
+						<reference key="destination" ref="528795887"/>
 					</object>
 					<int key="connectionID">131</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">start:</string>
+						<reference key="source" ref="271791233"/>
+						<reference key="destination" ref="984063604"/>
+					</object>
+					<int key="connectionID">135</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">logoView</string>
+						<reference key="source" ref="271791233"/>
+						<reference key="destination" ref="440534453"/>
+					</object>
+					<int key="connectionID">137</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">stop:</string>
+						<reference key="source" ref="271791233"/>
+						<reference key="destination" ref="1044996076"/>
+					</object>
+					<int key="connectionID">138</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="488865850"/>
-						<reference key="destination" ref="667101789"/>
+						<reference key="source" ref="590028903"/>
+						<reference key="destination" ref="271791233"/>
 					</object>
 					<int key="connectionID">116</int>
 				</object>
@@ -557,225 +2036,231 @@
 						<int key="objectID">2</int>
 						<reference key="object" ref="1006"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="324694394"/>
-							<reference ref="666944637"/>
-							<reference ref="706545935"/>
-							<reference ref="213256784"/>
-							<reference ref="1025295050"/>
+							<reference ref="1029950160"/>
+							<reference ref="984063604"/>
+							<reference ref="1044996076"/>
+							<reference ref="285994100"/>
+							<reference ref="711125966"/>
+							<reference ref="440534453"/>
 						</array>
 						<reference key="parent" ref="1005"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">3</int>
-						<reference key="object" ref="324694394"/>
+						<reference key="object" ref="1029950160"/>
 						<array class="NSMutableArray" key="children"/>
 						<reference key="parent" ref="1006"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
-						<reference key="object" ref="666944637"/>
+						<reference key="object" ref="984063604"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="876149163"/>
+							<reference ref="727254243"/>
 						</array>
 						<reference key="parent" ref="1006"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">11</int>
-						<reference key="object" ref="876149163"/>
-						<reference key="parent" ref="666944637"/>
+						<reference key="object" ref="727254243"/>
+						<reference key="parent" ref="984063604"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">16</int>
-						<reference key="object" ref="706545935"/>
+						<reference key="object" ref="1044996076"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="323140593"/>
+							<reference ref="392814043"/>
 						</array>
 						<reference key="parent" ref="1006"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">17</int>
-						<reference key="object" ref="323140593"/>
-						<reference key="parent" ref="706545935"/>
+						<reference key="object" ref="392814043"/>
+						<reference key="parent" ref="1044996076"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">24</int>
-						<reference key="object" ref="1025295050"/>
+						<reference key="object" ref="711125966"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="156320872"/>
+							<reference ref="91733341"/>
 						</array>
 						<reference key="parent" ref="1006"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">25</int>
-						<reference key="object" ref="156320872"/>
-						<reference key="parent" ref="1025295050"/>
+						<reference key="object" ref="91733341"/>
+						<reference key="parent" ref="711125966"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">29</int>
-						<reference key="object" ref="667101789"/>
+						<reference key="object" ref="271791233"/>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">App Controller</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">61</int>
-						<reference key="object" ref="213256784"/>
+						<reference key="object" ref="285994100"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="841158101"/>
+							<reference ref="914188880"/>
 						</array>
 						<reference key="parent" ref="1006"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">62</int>
-						<reference key="object" ref="841158101"/>
-						<reference key="parent" ref="213256784"/>
+						<reference key="object" ref="914188880"/>
+						<reference key="parent" ref="285994100"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">75</int>
-						<reference key="object" ref="656759870"/>
+						<reference key="object" ref="742129152"/>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">76</int>
-						<reference key="object" ref="488865850"/>
+						<reference key="object" ref="590028903"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="318137813"/>
-							<reference ref="510604457"/>
-							<reference ref="776872276"/>
+							<reference ref="98203876"/>
+							<reference ref="468936533"/>
+							<reference ref="584199260"/>
 						</array>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">MainMenu</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">77</int>
-						<reference key="object" ref="318137813"/>
+						<reference key="object" ref="98203876"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="456011806"/>
+							<reference ref="679237278"/>
 						</array>
-						<reference key="parent" ref="488865850"/>
+						<reference key="parent" ref="590028903"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">79</int>
-						<reference key="object" ref="510604457"/>
+						<reference key="object" ref="468936533"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="516134224"/>
+							<reference ref="668196184"/>
 						</array>
-						<reference key="parent" ref="488865850"/>
+						<reference key="parent" ref="590028903"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">80</int>
-						<reference key="object" ref="776872276"/>
+						<reference key="object" ref="584199260"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="745200643"/>
+							<reference ref="126614906"/>
 						</array>
-						<reference key="parent" ref="488865850"/>
+						<reference key="parent" ref="590028903"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">81</int>
-						<reference key="object" ref="745200643"/>
+						<reference key="object" ref="126614906"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="216325844"/>
-							<reference ref="330192643"/>
-							<reference ref="982635736"/>
-							<reference ref="143406569"/>
+							<reference ref="528795887"/>
+							<reference ref="1024449660"/>
+							<reference ref="69456130"/>
+							<reference ref="379256314"/>
 						</array>
-						<reference key="parent" ref="776872276"/>
+						<reference key="parent" ref="584199260"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">82</int>
-						<reference key="object" ref="216325844"/>
-						<reference key="parent" ref="745200643"/>
+						<reference key="object" ref="528795887"/>
+						<reference key="parent" ref="126614906"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">83</int>
-						<reference key="object" ref="330192643"/>
-						<reference key="parent" ref="745200643"/>
+						<reference key="object" ref="1024449660"/>
+						<reference key="parent" ref="126614906"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">85</int>
-						<reference key="object" ref="982635736"/>
-						<reference key="parent" ref="745200643"/>
+						<reference key="object" ref="69456130"/>
+						<reference key="parent" ref="126614906"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">86</int>
-						<reference key="object" ref="143406569"/>
-						<reference key="parent" ref="745200643"/>
+						<reference key="object" ref="379256314"/>
+						<reference key="parent" ref="126614906"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">87</int>
-						<reference key="object" ref="516134224"/>
+						<reference key="object" ref="668196184"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="753498079"/>
-							<reference ref="370073090"/>
-							<reference ref="735411959"/>
-							<reference ref="86258407"/>
-							<reference ref="583328874"/>
-							<reference ref="742853637"/>
-							<reference ref="149305383"/>
-							<reference ref="29734351"/>
-							<reference ref="860058706"/>
+							<reference ref="333345476"/>
+							<reference ref="761210389"/>
+							<reference ref="150574082"/>
+							<reference ref="665249414"/>
+							<reference ref="398592532"/>
+							<reference ref="245887663"/>
+							<reference ref="828913183"/>
+							<reference ref="192466824"/>
+							<reference ref="358011133"/>
 						</array>
-						<reference key="parent" ref="510604457"/>
+						<reference key="parent" ref="468936533"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">88</int>
-						<reference key="object" ref="753498079"/>
-						<reference key="parent" ref="516134224"/>
+						<reference key="object" ref="333345476"/>
+						<reference key="parent" ref="668196184"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">89</int>
-						<reference key="object" ref="370073090"/>
-						<reference key="parent" ref="516134224"/>
+						<reference key="object" ref="761210389"/>
+						<reference key="parent" ref="668196184"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">91</int>
-						<reference key="object" ref="735411959"/>
-						<reference key="parent" ref="516134224"/>
+						<reference key="object" ref="150574082"/>
+						<reference key="parent" ref="668196184"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">92</int>
-						<reference key="object" ref="86258407"/>
-						<reference key="parent" ref="516134224"/>
+						<reference key="object" ref="665249414"/>
+						<reference key="parent" ref="668196184"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">93</int>
-						<reference key="object" ref="583328874"/>
-						<reference key="parent" ref="516134224"/>
+						<reference key="object" ref="398592532"/>
+						<reference key="parent" ref="668196184"/>
 						<string key="objectName">121</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">95</int>
-						<reference key="object" ref="742853637"/>
-						<reference key="parent" ref="516134224"/>
+						<reference key="object" ref="245887663"/>
+						<reference key="parent" ref="668196184"/>
 						<string key="objectName">1111</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">96</int>
-						<reference key="object" ref="149305383"/>
-						<reference key="parent" ref="516134224"/>
+						<reference key="object" ref="828913183"/>
+						<reference key="parent" ref="668196184"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">97</int>
-						<reference key="object" ref="29734351"/>
-						<reference key="parent" ref="516134224"/>
+						<reference key="object" ref="192466824"/>
+						<reference key="parent" ref="668196184"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">98</int>
-						<reference key="object" ref="860058706"/>
-						<reference key="parent" ref="516134224"/>
+						<reference key="object" ref="358011133"/>
+						<reference key="parent" ref="668196184"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">102</int>
-						<reference key="object" ref="456011806"/>
+						<reference key="object" ref="679237278"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="838721930"/>
+							<reference ref="692114110"/>
 						</array>
-						<reference key="parent" ref="318137813"/>
+						<reference key="parent" ref="98203876"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">110</int>
-						<reference key="object" ref="838721930"/>
-						<reference key="parent" ref="456011806"/>
+						<reference key="object" ref="692114110"/>
+						<reference key="parent" ref="679237278"/>
 						<string key="objectName">1</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">136</int>
+						<reference key="object" ref="440534453"/>
+						<reference key="parent" ref="1006"/>
 					</object>
 				</array>
 			</object>
@@ -790,6 +2275,7 @@
 				<string key="102.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="11.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="110.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="136.IBPluginDependency">com.apple.QuartzComposerIBPlugin</string>
 				<string key="16.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="17.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -825,7 +2311,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">134</int>
+			<int key="maxID">138</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -835,6 +2321,8 @@
 					<dictionary class="NSMutableDictionary" key="actions">
 						<string key="enterFullScreen:">id</string>
 						<string key="launchControls:">id</string>
+						<string key="start:">id</string>
+						<string key="stop:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
 						<object class="IBActionInfo" key="enterFullScreen:">
@@ -845,9 +2333,18 @@
 							<string key="name">launchControls:</string>
 							<string key="candidateClassName">id</string>
 						</object>
+						<object class="IBActionInfo" key="start:">
+							<string key="name">start:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="stop:">
+							<string key="name">stop:</string>
+							<string key="candidateClassName">id</string>
+						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="controlsWindow">NSWindow</string>
+						<string key="logoView">QCView</string>
 						<string key="patchController">QCPatchController</string>
 						<string key="qcView">RenderView</string>
 						<string key="window">NSWindow</string>
@@ -856,6 +2353,10 @@
 						<object class="IBToOneOutletInfo" key="controlsWindow">
 							<string key="name">controlsWindow</string>
 							<string key="candidateClassName">NSWindow</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="logoView">
+							<string key="name">logoView</string>
+							<string key="candidateClassName">QCView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="patchController">
 							<string key="name">patchController</string>

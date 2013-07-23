@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>MM</string>
+	<string>mmicon</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.macromeez.ps3visuals</string>
 	<key>CFBundleInfoDictionaryVersion</key>

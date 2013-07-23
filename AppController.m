@@ -39,23 +39,30 @@
 @implementation AppController
 
 @synthesize controlsController;
- 
+
 - (void) awakeFromNib
 {
-	if(![qcView loadCompositionFromFile:[[NSBundle mainBundle] pathForResource:@"PS3QC" ofType:@"qtz"]]) {
-		NSLog(@"Could not load composition");
-	}
+    if(![qcView loadCompositionFromFile:[[NSBundle mainBundle] pathForResource:@"PS3QC" ofType:@"qtz"]]) {
+        NSLog(@"Could not load composition");
+    }
 	[qcView becomeFirstResponder];
     
-	NSRect windowRect = [[self window] frame];
-	NSRect controlsRect = [[controlsController window] frame];
-	NSPoint controlsOrigin = controlsRect.origin;
-	controlsOrigin.x = windowRect.origin.x + windowRect.size.width + 50;
+	
     controlsController = [[ControlsWindowController alloc] initWithWindowNibName:@"Controls"];
     controlsController.qcView = qcView;
     controlsController.patchController = patchController;
-	[[controlsController window] setFrameOrigin:controlsOrigin];
-	[self launchControls:nil];
+}
+
+- (IBAction)start:(id)sender {
+    [qcView start:sender];
+    [self.logoView stop:sender];
+    [self.logoView setHidden:YES];
+}
+
+- (IBAction)stop:(id)sender {
+    [qcView stop:sender];
+    [self.logoView start:sender];
+    [self.logoView setHidden:NO];
 }
 
 - (NSWindow*) window {
@@ -79,8 +86,14 @@
 
 
 - (IBAction) launchControls:(id)sender {
+    NSRect controlsRect = [[controlsController window] frame];
+    NSPoint controlsOrigin = controlsRect.origin;
+    NSRect windowRect = [[self window] frame];
+	controlsOrigin.x = windowRect.origin.x + windowRect.size.width + 50;
+	[[controlsController window] setFrameOrigin:controlsOrigin];
 	[[controlsController window] orderFront:self];
-    NSLog(@"Launch %@ %@", controlsController, controlsController.window);
+    [controlsController.window setMovableByWindowBackground:YES];
+    [controlsController.window setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"controls"]]];
 }
 
 @end

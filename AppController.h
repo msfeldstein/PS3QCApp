@@ -21,11 +21,15 @@
     IBOutlet RenderView* qcView;
 	IBOutlet NSWindow* window;
 	IBOutlet NSWindow* controlsWindow;
+    BOOL loaded;
 }
 
+@property (assign) IBOutlet QCView* logoView;
 @property (retain) ControlsWindowController* controlsController;
 
 - (IBAction) enterFullScreen:(id)sender;
 - (IBAction) launchControls:(id)sender;
+- (IBAction)start:(id)sender;
+- (IBAction)stop:(id)sender;
 - (NSWindow*)window;
 @end
