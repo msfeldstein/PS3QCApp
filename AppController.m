@@ -46,7 +46,7 @@
         NSLog(@"Could not load composition");
     }
 	[qcView becomeFirstResponder];
-    
+    [self.window makeKeyAndOrderFront:self];
 	
     controlsController = [[ControlsWindowController alloc] initWithWindowNibName:@"Controls"];
     controlsController.qcView = qcView;
