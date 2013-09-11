@@ -34,8 +34,8 @@
     }
 }
 
-- (void)viewDidEndLiveResize {
-
+- (BOOL)acceptsFirstResponder {
+    return YES;
 }
 
 @end
@@ -82,13 +82,18 @@
 }
 
 - (IBAction) enterFullScreen:(id)sender {
-	NSDictionary* options = [NSDictionary
-								dictionaryWithObject:[NSNumber numberWithBool:NO]
-											  forKey:NSFullScreenModeAllScreens];
-	[qcView enterFullScreenMode: [NSScreen mainScreen]
-	              withOptions: options];
-	[qcView becomeFirstResponder];
-    [qcView start:nil];
+    if ([qcView isInFullScreenMode]) {
+        [qcView exitFullScreenModeWithOptions:nil];
+        [qcView start:nil];
+    } else {
+        NSDictionary* options = [NSDictionary
+                                    dictionaryWithObject:[NSNumber numberWithBool:NO]
+                                                  forKey:NSFullScreenModeAllScreens];
+        [qcView enterFullScreenMode: [NSScreen mainScreen]
+                      withOptions: options];
+        [qcView becomeFirstResponder];
+        [qcView start:nil];
+    }
 }
 
 
