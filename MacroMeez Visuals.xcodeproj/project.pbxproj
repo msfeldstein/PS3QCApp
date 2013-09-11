@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C2772D917DFC2F00059721A /* DraggableQCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2772D817DFC2F00059721A /* DraggableQCView.m */; };
 		4C2772DD17DFC4A30059721A /* DragWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2772DC17DFC4A30059721A /* DragWindowView.m */; };
 		4C29535E179DF92D00A66CBC /* CompositionWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C29535D179DF92D00A66CBC /* CompositionWindow.xib */; };
 		4C295361179E0A4800A66CBC /* mmicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4C295360179E0A4800A66CBC /* mmicon.icns */; };
 		4C295363179E128700A66CBC /* Logo.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 4C295362179E128700A66CBC /* Logo.qtz */; };
 		4C350AA7179DF77D00970914 /* controls.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C350AA6179DF77D00970914 /* controls.png */; };
+		4C43368817E04FAE00262BF7 /* nocontroller.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C43368717E04FAE00262BF7 /* nocontroller.png */; };
 		4C4732FF179D265000EA6F16 /* MM.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4C4732FE179D265000EA6F16 /* MM.icns */; };
 		5F5A451714CD4F7D002FEE07 /* Quartz Composer Patches in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */; };
 		5F5A451814CD4F7D002FEE07 /* Quartz Composer Plug-Ins in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */; };
@@ -53,14 +53,13 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		4C2772D717DFC2F00059721A /* DraggableQCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableQCView.h; sourceTree = "<group>"; };
-		4C2772D817DFC2F00059721A /* DraggableQCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableQCView.m; sourceTree = "<group>"; };
 		4C2772DB17DFC4A30059721A /* DragWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragWindowView.h; sourceTree = "<group>"; };
 		4C2772DC17DFC4A30059721A /* DragWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragWindowView.m; sourceTree = "<group>"; };
 		4C29535D179DF92D00A66CBC /* CompositionWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompositionWindow.xib; sourceTree = "<group>"; };
 		4C295360179E0A4800A66CBC /* mmicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = mmicon.icns; sourceTree = "<group>"; };
 		4C295362179E128700A66CBC /* Logo.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = Logo.qtz; sourceTree = "<group>"; };
 		4C350AA6179DF77D00970914 /* controls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controls.png; sourceTree = "<group>"; };
+		4C43368717E04FAE00262BF7 /* nocontroller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nocontroller.png; sourceTree = "<group>"; };
 		4C4732FE179D265000EA6F16 /* MM.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MM.icns; sourceTree = "<group>"; };
 		5F5A451514CD4F7D002FEE07 /* Quartz Composer Patches */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Quartz Composer Patches"; path = "Plugins/Quartz Composer Patches"; sourceTree = "<group>"; };
 		5F5A451614CD4F7D002FEE07 /* Quartz Composer Plug-Ins */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Quartz Composer Plug-Ins"; path = "Plugins/Quartz Composer Plug-Ins"; sourceTree = "<group>"; };
@@ -100,8 +99,6 @@
 				6385569614CF313900197634 /* ControlsWindowController.m */,
 				849818230BCF1CE50085CECA /* AppController.h */,
 				849818220BCF1CE50085CECA /* AppController.m */,
-				4C2772D717DFC2F00059721A /* DraggableQCView.h */,
-				4C2772D817DFC2F00059721A /* DraggableQCView.m */,
 				4C2772DB17DFC4A30059721A /* DragWindowView.h */,
 				4C2772DC17DFC4A30059721A /* DragWindowView.m */,
 			);
@@ -161,6 +158,7 @@
 			children = (
 				4C295362179E128700A66CBC /* Logo.qtz */,
 				4C295360179E0A4800A66CBC /* mmicon.icns */,
+				4C43368717E04FAE00262BF7 /* nocontroller.png */,
 				6385569014CF30F200197634 /* Controls.xib */,
 				4C29535D179DF92D00A66CBC /* CompositionWindow.xib */,
 				4C350AA6179DF77D00970914 /* controls.png */,
@@ -253,6 +251,7 @@
 				4C29535E179DF92D00A66CBC /* CompositionWindow.xib in Resources */,
 				4C295361179E0A4800A66CBC /* mmicon.icns in Resources */,
 				4C295363179E128700A66CBC /* Logo.qtz in Resources */,
+				4C43368817E04FAE00262BF7 /* nocontroller.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +265,6 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				849818240BCF1CE50085CECA /* AppController.m in Sources */,
 				6385569714CF313900197634 /* ControlsWindowController.m in Sources */,
-				4C2772D917DFC2F00059721A /* DraggableQCView.m in Sources */,
 				4C2772DD17DFC4A30059721A /* DragWindowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

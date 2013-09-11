@@ -26,10 +26,12 @@
 
 @property (assign) IBOutlet QCView* logoView;
 @property (retain) ControlsWindowController* controlsController;
+@property (assign) IBOutlet NSPanel* ps3Instructions;
 
 - (IBAction) enterFullScreen:(id)sender;
 - (IBAction) launchControls:(id)sender;
 - (IBAction)start:(id)sender;
 - (IBAction)stop:(id)sender;
 - (NSWindow*)window;
+-(IBAction) showPS3Instructions:(id)sender;
 @end

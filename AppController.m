@@ -103,4 +103,8 @@
     [controlsController.window setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"controls"]]];
 }
 
+-(IBAction) showPS3Instructions:(id)sender {
+	[self.ps3Instructions makeKeyAndOrderFront:sender];
+}
+
 @end
