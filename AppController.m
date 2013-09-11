@@ -34,6 +34,10 @@
     }
 }
 
+- (void)viewDidEndLiveResize {
+
+}
+
 @end
 
 @implementation AppController
@@ -46,11 +50,14 @@
         NSLog(@"Could not load composition");
     }
 	[qcView becomeFirstResponder];
-    [self.window makeKeyAndOrderFront:self];
-	
+
     controlsController = [[ControlsWindowController alloc] initWithWindowNibName:@"Controls"];
     controlsController.qcView = qcView;
     controlsController.patchController = patchController;
+    
+    [self.window makeKeyAndOrderFront:self];
+    [NSApp activateIgnoringOtherApps:YES];
+    [self performSelector:@selector(start:) withObject:self afterDelay:0];
 }
 
 - (IBAction)start:(id)sender {

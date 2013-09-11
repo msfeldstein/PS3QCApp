@@ -10,17 +10,20 @@
 
 @implementation DraggableQCView
 
-- (id) initWithFrame:(NSRect)frameRect {
-    self = [super initWithFrame:frameRect];
-    if (self) {
-        _openGLContext = [self openGLContext];
-        [[NSNotificationCenter defaultCenter] addObserver:self
-                                                 selector:@selector(_surfaceNeedsUpdate:)
-                                                     name:NSViewGlobalFrameDidChangeNotification
-                                                   object:self];
-    }
-    return self;
+- (void)awakeFromNib {
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(_surfaceNeedsUpdate:)
+                                                 name:NSViewGlobalFrameDidChangeNotification
+                                               object:self];
+    [self addObserver:self forKeyPath:@"bounds" options:NSKeyValueObservingOptionNew context:NULL];
 }
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+    if ([keyPath isEqualToString:@"bounds"]) {
+        NSLog(@"Bounds changed");
+    }
+}
+
 - (void) _surfaceNeedsUpdate:(NSNotification*)notification
 {
     [self update];
@@ -32,6 +35,10 @@
     if ([_openGLContext view] == self) {
         [_openGLContext update];
     }
+}
+
+- (void)viewDidEndLiveResize {
+    
 }
 
 @end
