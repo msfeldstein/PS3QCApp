@@ -42,7 +42,7 @@
 
 @implementation AppController
 
-@synthesize controlsController;
+@synthesize controlsController, logoView;
 
 - (void) awakeFromNib
 {

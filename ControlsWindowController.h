@@ -13,6 +13,9 @@
 
 	IBOutlet NSPanel* ps3Instructions;
 	IBOutlet NSPanel* syphonInstructions;
+    QCView* qcView;
+    QCPatchController* patchController;
+    NSMutableArray* compositions;
 }
 
 @property (retain) NSMutableArray* compositions;
@@ -28,5 +31,6 @@
 -(IBAction) nextComposition:(id)sender;
 -(IBAction) toggleMode:(id)sender;
 -(IBAction) toggleUseController:(id)sender;
+-(IBAction) toggleSyphon:(id)sender;
 
 @end

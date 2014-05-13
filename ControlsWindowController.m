@@ -64,7 +64,6 @@
 	[ws openURL:url];
 }
 -(IBAction) nextComposition:(id)sender {
-    NSLog(@"Next composition");
 	NSNumber* oldValue = [qcView valueForInputKey:@"Trigger_Next"];
 	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"Trigger_Next"];
 }
@@ -79,4 +78,9 @@
 	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"Use_Controller"];
 }
 
+-(IBAction) toggleSyphon:(id)sender {
+    NSNumber* oldValue = [qcView valueForInputKey:@"Enable_Syphon"];
+	[qcView setValue:[NSNumber numberWithBool:![oldValue boolValue]] forInputKey:@"Enable_Syphon"];
+
+}
 @end

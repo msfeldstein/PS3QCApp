@@ -22,6 +22,9 @@
 	IBOutlet NSWindow* window;
 	IBOutlet NSWindow* controlsWindow;
     BOOL loaded;
+    
+    ControlsWindowController* controlsController;
+    QCView* logoView;
 }
 
 @property (assign) IBOutlet QCView* logoView;
