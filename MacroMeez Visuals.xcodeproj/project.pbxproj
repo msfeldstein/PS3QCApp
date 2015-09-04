@@ -302,7 +302,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "MacroMeez Visuals";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.10;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -322,7 +322,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "MacroMeez Visuals";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.10;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -336,7 +336,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx10.10;
 			};
 			name = Debug;
 		};
@@ -348,7 +348,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx10.10;
 			};
 			name = Release;
 		};
